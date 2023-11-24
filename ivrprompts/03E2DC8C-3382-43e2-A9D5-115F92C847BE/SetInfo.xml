@@ -1,0 +1,931 @@
+<?xml version="1.0"?>
+<set>
+  <info language="DE" system="1" id="03E2DC8C-3382-43e2-A9D5-115F92C847BE" name="German Prompts Set" version="4.0.4">
+    <langopts num_style="1" />
+    <description>German set of prompts.
+    </description>
+  </info>
+  <prompts>
+    <prompt id="ACCDND" file="access_denied.wav">
+      <description>Kein Zugriff möglich.</description>
+    </prompt>
+	
+    <prompt id="AND" file="and.wav">
+      <description>UND</description>
+    </prompt>
+	
+    <prompt id="BEEP" file="beep.wav">
+      <description>Beep Ton</description>
+    </prompt>
+	
+    <prompt id="BEGOFMSGS" file="begin_of_messages.wav">
+      <description>Anfang der Nachrichten.</description>
+    </prompt>
+	
+    <prompt id="CALLTRAN_FAILED" file="call_transfer_failed.wav">
+      <description>Der Anruf konnte nicht vermittelt werden.</description>
+    </prompt>
+	
+    <prompt id="CANCELLED" file="cancelled.wav">
+      <description>Abgebrochen.Informational intonation</description>
+    </prompt>
+	
+    <prompt id="CONFIRM" file="confirm.wav">
+      <description>Drücken Sie die Sterntaste, zum Abbrechen drücken Sie die Rautetaste.</description>
+    </prompt>
+	
+    <prompt id="DELETED" file="deleted.wav">
+      <description>Gelöscht!</description>
+    </prompt>
+	
+    <prompt id="ENDOFMSGS" file="end_of_messages.wav">
+      <description>Ende der Nachrichten.</description>
+    </prompt>
+	
+    <prompt id="ERROR" file="error.wav">
+      <description>Leider ist ein interner Fehler aufgetreten.</description>
+    </prompt>
+	
+    <prompt id="EXTNUM" file="ext_num.wav">
+      <description>Nebenstellennummer...".</description>
+    </prompt>
+	
+    <prompt id="EXTNOTENAB" file="extension_not_enabled.wav">
+      <description>Die Nebenstelle ist nicht aktiviert.</description>
+    </prompt>
+	
+    <prompt id="EXTNOTFOUND" file="extension_not_found.wav">
+      <description>Die Nebenstelle konnte nicht gefunden werden!</description>
+    </prompt>
+	
+    <prompt id="FILNOTFOUND" file="file_not_found.wav">
+      <description>Die Datei konnte nicht gefunden werden!</description>
+    </prompt>
+	
+    <prompt id="GROUPID" file="group_id.wav">
+      <description>Gruppenkennung...</description>
+    </prompt>
+	
+    <prompt id="INVPIN" file="invalid_pin.wav">
+      <description>Die PIN-Nummer ist ungültig!</description>
+    </prompt>
+	
+    <prompt id="IS" file="is.wav">
+      <description>lautet...</description>
+    </prompt>
+	
+    <prompt id="IVRNUM" file="ivr_num.wav">
+      <description>Digital-Receptionist-Nummer...</description>
+    </prompt>
+	
+    <prompt id="MSG" file="message.wav">
+      <description>Nachricht...</description>
+    </prompt>
+	
+    <prompt id="MSG_FROM" file="message_from.wav">
+      <description>Nachricht von...</description>
+    </prompt>
+	
+    <prompt id="MSG_GRT" file="greeting_message.wav">
+      <description>Persönliche Begrüßung...</description>
+    </prompt>
+	
+    <prompt id="MSG_SELFID" file="SelfIDMsg.wav">
+      <description>Persönlicher Teilnehmername</description>
+    </prompt>
+	
+    <prompt id="MSGALRDDLTD" file="message_already_deleted.wav">
+      <description>Diese Nachricht wurde bereits gelöscht. Bitte wählen Sie eine Andere aus.</description>
+    </prompt>
+	
+    <prompt id="MSGDLTD" file="message_deleted.wav">
+      <description>Die Nachricht wurde gelöscht!</description>
+    </prompt>
+	
+    <prompt id="MSGREC_MNU" file="MsgRecMnu.wav">
+      <description>Drücken Sie die Null. Zum Wiederherstellen der Standardnachricht drücken Sie die Eins. Zur Wiedergabe der aktuellen Begrüßung drücken Sie die Zwei. Zum Beenden drücken Sie die Rautetaste.</description>
+    </prompt>
+	
+    <prompt id="MSGREC_MNU2" file="MsgRecMnu2.wav">
+      <description>Drücken Sie die Null. Zum Löschen drücken Sie die Eins. Zur Kontrolle Ihres persönlichen Teilnehmernamens drücken Sie die Zwei. Zum Beenden drücken Sie die Rautetaste.</description>
+    </prompt>
+	
+    <prompt id="MSGS" file="messages.wav">
+      <description>Nachrichten...</description>
+    </prompt>
+	
+    <prompt id="MSGSAVFAIL" file="msg_save_failed.wav">
+      <description>Die Nachricht konnte nicht gespeichert werden!</description>
+    </prompt>
+	
+    <prompt id="MSGSVD" file="msg_saved.wav">
+      <description>Die Nachricht wurde gespeichert!</description>
+    </prompt>
+	
+    <prompt id="NEW" file="new.wav">
+      <description>neue</description>
+    </prompt>
+	
+    <prompt id="NEW_MSG" file="new_message.wav">
+      <description>neue Nachricht.</description>
+    </prompt>
+	
+    <prompt id="NEW_MSGS" file="new_messages.wav">
+      <description>neue Nachrichten.</description>
+    </prompt>
+	
+    <prompt id="NEW_PIN_CODE" file="new_pin_code.wav">
+      <description>neue PIN-Nummer.</description>
+    </prompt>
+	
+    <prompt id="NO_ANSWER" file="no_answer.wav">
+      <description>Der Anruf wurde nicht angenommen.</description>
+    </prompt>
+	
+    <prompt id="NOACTPERF" file="no_action_performed.wav">
+      <description>Es wurde keine Aktion durchgeführt.</description>
+    </prompt>
+	
+    <prompt id="NOMSGSLCT" file="no_message_selected.wav">
+      <description>Es wurde keine Nachricht ausgewählt.</description>
+    </prompt>
+	
+    <prompt id="NOMSGSTODEL" file="no_msgs_todelete.wav">
+      <description>Es liegen keine löschbaren Nachrichten vor.</description>
+    </prompt>
+	
+    <prompt id="NOSVDMSGS" file="no_saved_msgs.wav">
+      <description>Es liegen keine gespeicherten Nachrichten vor.</description>
+    </prompt>
+	
+    <prompt id="NOTALLMSGSDELETED" file="notall_msgs_deleted.wav">
+      <description>Einige Nachrichten konnten nicht gelöscht werden.</description>
+    </prompt>
+	
+    <prompt id="NUMBER_BUSY" file="number_is_busy.wav">
+      <description>Der Anschluss ist besetzt.</description>
+    </prompt>
+	
+    <prompt id="OLD" file="old.wav">
+      <description>alte...</description>
+    </prompt>
+	
+    <prompt id="OPFAIL" file="operation_failed.wav">
+      <description>Der Vorgang ist fehlgeschlagen!</description>
+    </prompt>
+	
+    <prompt id="OPTIONS_MENU" file="OPTMNU.wav">
+      <description>Stern fuer Wiedergabe, Um Ihre Profil zu wechseln drücken Sie 1, 3 fuer Nummer waehlen, 4 fuer loeschen aller Nachrichten, 5 fuer Teilnehmer aendern, 6 fuer Mailbox Info, 7 PIn aendern, 8 Begruessung aendern, 9 Ansage wiederholen, Raute zum Beenden.</description>
+    </prompt>
+	
+    <prompt id="NUMBER_ENT" file="number.wav">
+      <description>Nummer...</description>
+    </prompt>
+	
+    <prompt id="PIN" file="pin.wav">
+      <description>PIN-Nummer</description>
+    </prompt>
+	
+    <prompt id="PLAYBACK_MENU" file="PBACKMNU.wav">
+      <description>Zur Wiedergabe der nächsten Nachricht drücken Sie die Null. Zur Wiedergabe der vorherigen Nachricht drücken Sie die Eins. Zum Wiederholen der aktuellen Nachricht drücken Sie die Zwei. Zum Löschen der aktuellen Nachricht drücken Sie die Drei. Für weitere Optionen drücken Sie die Neun. Zum Beenden drücken Sie die Rautetaste.</description>
+    </prompt>
+	
+    <prompt id="PLSENTER" file="please_enter.wav">
+      <description>Bitte geben Sie folgende Information ein:</description>
+    </prompt>
+	
+    <prompt id="PLSHOLD" file="please_hold.wav">
+      <description>Ihr Anruf wird vermittelt, bitte warten Sie.</description>
+    </prompt>
+	
+    <prompt id="PLSHOLD_CALL" file="PleaseHold_Calling.wav">
+      <description>Bitte warten. Die Verbindung wird hergestellt mit...</description>
+    </prompt>
+	
+    <prompt id="PRESS" file="press.wav">
+      <description>Drücken Sie die...</description>
+    </prompt>
+	
+    <prompt id="PRESSNINE_FOROPTIONS" file="press_nine_for_options.wav">
+      <description>Für weitere Optionen drücken Sie die Neun.</description>
+    </prompt>
+	
+    <prompt id="PRESSSTAR_TOPLAY" file="press_star_to_play.wav">
+      <description>Zur Wiedergabe drücken Sie die Sterntaste.</description>
+    </prompt>
+	
+    <prompt id="QUEID" file="queue_id.wav">
+      <description>Warteschleifenkennung:</description>
+    </prompt>
+	
+    <prompt id="QUEUE_TOBE_CONNECTED" file="queue_tobe_connected.wav">
+      <description>in der Warteschleife. Bitte haben Sie noch ein wenig Geduld.</description>
+    </prompt>
+	
+    <prompt id="RECYA" file="record_your.wav">
+      <description>Bitte nehmen Sie folgende Information auf:</description>
+    </prompt>
+	
+    <prompt id="RECYAMSG" file="record_your_message.wav">
+      <description>Hinterlassen Sie Ihre Nachricht und drücken Sie die Rautetaste, oder drücken Sie die Sterntaste, um mit der Zentrale verbunden zu werden.</description>
+    </prompt>
+	
+    <prompt id="SAVED" file="saved.wav">
+      <description>Gespeichert!</description>
+    </prompt>
+	
+    <prompt id="SAVMSGCNFRM" file="SaveMsgCnfrm.wav">
+      <description>Zum Speichern der Nachricht drücken Sie die Null. Zum erneuten Aufnehmen der Nachricht drücken Sie die Eins. Zum Kontrollieren der Nachricht drücken Sie die Zwei. Zum Beenden drücken Sie die Rautetaste.</description>
+    </prompt>
+	
+    <prompt id="STACK_OVRFLW" file="stack_overflow.wav">
+      <description>Fehler: Ein Stapelüberlauf ist aufgetreten!</description>
+    </prompt>
+	
+    <prompt id="STDMSGRST" file="standard_message_restored.wav">
+      <description>Die Standardnachricht wurde wiederhergestellt!</description>
+    </prompt>
+	
+    <prompt id="BYE" file="thankyou_goodbye.wav">
+      <description>Vielen Dank und auf Wiederhören.</description>
+    </prompt>
+	
+    <prompt id="THENPRESPND" file="then_press_pound.wav">
+      <description>Drücken Sie danach die Rautetaste.</description>
+    </prompt>
+	
+    <prompt id="TIME_IS" file="msg_received.wav">
+      <description>Die Nachricht wurde erhalten:</description>
+    </prompt>
+	
+    <prompt id="TOCALL_TO" file="ToCallTo.wav">
+      <description>Um verbunden zu werden mit...</description>
+    </prompt>
+	
+    <prompt id="TODAY" file="today.wav">
+      <description>heute</description>
+    </prompt>
+	
+    <prompt id="TODLTMSG" file="to_delete_msg.wav">
+      <description>Zum Löschen der Nachricht...</description>
+    </prompt>
+	
+    <prompt id="TODLTREADMSGS" file="todelete_read_messages.wav">
+      <description>Zum Löschen aller bereits abgerufenen Nachrichten...</description>
+    </prompt>
+	
+    <prompt id="TOEXIT_PRESSPOUND" file="toexit_presspnd.wav">
+      <description>Zum Beenden drücken Sie die Rautetaste.</description>
+    </prompt>
+	
+    <prompt id="TORECNEW" file="to_record_new.wav">
+      <description>Zum Aufnehmen der Information...</description>
+    </prompt>
+	
+    <prompt id="TO_SAVE" file="to_save.wav">
+      <description>Zum Speichern...</description>
+    </prompt>
+	
+    <prompt id="USER_NAME" file="UserName.wav">
+      <description>Die ersten 3 Buchstaben des Nachnamen der Person die Sie versuchen zu kontaktieren in the phrase "Bitte geben Sie die ersten 3 Buchstaben des Nachnamen ein der Person die Sie versuchen zu kontaktieren."</description>
+    </prompt>
+	
+    <prompt id="VMLDSBL" file="voicemail_disabled.wav">
+      <description>Für diese Nebenstelle wurde die Voicemailbox deaktiviert!</description>
+    </prompt>
+	
+    <prompt id="YAHV" file="you_have.wav">
+      <description>Sie haben...</description>
+    </prompt>
+	
+    <prompt id="YAHVNO" file="you_have_no.wav">
+      <description>Sie haben Null...</description>
+    </prompt>
+	
+    <prompt id="YESTERDAY" file="yesterday.wav">
+      <description>gestern...</description>
+    </prompt>
+	
+    <prompt id="YOUR" file="your.wav">
+      <description>Ihr...</description>
+    </prompt>
+	
+    <prompt id="YOUR_AT_POSITION" file="your_at_position.wav">
+      <description>Sie befinden sich an Position....</description>
+    </prompt>
+	
+    <prompt id="INV_INP" file="InvalidInput.wav">
+      <description>Diese Eingabe ist ungültig. Bitte versuchen Sie es noch einmal.</description>
+    </prompt>
+	
+    <prompt id="INV_NUM" file="InvalidNumber.wav">
+      <description>Diese Nummer ist ungültig</description>
+    </prompt>
+	
+    <prompt id="UNKN_PRMT" file="unknown_prompt.wav">
+      <description>Diese Angabe ist leider unbekannt</description>
+    </prompt>
+	
+    <prompt id="NUM_0" file="numbers/0.wav">
+      <description>Null</description>
+    </prompt>
+	
+    <prompt id="NUM_0_B" file="numbers/0^b.wav">
+      <description>Null.</description>
+    </prompt>
+	
+    <prompt id="NUM_1" file="numbers/1.wav">
+      <description>Ein....</description>
+    </prompt>
+	
+    <prompt id="NUM_1_B" file="numbers/1^b.wav">
+      <description>Ein.</description>
+    </prompt>
+	
+    <prompt id="NUM_1_O" file="numbers/1o.wav">
+      <description>Erster</description>
+    </prompt>
+	
+    <prompt id="NUM_10" file="numbers/10.wav">
+      <description>Zehn..."</description>
+    </prompt>
+	
+    <prompt id="NUM_10_O" file="numbers/10o.wav">
+      <description>Zehnter</description>
+    </prompt>
+	
+    <prompt id="NUM_11" file="numbers/11.wav">
+      <description>Elf</description>
+    </prompt>
+	
+    <prompt id="NUM_11_O" file="numbers/11o.wav">
+      <description>Elfter</description>
+    </prompt>
+	
+    <prompt id="NUM_12" file="numbers/12.wav">
+      <description>Zwölf</description>
+    </prompt>
+	
+    <prompt id="NUM_12_O" file="numbers/12o.wav">
+      <description>Zwölfter</description>
+    </prompt>
+	
+    <prompt id="NUM_13" file="numbers/13.wav">
+      <description>Dreizehn</description>
+    </prompt>
+	
+    <prompt id="NUM_13_O" file="numbers/13o.wav">
+      <description>Dreizehnter</description>
+    </prompt>
+	
+    <prompt id="NUM_14" file="numbers/14.wav">
+      <description>Vierzehn</description>
+    </prompt>
+	
+    <prompt id="NUM_14_O" file="numbers/14o.wav">
+      <description>Vierzehnter</description>
+    </prompt>
+	
+    <prompt id="NUM_15" file="numbers/15.wav">
+      <description>Fünfzehn</description>
+    </prompt>
+	
+    <prompt id="NUM_15_O" file="numbers/15o.wav">
+      <description>Fünfzehnter</description>
+    </prompt>
+	
+    <prompt id="NUM_16" file="numbers/16.wav">
+      <description>Sechzehn</description>
+    </prompt>
+	
+    <prompt id="NUM_16_O" file="numbers/16o.wav">
+      <description>Sechzehnter</description>
+    </prompt>
+	
+    <prompt id="NUM_17" file="numbers/17.wav">
+      <description>Siebzehn</description>
+    </prompt>
+	
+    <prompt id="NUM_17_O" file="numbers/17o.wav">
+      <description>Siebzehnter</description>
+    </prompt>
+	
+    <prompt id="NUM_18" file="numbers/18.wav">
+      <description>Achtzehn</description>
+    </prompt>
+	
+    <prompt id="NUM_18_O" file="numbers/18o.wav">
+      <description>Achtzehnter</description>
+    </prompt>
+	
+    <prompt id="NUM_19" file="numbers/19.wav">
+      <description>Neunzehn</description>
+    </prompt>
+	
+    <prompt id="NUM_19_O" file="numbers/19o.wav">
+      <description>Neunzehnter</description>
+    </prompt>
+	
+    <prompt id="NUM_2" file="numbers/2.wav">
+      <description>Zwei</description>
+    </prompt>
+	
+    <prompt id="NUM_2_B" file="numbers/2^b.wav">
+      <description>Zwei.</description>
+    </prompt>
+	
+    <prompt id="NUM_2_O" file="numbers/2o.wav">
+      <description>Sekunde</description>
+    </prompt>
+	
+    <prompt id="NUM_20+" file="numbers/20+.wav">
+      <description>Zwanzig...</description>
+    </prompt>
+	
+    <prompt id="NUM_20" file="numbers/20.wav">
+      <description>Zwanzig</description>
+    </prompt>
+	
+    <prompt id="NUM_20_O" file="numbers/20o.wav">
+      <description>Zwanzigster</description>
+    </prompt>
+	
+    <prompt id="NUM_3" file="numbers/3.wav">
+      <description>Drei</description>
+    </prompt>
+	
+    <prompt id="NUM_3_B" file="numbers/3^b.wav">
+      <description>Drei.</description>
+    </prompt>
+	
+    <prompt id="NUM_3_O" file="numbers/3o.wav">
+      <description>Dritter</description>
+    </prompt>
+	
+    <prompt id="NUM_30+" file="numbers/30+.wav">
+      <description>Dreißig...</description>
+    </prompt>
+	
+    <prompt id="NUM_30" file="numbers/30.wav">
+      <description>Dreißig</description>
+    </prompt>
+	
+    <prompt id="NUM_30_O" file="numbers/30o.wav">
+      <description>Dreißigster</description>
+    </prompt>
+	
+    <prompt id="NUM_4" file="numbers/4.wav">
+      <description>Vier</description>
+    </prompt>
+	
+    <prompt id="NUM_4_B" file="numbers/4^b.wav">
+      <description>Vier.</description>
+    </prompt>
+	
+    <prompt id="NUM_4_O" file="numbers/4o.wav">
+      <description>Vierter</description>
+    </prompt>
+	
+    <prompt id="NUM_40+" file="numbers/40+.wav">
+      <description>Vierzig...</description>
+    </prompt>
+	
+    <prompt id="NUM_40" file="numbers/40.wav">
+      <description>Vierzig</description>
+    </prompt>
+	
+    <prompt id="NUM_5" file="numbers/5.wav">
+      <description>Fünf</description>
+    </prompt>
+	
+    <prompt id="NUM_5_B" file="numbers/5^b.wav">
+      <description>Fünf.</description>
+    </prompt>
+	
+    <prompt id="NUM_5_O" file="numbers/5o.wav">
+      <description>Fünfter</description>
+    </prompt>
+	
+    <prompt id="NUM_50+" file="numbers/50+.wav">
+      <description>Fünfzig...</description>
+    </prompt>
+	
+    <prompt id="NUM_50" file="numbers/50.wav">
+      <description>Fünfzig</description>
+    </prompt>
+	
+    <prompt id="NUM_6" file="numbers/6.wav">
+      <description>Sechs</description>
+    </prompt>
+	
+    <prompt id="NUM_6_B" file="numbers/6^b.wav">
+      <description>Sechs.</description>
+    </prompt>
+	
+    <prompt id="NUM_6_O" file="numbers/6o.wav">
+      <description>Sechster</description>
+    </prompt>
+	
+    <prompt id="NUM_60+" file="numbers/60+.wav">
+      <description>Sechzig.</description>
+    </prompt>
+	
+    <prompt id="NUM_60" file="numbers/60.wav">
+      <description>Sechzig...</description>
+    </prompt>
+	
+    <prompt id="NUM_7" file="numbers/7.wav">
+      <description>Sieben...</description>
+    </prompt>
+	
+    <prompt id="NUM_7_B" file="numbers/7^b.wav">
+      <description>Sieben.</description>
+    </prompt>
+	
+    <prompt id="NUM_7_O" file="numbers/7o.wav">
+      <description>Siebter</description>
+    </prompt>
+	
+    <prompt id="NUM_70+" file="numbers/70+.wav">
+      <description>Siebzig....</description>
+    </prompt>
+	
+    <prompt id="NUM_70" file="numbers/70.wav">
+      <description>Siebzig</description>
+    </prompt>
+	
+    <prompt id="NUM_8" file="numbers/8.wav">
+      <description>Acht</description>
+    </prompt>
+	
+    <prompt id="NUM_8_B" file="numbers/8^b.wav">
+      <description>Acht.</description>
+    </prompt>
+	
+    <prompt id="NUM_8_O" file="numbers/8o.wav">
+      <description>Achter</description>
+    </prompt>
+	
+    <prompt id="NUM_80+" file="numbers/80+.wav">
+      <description>Achtzig</description>
+    </prompt>
+	
+    <prompt id="NUM_80" file="numbers/80.wav">
+      <description>Achtzig</description>
+    </prompt>
+	
+    <prompt id="NUM_9" file="numbers/9.wav">
+      <description>Neun</description>
+    </prompt>
+	
+    <prompt id="NUM_9_B" file="numbers/9^b.wav">
+      <description>Neun</description>
+    </prompt>
+	
+    <prompt id="NUM_9_O" file="numbers/9o.wav">
+      <description>Neunter</description>
+    </prompt>
+	
+    <prompt id="NUM_90+" file="numbers/90+.wav">
+      <description>Neunzig</description>
+    </prompt>
+	
+    <prompt id="NUM_90" file="numbers/90.wav">
+      <description>Neunzig</description>
+    </prompt>
+	
+    <prompt id="NUM_AND" file="numbers/and.wav">
+      <description>Und</description>
+    </prompt>
+	
+    <prompt id="NUM_HNDR" file="numbers/hundred.wav">
+      <description>Hundert</description>
+    </prompt>
+	
+    <prompt id="NUM_MLN" file="numbers/million.wav">
+      <description>Million</description>
+    </prompt>
+	
+    <prompt id="NUM_STAR" file="numbers/star.wav">
+      <description>Sterntaste</description>
+    </prompt>
+	
+    <prompt id="NUM_STAR_B" file="numbers/star^b.wav">
+      <description>Sterntaste.</description>
+    </prompt>
+	
+    <prompt id="NUM_THSND" file="numbers/thousand.wav">
+      <description>Tausend</description>
+    </prompt>
+	
+    <prompt id="TM_AM" file="time/am.wav">
+      <description>vormittags</description>
+    </prompt>
+	
+    <prompt id="TM_PM" file="time/pm.wav">
+      <description>nachmittags</description>
+    </prompt>
+	
+    <prompt id="TM_OU" file="time/ou.wav">
+      <description>Uhr</description>
+    </prompt>
+	
+    <prompt id="TM_MON_01" file="time/january.wav">
+      <description>Januar</description>
+    </prompt>
+	
+    <prompt id="TM_MON_02" file="time/february.wav">
+      <description>Februar</description>
+    </prompt>
+	
+    <prompt id="TM_MON_03" file="time/march.wav">
+      <description>März</description>
+    </prompt>
+	
+    <prompt id="TM_MON_04" file="time/april.wav">
+      <description>April</description>
+    </prompt>
+	
+    <prompt id="TM_MON_05" file="time/may.wav">
+      <description>Mai</description>
+    </prompt>
+	
+    <prompt id="TM_MON_06" file="time/june.wav">
+      <description>Juni</description>
+    </prompt>
+	
+    <prompt id="TM_MON_07" file="time/july.wav">
+      <description>Juli</description>
+    </prompt>
+	
+    <prompt id="TM_MON_08" file="time/august.wav">
+      <description>August</description>
+    </prompt>
+	
+    <prompt id="TM_MON_09" file="time/september.wav">
+      <description>September</description>
+    </prompt>
+	
+    <prompt id="TM_MON_10" file="time/october.wav">
+      <description>Oktober</description>
+    </prompt>
+	
+    <prompt id="TM_MON_11" file="time/november.wav">
+      <description>November</description>
+    </prompt>
+	
+    <prompt id="TM_MON_12" file="time/december.wav">
+      <description>Dezember</description>
+    </prompt>
+	
+    <prompt id="TM_MIDNIGHT" file="time/midnight.wav">
+      <description>Mitternacht</description>
+    </prompt>
+	
+    <prompt id="TM_MINUTE" file="time/minute.wav">
+      <description>Minute</description>
+    </prompt>
+	
+    <prompt id="TM_MINUTES" file="time/minutes.wav">
+      <description>Minuten</description>
+    </prompt>
+	
+    <prompt id="TM_OCLOCK" file="time/oclock.wav">
+      <description>Uhr"</description>
+    </prompt>
+	
+    <prompt id="TM_PAST" file="time/past.wav">
+      <description>nach...</description>
+    </prompt>
+	
+    <prompt id="CONF_NAME" file="SpeakYourName.wav">
+      <description>Sagen Sie Ihren Namen nach dem Tonsignal und drücken Sie abschließend eine beliebige Taste.</description>
+    </prompt>
+	
+    <prompt id="CONF_CONFPROMPT" file="ConfPrompt.wav">
+      <description>Willkommen zur Telefonkonferenz</description>
+    </prompt>
+	
+    <prompt id="CONF_NEWMEMBER" file="newMember.wav">
+      <description>ist der Konferenz beigetreten.</description>
+    </prompt>
+	
+    <prompt id="CONF_PIN" file="PleaseEnterPIN.wav">
+      <description>Bitte geben Sie die Konferenzkennung ein, gefolgt von der Rautetaste.</description>
+    </prompt>
+	
+    <prompt id="CONF_LEFT" file="leftPrompt.wav">
+      <description>hat die Konferenz verlassen.</description>
+    </prompt>
+	
+    <prompt id="CONF_CREATING" file="creating.wav">
+      <description>Sie richten jetzt eine neue Konferenz ein.</description>
+    </prompt>
+	
+    <prompt id="CONF_JOINING" file="joining.wav">
+      <description>Sie treten einer Konferenz mit folgenden Teilnehmern bei:</description>
+    </prompt>
+	
+    <prompt id="CONF_HASHORSTAR" file="hashorstar.wav">
+      <description>Zum Abbrechen drücken Sie die Rautetaste, zum Fortfahren drücken Sie die Sterntaste.</description>
+    </prompt>
+	
+	<prompt id="REDIRVMAIL" file="redir_vmail.wav">
+      <description>Weiterleitung an Voicemail</description>
+    </prompt>
+	
+	<prompt id="UHVCALL" file="uhavecall.wav">
+      <description>Sie haben einen Anruf von</description>
+    </prompt>
+	
+    <prompt id="PRESS1TOTAKECALL" file="totakecall.wav">
+      <description>Drücken Sie 1 um den anruf entgegenzunehmen</description>
+    </prompt>
+	
+    <prompt id="PRESSSENDTOVMAIL" file="tosend_tovmail.wav">
+      <description>Drücken Sie Raute um das Gespräch an die VoiceMail weiterzuleiten</description>
+    </prompt>
+	
+    <prompt id="PLSWAITLOCATE" file="plswait_locate.wav">
+      <description>Bitte warten weil wir versuchen zu finden</description>
+    </prompt>
+	
+    <prompt id="USERUNAVAIL" file="user_unavail.wav">
+      <description>Benutzer nicht verfügbar</description>
+    </prompt>
+	
+    <prompt id="NOTFOUND" file="destnot_found.wav">
+      <description>Gewählte Nummer existiert nicht.Warung</description>
+    </prompt>
+	
+    <prompt id="FORBIDDEN" file="forbidden_byadmin.wav">
+      <description>Anruf ist durch den Administrator verboten.Warnung</description>
+    </prompt>
+	
+    <prompt id="DEST_NA" file="destnot_available.wav">
+      <description>Ziel ist nicht verfügbar, nicht angemeldet oder es sind keine freien Routen verfügbar.Benachrichtigung</description>
+    </prompt>
+	
+    <prompt id="NOANSWER" file="terminated_noanswer.wav">
+      <description>Keine Antwort - Anruf wird beendet.Warnung</description>
+    </prompt>
+	
+    <prompt id="BUSY" file="destination_isbusy.wav">
+      <description>Die Nummer die Sie versuchen zu erreichen ist besetzt.Information</description>
+    </prompt>
+	
+    <prompt id="SERVER_ERROR" file="internal_servererror.wav">
+      <description>Der Anruf konnte nicht hergestellt werden. Wenden Sie sich an Ihren Administrator.Warnung</description>
+    </prompt>
+	
+    <prompt id="DISABLED_FWD" file="calldisabled_fwrule.wav">
+      <description>Anruf wird beendet.Information</description>
+    </prompt>
+	
+    <prompt id="DISABLED_INB" file="calldisabled_inrule.wav">
+      <description>Anruf verweigert durch das System - Wenden Sie sich an Ihren Administrator.Information</description>
+    </prompt>
+	
+    <prompt id="NO_OUTBOUND" file="fwexternalnumber_nooutbound.wav">
+      <description>Keine ausgehenden Leitungen verfügbar für diesen Anruf.Information</description>
+    </prompt>
+	
+    <prompt id="LL" file="license_limit.wav">
+      <description>Lizenzlimit - Nummer der gleichzeitigen anrufe würde erreicht. Wenden Sie sich an Ihren Administrator.Warnung</description>
+    </prompt>
+	
+    <prompt id="FEAT_NA" file="feature_notavailable.wav">
+      <description>Funktion ist nicht verfügbar in der kostenlosen Version.Wenden Sie sich an Ihren Administrator.Information</description>
+    </prompt>
+	
+    <prompt id="QUEUE_UNATT" file="noavailable_queueagents.wav">
+      <description>Es befinden sich keine verfügbaren Agenten in der Warteschlange.Information</description>
+    </prompt>
+	
+    <prompt id="AWAY_ON" file="away_on.wav">
+      <description>Nicht Stören eingeschaltet</description>
+    </prompt>
+	
+    <prompt id="AWAY_OFF" file="away_off.wav">
+      <description>Nicht stören ausgeschaltet</description>
+    </prompt>
+	
+    <prompt id="LOGGED_IN" file="logged_inqueue.wav">
+      <description>Diese Nebenstelle ist nicht länger in der Warteschlange angemeldet.Information</description>
+    </prompt>
+	
+    <prompt id="LOGGED_OUT" file="logged_outqueue.wav">
+      <description>Diese Nebenstelle ist aus der Warteschlange abgemeldet.Information</description>
+    </prompt>
+	
+    <prompt id="MSGFWDED" file="MsgForwarded.wav">
+      <description>Nachricht weitergeleitet</description>
+    </prompt>
+	
+    <prompt id="NOMSGSTOFWD" file="NoMsgToForward.wav">
+      <description>Keine Nachrichten zum Weiterleiten vorhanden</description>
+    </prompt>
+	
+    <prompt id="ENTEREXT_FWDVMAIL" file="PlsEnterExtFwdVM.wav">
+      <description>Bitte Nebenstelle zum Weiterleitden der Sprachnachricht eingeben</description>
+    </prompt>
+	
+    <prompt id="ACCBLOCKED" file="AccountBlocked.wav">
+      <description>Konto temporär gesperrt</description>
+    </prompt>
+	
+    <prompt id="TRYLATER" file="PLSTRYLATER.wav">
+      <description>Bitte versuchen Sie es später noch einmal</description>
+    </prompt>
+    
+    <prompt id="STATUS_MENU" file="profile_menu.wav">
+      <description>Press 1 for available, press 2 for away, press 3 for out of office, press 4 for custom prof 1, press 5 for custom prof 2</description>
+    </prompt>
+    
+    <prompt id="ST_AVAILABLE_SET" file="avaiable_status_set.wav">
+      <description>Available, status set</description>
+    </prompt>
+    
+    <prompt id="ST_AWAY_SET" file="away_status_set.wav">
+      <description>away, status set</description>
+    </prompt>
+    
+    <prompt id="ST_OUTOFFICE_SET" file="outofoffice_status_set.wav">
+      <description>Out of office, status set</description>
+    </prompt>
+    
+    <prompt id="ST_CUSTOM1_SET" file="custom1_status_set.wav">
+      <description>Custom profile 1, status set</description>
+    </prompt>
+    
+    <prompt id="ST_CUSTOM2_SET" file="custom2_status_set.wav">
+      <description>Custom profile 2, status set</description>
+    </prompt>
+	
+	<prompt id="OHOVERRIDE_OFF" file="officehr_override_off.wav">
+	  <description>Phone System is now using the default Office hours Informational intonation.</description>
+	</prompt>
+		
+	<prompt id="OHOVERRIDE_IN" file="officehr_override_in.wav">
+	  <description>Phone System is now set to IN Office Hours. Informational intonation.</description>
+	</prompt>
+		
+	<prompt id="OHOVERRIDE_OUT" file="officehr_override_out.wav">
+	  <description>Phone System is now set to OUT of Office Hours. Informational intonation.</description>
+	</prompt>
+	  
+	<prompt id="CB_EDIT_NUM" file="enter_callback_number.wav">
+      <description>Enter the number you wish to be called back on and press Pound</description>
+    </prompt>
+	
+	<prompt id="CB_REQ" file="callback_request_number.wav">
+      <description>You have requested a call back to the following number</description>
+    </prompt>
+	
+	<prompt id="CB_CONFIRM" file="callback_action_menu.wav">
+      <description>Press STAR to confirm, Press ZERO to change call back number or press pound to cancel</description>
+    </prompt>
+	
+	<prompt id="CB_BYE" file="thankyou_callback_confirmed.wav">
+      <description>Thank you. An Agent will contact you shortly</description>
+    </prompt>
+	
+	<prompt id="ACCESS_OK_PINPROTECT" file="AccessAllowedBySystem.wav">
+      <description>Access allowed by system</description>
+    </prompt>
+	
+	<prompt id="LOGGEDINHD" file="logged_in_hotdesking.wav">
+      <description>Anmeldung erfolgreich. Das Telefon wird jetzt auf Ihr Konto zurückgesetzt.</description>
+    </prompt>
+	
+	<prompt id="LOGGEDOUTHD" file="logged_out_hotdesking.wav">
+      <description>Sie haben sich abgemeldet. Das Telefon wird jetzt zurückgesetzt.</description>
+    </prompt>
+	
+	<prompt id="FEAT_NA2" file="feature_not_available2.wav">
+      <description>Feature nicht verfügbar. Professioneller oder Unternehmenslizenzschlüssel erforderlich. Kontaktieren Sie den Administrator.</description>
+    </prompt>
+	
+	<prompt id="PLUS" file="numbers/plus.wav">
+      <description>Plus</description>
+    </prompt>
+	
+	<prompt id="PRESS_POUND_TO_CONFIRM" file="press_pound_to_confirm.wav">
+      <description>Drücken Sie zur Bestätigung die Rautetaste oder drücken Sie die Sterntaste, um die Nummer zu ändern</description>
+    </prompt>
+	
+	<prompt id="YOU_HAVE_ENTERED" file="you_have_entered.wav">
+      <description>Sie haben folgende Nummer eingegeben</description>
+    </prompt>
+	
+	<prompt id="SELECT_CALL_BY" file="select_call_by.wav">
+      <description>Für einen Anruf per Vorname drücken Sie die 1. Für einen Anruf per Nachname drücken Sie die 2.</description>
+    </prompt>
+    
+    <prompt id="USER_FIRST_NAME" file="UserFirstName.wav">			
+        <description>&quot;&lt;I&gt;die ersten 3 Buchstaben des Vornamens des Teilnehmers ein, den Sie kontaktieren möchten&lt;/I&gt;&quot; im Satz &quot;
+        Bitte geben Sie &lt;B&gt;die ersten 3 Buchstaben des Vornamens des Teilnehmers ein, den Sie kontaktieren möchten&lt;/B&gt;&quot;.</description>
+    </prompt>
+	
+  </prompts>
+</set>

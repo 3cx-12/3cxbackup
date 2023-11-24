@@ -1,0 +1,1 @@
+idcallcent_queuecalls,q_num,time_start,time_end,ts_waiting,ts_polling,ts_servicing,ts_locating,count_polls,count_dialed,count_rejected,count_dials_timed,reason_noanswercode,reason_failcode,reason_noanswerdesc,reason_faildesc,call_history_id,q_cal,from_userpart,from_displayname,to_dialednum,to_dn,to_dntype,cb_num,call_result,deal_status,is_visible,is_agent

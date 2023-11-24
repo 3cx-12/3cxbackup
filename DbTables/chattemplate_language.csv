@@ -1,0 +1,17 @@
+id,name,locale_id,icon,order_index
+1,English (UK),en-gb,uk,0
+2,English (US),en,en,1
+3,Deutsch,de,de,2
+4,Français,fr,fr,3
+5,Español,es,es,4
+6,Italiano,it,it,5
+7,Português,pt,pt,6
+8,Português (Brazil),br,br,7
+9,Nederlands,nl,nl,8
+10,Русский,ru,ru,9
+11,Polski,pl,pl,10
+12,简体中文版,zh-cn,cn,11
+13,日本語,ja,jp,12
+14,Türkçe,tr,tr,13
+15,Český,cs,cz,14
+16,Norsk,nb,no,15

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XXXIPPhoneDirectory clearlight="true">
+  <Title>Phonelist</Title>
+  <Prompt>Prompt</Prompt>
+  <DirectoryEntry>
+    <Name>d d</Name>
+    <Telephone>101</Telephone>
+  </DirectoryEntry>
+  <DirectoryEntry>
+    <Name>ranatunga as</Name>
+    <Telephone>100</Telephone>
+  </DirectoryEntry>
+</XXXIPPhoneDirectory>

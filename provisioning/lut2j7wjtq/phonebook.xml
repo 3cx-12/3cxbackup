@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AddressBook>
+  <Contact>
+    <LastName>d</LastName>
+    <FirstName>d</FirstName>
+    <Phone>
+      <phonenumber>101</phonenumber>
+      <accountindex>0</accountindex>
+    </Phone>
+  </Contact>
+  <Contact>
+    <LastName>as</LastName>
+    <FirstName>ranatunga</FirstName>
+    <Phone>
+      <phonenumber>100</phonenumber>
+      <accountindex>0</accountindex>
+    </Phone>
+  </Contact>
+</AddressBook>

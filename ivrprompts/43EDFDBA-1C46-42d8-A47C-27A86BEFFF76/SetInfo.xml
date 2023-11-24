@@ -1,0 +1,700 @@
+<?xml version="1.0"?>
+<set>
+  <info language="EL" system="1" id="43EDFDBA-1C46-42d8-A47C-27A86BEFFF76" name="Greek Prompts Set" version="4.0.4">
+    <langopts num_style="0" />
+    <description>Greek set of prompts.</description>
+  </info>
+  <prompts>
+    <prompt id="ACCDND" file="access_denied.wav">
+      <description>Άρνηση πρόσβασης</description>
+    </prompt>
+    <prompt id="AND" file="and.wav">
+      <description>Και</description>
+    </prompt>
+    <prompt id="BEEP" file="beep.wav">
+      <description>BEEP</description>
+    </prompt>
+    <prompt id="BEGOFMSGS" file="begin_of_messages.wav">
+      <description>Αρχή μηνυμάτων</description>
+    </prompt>
+    <prompt id="CALLTRAN_FAILED" file="call_transfer_failed.wav">
+      <description>Η Μεταφορά κλήσης απέτυχε</description>
+    </prompt>
+    <prompt id="CANCELLED" file="cancelled.wav">
+      <description>Ακυρώθηκε</description>
+    </prompt>
+    <prompt id="CONFIRM" file="confirm.wav">
+      <description>πιέστε το πλήκτρο με τον Αστερίσκο, Για ακύρωση πιέστε δίεση</description>
+    </prompt>
+    <prompt id="DELETED" file="deleted.wav">
+      <description>Διαγράφθηκαν</description>
+    </prompt>
+    <prompt id="ENDOFMSGS" file="end_of_messages.wav">
+      <description>Τέλος μηνυμάτων</description>
+    </prompt>
+    <prompt id="ERROR" file="error.wav">
+      <description>Εντοπίστηκε εσωτερικό λάθος. Λυπούμαστε.</description>
+    </prompt>
+    <prompt id="EXTNUM" file="ext_num.wav">
+      <description>Αριθμό εσωτερικού</description>
+    </prompt>
+    <prompt id="EXTNOTENAB" file="extension_not_enabled.wav">
+      <description>Το εσωτερικό δεν ενεργοποιήθηκε</description>
+    </prompt>
+    <prompt id="EXTNOTFOUND" file="extension_not_found.wav">
+      <description>Το εσωτερικό δεν βρέθηκε</description>
+    </prompt>
+    <prompt id="FILNOTFOUND" file="file_not_found.wav">
+      <description>Το αρχειο δεν βρέθηκε</description>
+    </prompt>
+    <prompt id="GROUPID" file="group_id.wav">
+      <description>Αναγνωριστικό ομάδας</description>
+    </prompt>
+    <prompt id="INVPIN" file="invalid_pin.wav">
+      <description>Μη έγκυρος αριθμός PIN</description>
+    </prompt>
+    <prompt id="IS" file="is.wav">
+      <description>ειναι</description>
+    </prompt>
+    <prompt id="IVRNUM" file="ivr_num.wav">
+      <description>Αριθμό IVR</description>
+    </prompt>
+    <prompt id="MSG" file="message.wav">
+      <description>Μήνυμα</description>
+    </prompt>
+    <prompt id="MSG_FROM" file="message_from.wav">
+      <description>Μήνυμα απο</description>
+    </prompt>
+    <prompt id="MSG_GRT" file="greeting_message.wav">
+      <description>Μήνυμα χαιρετισμού</description>
+    </prompt>
+    <prompt id="MSG_SELFID" file="SelfIDMsg.wav">
+      <description>Ταυτότητα αναγνώρισης</description>
+    </prompt>
+    <prompt id="MSGALRDDLTD" file="message_already_deleted.wav">
+      <description>Το μήνυμα έχει διαγραφεί. Παρακαλώ επιλέξτε άλλο μήνυμα</description>
+    </prompt>
+    <prompt id="MSGDLTD" file="message_deleted.wav">
+      <description>Το Μήνυμα διεγράφη</description>
+    </prompt>
+    <prompt id="MSGREC_MNU" file="MsgRecMnu.wav">
+      <description>πιέστε μηδέν. Για επαναφορά του αρχικού μηνύματος πιέστε ένα. Για έξοδο από το μενού πιέστε δίεση</description>
+    </prompt>
+    <prompt id="MSGREC_MNU2" file="MsgRecMnu2.wav">
+      <description>πιέστε μηδέν. Για διαγραφή του μηνύματος πιέστε ένα. Για έξοδο απο το μενού πιέστε δίεση</description>
+    </prompt>
+    <prompt id="MSGS" file="messages.wav">
+      <description>Μηνύματα</description>
+    </prompt>
+    <prompt id="MSGSAVFAIL" file="msg_save_failed.wav">
+      <description>Η Καταχώριση μηνύματος απέτυχε</description>
+    </prompt>
+    <prompt id="MSGSVD" file="msg_saved.wav">
+      <description>Το Μήνυμα καταχωρήθει</description>
+    </prompt>
+    <prompt id="NEW" file="new.wav">
+      <description>Νεα</description>
+    </prompt>
+    <prompt id="NEW_MSG" file="new_message.wav">
+      <description>Νεο Μήνυμα</description>
+    </prompt>
+    <prompt id="NEW_MSGS" file="new_messages.wav">
+      <description>Νεα Μηνύματα</description>
+    </prompt>
+    <prompt id="NEW_PIN_CODE" file="new_pin_code.wav">
+      <description>Νεος κωδικός PIN</description>
+    </prompt>
+    <prompt id="NO_ANSWER" file="no_answer.wav">
+      <description>Καμία απάντηση</description>
+    </prompt>
+    <prompt id="NOACTPERF" file="no_action_performed.wav">
+      <description>Δεν υπάρχει προδιαγεγραμμένη ενεργεία</description>
+    </prompt>
+    <prompt id="NOMSGSLCT" file="no_message_selected.wav">
+      <description>Δεν επιλέξατε μήνυμα</description>
+    </prompt>
+    <prompt id="NOMSGSTODEL" file="no_msgs_todelete.wav">
+      <description>Δεν υπάρχουν μηνύματα για διαγραφή</description>
+    </prompt>
+    <prompt id="NOSVDMSGS" file="no_saved_msgs.wav">
+      <description>Δεν υπάρχουν μηνύματα για αποθήκευση</description>
+    </prompt>
+    <prompt id="NOTALLMSGSDELETED" file="notall_msgs_deleted.wav">
+      <description>Μερικά μηνύματα δεν μπορούν να διαγραφούν</description>
+    </prompt>
+    <prompt id="NUMBER_BUSY" file="number_is_busy.wav">
+      <description>Το αριθμός είναι απασχολημένος</description>
+    </prompt>
+    <prompt id="OLD" file="old.wav">
+      <description>Παλιά</description>
+    </prompt>
+    <prompt id="OPFAIL" file="operation_failed.wav">
+      <description>Λειτουργία απέτυχε</description>
+    </prompt>
+    <prompt id="OPTIONS_MENU" file="OPTMNU.wav">
+      <description>Για να κάνετε νέα κλήση πατήστε το τρία.Για να αλλάξετε το προφίλ σας, πατήστε το 1. Για να διαγράψετε όλα τα παλία μηνύματα πατήστε το τέσσερα.Για να αλλάξετε την Ταυτότητα αναγνώρισης πατήστε τό πέντε.Για να ακόυσετε τις πληροφορίες του Τηλεφώνητη σας πατήστε το έξι.Για να αλλάξετε το Pin σας πατήστε το εφτά.Για να αλλάξετε το μήνυμα χαιρετισμόυ σας πατήστε το οκτώ.Για να επαναλάβετε αυτό το μήνυμα πατήστε το εννέα.Για να τερματίσετε αυτη τη κλήση πατήστε δίεση.</description>
+    </prompt>
+    <prompt id="NUMBER_ENT" file="number.wav">
+      <description>Αριθμός</description>
+    </prompt>
+    <prompt id="PIN" file="pin.wav">
+      <description>Τον Προσωπικό αριθμό PIN</description>
+    </prompt>
+    <prompt id="PLAYBACK_MENU" file="PBACKMNU.wav">
+      <description>Για να ακούσετε το επόμενο μήνυμα πιέστε μηδέν. Για να ακούσετε το προηγούμενο μήνυμα πιέστε ένα.Για να ακούσετε ξανά το τρέχον μήνυμα πιέστε δυο. Για διαγραφή του τρέχων μηνύματος πιέστε τρία.Για να ακούσετε ξανά αυτό το μήνυμα πιέστε εννέα.Για έξοδος από το μενού πιέστε το πλήκτρο με τη δίεση.</description>
+    </prompt>
+    <prompt id="PLSENTER" file="please_enter.wav">
+      <description>Παρακαλώ πληκτρολογήσετε</description>
+    </prompt>
+    <prompt id="PLSHOLD" file="please_hold.wav">
+      <description>Αναμείνατε στο ακουστικό σας</description>
+    </prompt>
+    <prompt id="PLSHOLD_CALL" file="PleaseHold_Calling.wav">
+      <description>Παρακαλώ αναμείνατε στο ακουστικό σας</description>
+    </prompt>
+    <prompt id="PRESS" file="press.wav">
+      <description>Πιέστε</description>
+    </prompt>
+    <prompt id="PRESSNINE_FOROPTIONS" file="press_nine_for_options.wav">
+      <description>Για επιλογές πιέστε εννέα</description>
+    </prompt>
+    <prompt id="PRESSSTAR_TOPLAY" file="press_star_to_play.wav">
+      <description>Για αναπαραγωγή πιέστε το πλήκτρο με τον αστερίσκο</description>
+    </prompt>
+    <prompt id="QUEID" file="queue_id.wav">
+      <description>Aναγνωριστικό ομάδας προτεραιότητας</description>
+    </prompt>
+    <prompt id="QUEUE_TOBE_CONNECTED" file="queue_tobe_connected.wav">
+      <description>Της γραμμής προτεραιότητας. Παρακαλώ περιμένετε ώσπου να συνδεθείτε</description>
+    </prompt>
+    <prompt id="RECYA" file="record_your.wav">
+      <description>Ηχογραφήστε το</description>
+    </prompt>
+    <prompt id="RECYAMSG" file="record_your_message.wav">
+      <description>Ηχογραφήστε το μήνυμα σας και στην συνέχεια πιέστε δίεση</description>
+    </prompt>
+    <prompt id="SAVED" file="saved.wav">
+      <description>Καταχωρήθει</description>
+    </prompt>
+    <prompt id="SAVMSGCNFRM" file="SaveMsgCnfrm.wav">
+      <description>Για καταχώριση του μηνύματος πιέστε μηδέν, για επανεγγραφή του μηνύματος πιέστε ένα, για έξοδος από το μενού πιέστε το πλήκτρο με τη δίεση</description>
+    </prompt>
+    <prompt id="STACK_OVRFLW" file="stack_overflow.wav">
+      <description>Συγγνώμη, ποσότητα αρχείων υπερβαίνει το όριο</description>
+    </prompt>
+    <prompt id="STDMSGRST" file="standard_message_restored.wav">
+      <description>Επαναφορά αρχικού μηνύματος ολοκληρώθηκε</description>
+    </prompt>
+    <prompt id="BYE" file="thankyou_goodbye.wav">
+      <description>Ευχαριστούμε. Γεια σας</description>
+    </prompt>
+    <prompt id="THENPRESPND" file="then_press_pound.wav">
+      <description>Και στην συνέχεια πιέστε δίεση</description>
+    </prompt>
+    <prompt id="TIME_IS" file="time_is.wav">
+      <description>Ημερομηνία</description>
+    </prompt>
+    <prompt id="TOCALL_TO" file="ToCallTo.wav">
+      <description>Για να καλέσετε τον</description>
+    </prompt>
+    <prompt id="TODAY" file="today.wav">
+      <description>Σήμερα</description>
+    </prompt>
+    <prompt id="TODLTMSG" file="to_delete_msg.wav">
+      <description>Για διαγραφή μηνύματος</description>
+    </prompt>
+    <prompt id="TODLTREADMSGS" file="todelete_read_messages.wav">
+      <description>Για διαγραφή όλων των παλιών σας μηνυμάτων</description>
+    </prompt>
+    <prompt id="TOEXIT_PRESSPOUND" file="toexit_presspnd.wav">
+      <description>Για έξοδο πληκτρολογήστε δίεση</description>
+    </prompt>
+    <prompt id="TORECNEW" file="to_record_new.wav">
+      <description>Για ηχογράφηση νέου</description>
+    </prompt>
+    <prompt id="TO_SAVE" file="to_save.wav">
+      <description>Για καταχώριση</description>
+    </prompt>
+    <prompt id="USER_NAME" file="UserName.wav">
+      <description>Τα πρώτα 3 γράμματα του επιθέτου του ατόμου που προσπαθείτε να καλέσετε στήν φράση "παρακαλώ πληκτρολογήστε τα πρώτα 3 γράμματα του επιθέτου του ατόμου που προσπαθείτε να καλέσετε"</description>
+    </prompt>
+    <prompt id="VMLDSBL" file="voicemail_disabled.wav">
+      <description>Ο πρωσοπικός τηλεφωνητής είναι απενεργοποιημένος για αυτό το εσωτερικό</description>
+    </prompt>
+    <prompt id="YAHV" file="you_have.wav">
+      <description>Εχετε</description>
+    </prompt>
+    <prompt id="YAHVNO" file="you_have_no.wav">
+      <description>Δέν εχετε</description>
+    </prompt>
+    <prompt id="YESTERDAY" file="yesterday.wav">
+      <description>Χθές</description>
+    </prompt>
+    <prompt id="YOUR" file="your.wav">
+      <description>Ο</description>
+    </prompt>
+    <prompt id="YOUR_AT_POSITION" file="your_at_position.wav">
+      <description>Βρίσκεστε στη θέση</description>
+    </prompt>
+    <prompt id="INV_INP" file="InvalidInput.wav">
+      <description>Μη έγκυρη εισαγωγή. Παρακαλώ προσπαθήστε ξανά</description>
+    </prompt>
+    <prompt id="INV_NUM" file="InvalidNumber.wav">
+      <description>Μη εγκυρος αριθμός</description>
+    </prompt>
+    <prompt id="UNKN_PRMT" file="unknown_prompt.wav">
+      <description>Άγνωστη επιλογή</description>
+    </prompt>
+    <prompt id="NUM_0" file="numbers/0.wav">
+      <description>Μηδέν.Ενθαρρυντικός τόνος φωνής</description>
+    </prompt>
+    <prompt id="NUM_0_B" file="numbers/0^b.wav">
+      <description>Μηδέν!.Πληροφοριακός τόνος φωνής</description>
+    </prompt>
+    <prompt id="NUM_1" file="numbers/1.wav">
+      <description>Ένα.Ενθαρρυντικός τόνος φωνής</description>
+    </prompt>
+    <prompt id="NUM_1_B" file="numbers/1^b.wav">
+      <description>Ένα!.Πληροφοριακός τόνος φωνής</description>
+    </prompt>
+    <prompt id="NUM_1_O" file="numbers/1o.wav">
+      <description>Πρώτη του μηνός</description>
+    </prompt>
+    <prompt id="NUM_10" file="numbers/10.wav">
+      <description>Δέκα</description>
+    </prompt>
+    <prompt id="NUM_10_O" file="numbers/10o.wav">
+      <description>Δέκα του μηνος</description>
+    </prompt>
+    <prompt id="NUM_11" file="numbers/11.wav">
+      <description>Έντεκα</description>
+    </prompt>
+    <prompt id="NUM_11_O" file="numbers/11o.wav">
+      <description>Έντεκα του μηνός</description>
+    </prompt>
+    <prompt id="NUM_12" file="numbers/12.wav">
+      <description>Δώδεκα</description>
+    </prompt>
+    <prompt id="NUM_12_O" file="numbers/12o.wav">
+      <description>Δώδεκα του μηνός</description>
+    </prompt>
+    <prompt id="NUM_13" file="numbers/13.wav">
+      <description>Δεκατρείς</description>
+    </prompt>
+    <prompt id="NUM_13_O" file="numbers/13o.wav">
+      <description>Δεκατρείς του μηνός</description>
+    </prompt>
+    <prompt id="NUM_14" file="numbers/14.wav">
+      <description>Δεκατέσσερις</description>
+    </prompt>
+    <prompt id="NUM_14_O" file="numbers/14o.wav">
+      <description>Δεκατέσσερις του μηνός</description>
+    </prompt>
+    <prompt id="NUM_15" file="numbers/15.wav">
+      <description>Δεκαπέντε</description>
+    </prompt>
+    <prompt id="NUM_15_O" file="numbers/15o.wav">
+      <description>Δεκαπέντε του μηνός</description>
+    </prompt>
+    <prompt id="NUM_16" file="numbers/16.wav">
+      <description>Δεκαέξι</description>
+    </prompt>
+    <prompt id="NUM_16_O" file="numbers/16o.wav">
+      <description>Δεκαέξι του μηνός</description>
+    </prompt>
+    <prompt id="NUM_17" file="numbers/17.wav">
+      <description>Δεκαεφτά</description>
+    </prompt>
+    <prompt id="NUM_17_O" file="numbers/17o.wav">
+      <description>Δεκαεφτά του μηνός</description>
+    </prompt>
+    <prompt id="NUM_18" file="numbers/18.wav">
+      <description>Δεκαοχτώ</description>
+    </prompt>
+    <prompt id="NUM_18_O" file="numbers/18o.wav">
+      <description>Δεκαοχτώ του μηνός</description>
+    </prompt>
+    <prompt id="NUM_19" file="numbers/19.wav">
+      <description>Δεκαεννέα</description>
+    </prompt>
+    <prompt id="NUM_19_O" file="numbers/19o.wav">
+      <description>Δεκαεννέα του μηνός</description>
+    </prompt>
+    <prompt id="NUM_2" file="numbers/2.wav">
+      <description>Δύο</description>
+    </prompt>
+    <prompt id="NUM_2_B" file="numbers/2^b.wav">
+      <description>Δυο!</description>
+    </prompt>
+    <prompt id="NUM_2_O" file="numbers/2o.wav">
+      <description>Δυο του μηνός</description>
+    </prompt>
+    <prompt id="NUM_20+" file="numbers/20+.wav">
+      <description>Είκοσι...</description>
+    </prompt>
+    <prompt id="NUM_20" file="numbers/20.wav">
+      <description>Είκοσι...</description>
+    </prompt>
+    <prompt id="NUM_20_O" file="numbers/20o.wav">
+      <description>Είκοσι του μηνός</description>
+    </prompt>
+    <prompt id="NUM_3" file="numbers/3.wav">
+      <description>Τρία.Ενθαρρυντικός τόνος φωνής</description>
+    </prompt>
+    <prompt id="NUM_3_B" file="numbers/3^b.wav">
+      <description>Τρία!.Πληροφοριακός τόνος φωνής</description>
+    </prompt>
+    <prompt id="NUM_3_O" file="numbers/3o.wav">
+      <description>Τρείς του μηνός</description>
+    </prompt>
+    <prompt id="NUM_30+" file="numbers/30+.wav">
+      <description>Τριάντα...</description>
+    </prompt>
+    <prompt id="NUM_30" file="numbers/30.wav">
+      <description>Τριάντα</description>
+    </prompt>
+    <prompt id="NUM_30_O" file="numbers/30o.wav">
+      <description>Τριάντα του μηνός</description>
+    </prompt>
+    <prompt id="NUM_4" file="numbers/4.wav">
+      <description>Τέσσερα.Ενθαρρυντικός τόνος φωνής</description>
+    </prompt>
+    <prompt id="NUM_4_B" file="numbers/4^b.wav">
+      <description>Τέσσερα!.Πληροφοριακός τόνος φωνής</description>
+    </prompt>
+    <prompt id="NUM_4_O" file="numbers/4o.wav">
+      <description>Τέσσερις του μηνός</description>
+    </prompt>
+    <prompt id="NUM_40+" file="numbers/40+.wav">
+      <description>Σαράντα...</description>
+    </prompt>
+    <prompt id="NUM_40" file="numbers/40.wav">
+      <description>Σαράντα...</description>
+    </prompt>
+    <prompt id="NUM_5" file="numbers/5.wav">
+      <description>Πέντε.Ενθαρρυντικός τόνος φωνής</description>
+    </prompt>
+    <prompt id="NUM_5_B" file="numbers/5^b.wav">
+      <description>Πέντε!.Πληροφοριακός τόνος φωνής</description>
+    </prompt>
+    <prompt id="NUM_5_O" file="numbers/5o.wav">
+      <description>Πέντε του μηνός</description>
+    </prompt>
+    <prompt id="NUM_50+" file="numbers/50+.wav">
+      <description>Πενήντα...</description>
+    </prompt>
+    <prompt id="NUM_50" file="numbers/50.wav">
+      <description>Πενήντα</description>
+    </prompt>
+    <prompt id="NUM_6" file="numbers/6.wav">
+      <description>Έξι.Ενθαρρυντικός τόνος φωνής</description>
+    </prompt>
+    <prompt id="NUM_6_B" file="numbers/6^b.wav">
+      <description>Έξι!.Πληροφοριακός τόνος φωνής</description>
+    </prompt>
+    <prompt id="NUM_6_O" file="numbers/6o.wav">
+      <description>Έξι του μηνός</description>
+    </prompt>
+    <prompt id="NUM_60+" file="numbers/60+.wav">
+      <description>Εξήντα...</description>
+    </prompt>
+    <prompt id="NUM_60" file="numbers/60.wav">
+      <description>Εξήντα</description>
+    </prompt>
+    <prompt id="NUM_7" file="numbers/7.wav">
+      <description>Εφτά.Ενθαρρυντικός τόνος φωνής</description>
+    </prompt>
+    <prompt id="NUM_7_B" file="numbers/7^b.wav">
+      <description>Εφτά!.Πληροφοριακός τόνος φωνής</description>
+    </prompt>
+    <prompt id="NUM_7_O" file="numbers/7o.wav">
+      <description>Εφτά του μηνός</description>
+    </prompt>
+    <prompt id="NUM_70+" file="numbers/70+.wav">
+      <description>Εβδομήντα...</description>
+    </prompt>
+    <prompt id="NUM_70" file="numbers/70.wav">
+      <description>Εβδομήντα</description>
+    </prompt>
+    <prompt id="NUM_8" file="numbers/8.wav">
+      <description>Οκτώ.Ενθαρρυντικός τόνος φωνής</description>
+    </prompt>
+    <prompt id="NUM_8_B" file="numbers/8^b.wav">
+      <description>Οκτώ!.Πληροφοριακός τόνος φωνής</description>
+    </prompt>
+    <prompt id="NUM_8_O" file="numbers/8o.wav">
+      <description>Οκτώ του μηνός</description>
+    </prompt>
+    <prompt id="NUM_80+" file="numbers/80+.wav">
+      <description>Ογδώντα...</description>
+    </prompt>
+    <prompt id="NUM_80" file="numbers/80.wav">
+      <description>Ογδώντα</description>
+    </prompt>
+    <prompt id="NUM_9" file="numbers/9.wav">
+      <description>Εννέα.Ενθαρρυντικός τόνος φωνής</description>
+    </prompt>
+    <prompt id="NUM_9_B" file="numbers/9^b.wav">
+      <description>Εννέα!.Πληροφοριακός τόνος φωνής</description>
+    </prompt>
+    <prompt id="NUM_9_O" file="numbers/9o.wav">
+      <description>Εννέα του μηνός</description>
+    </prompt>
+    <prompt id="NUM_90+" file="numbers/90+.wav">
+      <description>Ενενήντα...</description>
+    </prompt>
+    <prompt id="NUM_90" file="numbers/90.wav">
+      <description>Ενενήντα</description>
+    </prompt>
+    <prompt id="NUM_AND" file="numbers/and.wav">
+      <description>και</description>
+    </prompt>
+    <prompt id="NUM_HNDR" file="numbers/hundred.wav">
+      <description>Εκατόν</description>
+    </prompt>
+    <prompt id="NUM_MLN" file="numbers/million.wav">
+      <description>Εκατομύρια</description>
+    </prompt>
+    <prompt id="NUM_STAR" file="numbers/star.wav">
+      <description>Αστεράκι</description>
+    </prompt>
+    <prompt id="NUM_STAR_B" file="numbers/star^b.wav">
+      <description>Αστεράκι!</description>
+    </prompt>
+    <prompt id="NUM_THSND" file="numbers/thousand.wav">
+      <description>Χιλιάδες</description>
+    </prompt>
+    <prompt id="TM_AM" file="time/am.wav">
+      <description>Προ μεσημβρίας</description>
+    </prompt>
+    <prompt id="TM_PM" file="time/pm.wav">
+      <description>Μετα μεσημβρίας</description>
+    </prompt>
+    <prompt id="TM_OU" file="time/ou.wav">
+      <description>Μηδέν</description>
+    </prompt>
+    <prompt id="TM_MON_01" file="time/january.wav">
+      <description>Ιανουάριος</description>
+    </prompt>
+    <prompt id="TM_MON_02" file="time/february.wav">
+      <description>Φεβρουάριος</description>
+    </prompt>
+    <prompt id="TM_MON_03" file="time/march.wav">
+      <description>Μάρτιος</description>
+    </prompt>
+    <prompt id="TM_MON_04" file="time/april.wav">
+      <description>Απρίλιος</description>
+    </prompt>
+    <prompt id="TM_MON_05" file="time/may.wav">
+      <description>Μαίος</description>
+    </prompt>
+    <prompt id="TM_MON_06" file="time/june.wav">
+      <description>Ιουνιος</description>
+    </prompt>
+    <prompt id="TM_MON_07" file="time/july.wav">
+      <description>Ιούλιος</description>
+    </prompt>
+    <prompt id="TM_MON_08" file="time/august.wav">
+      <description>Άυγουστος</description>
+    </prompt>
+    <prompt id="TM_MON_09" file="time/september.wav">
+      <description>Σεπτέμβριο</description>
+    </prompt>
+    <prompt id="TM_MON_10" file="time/october.wav">
+      <description>Οκτώμβριος</description>
+    </prompt>
+    <prompt id="TM_MON_11" file="time/november.wav">
+      <description>Νοέμβριος</description>
+    </prompt>
+    <prompt id="TM_MON_12" file="time/december.wav">
+      <description>Δεκεμβριος</description>
+    </prompt>
+    <prompt id="TM_MIDNIGHT" file="time/midnight.wav">
+      <description>Μεσάνυχτα</description>
+    </prompt>
+    <prompt id="TM_MINUTE" file="time/minute.wav">
+      <description>Λεπτό</description>
+    </prompt>
+    <prompt id="TM_MINUTES" file="time/minutes.wav">
+      <description>Λεπτά</description>
+    </prompt>
+    <prompt id="TM_OCLOCK" file="time/oclock.wav">
+      <description>Η ωρα</description>
+    </prompt>
+    <prompt id="TM_PAST" file="time/past.wav">
+      <description>μετα</description>
+    </prompt>
+    <prompt id="CONF_NAME" file="SpeakYourName.wav">
+      <description>Αναγγέλτε το όνομα σας μετα τον ήχο και πατήστε οποιοδήποτε κουμπί</description>
+    </prompt>
+    <prompt id="CONF_CONFPROMPT" file="ConfPrompt.wav">
+      <description>Καλώς ηρθατε στην διάσκεψη</description>
+    </prompt>
+    <prompt id="CONF_NEWMEMBER" file="newMember.wav">
+      <description>έχει μπεί στην διάσκεψη</description>
+    </prompt>
+    <prompt id="CONF_PIN" file="PleaseEnterPIN.wav">
+      <description>Παρακαλώ διαλέξτε την ταυτότητα της διάσκεψης και πατήστε δίεση</description>
+    </prompt>
+    <prompt id="CONF_LEFT" file="leftPrompt.wav">
+      <description>έφυγε απο την διάσκεψη</description>
+    </prompt>
+    <prompt id="CONF_CREATING" file="creating.wav">
+      <description>Δημιουργήτε νέα διάσκεψη</description>
+    </prompt>
+    <prompt id="CONF_JOINING" file="joining.wav">
+      <description>Ενώνεστε στην διάσκεψη με τα παρακάτω μέλη</description>
+    </prompt>
+    <prompt id="CONF_HASHORSTAR" file="hashorstar.wav">
+      <description>Πατήστε δίεση η αστερίσκο για να προχωρήσετε</description>
+    </prompt>
+    <prompt id="NOTFOUND" file="Destnot_found.wav">
+      <description>Ο αριθμός που καλέσατε δεν υπάρχει.</description>
+    </prompt>
+    <prompt id="FORBIDDEN" file="forbidden_byadmin.wav">
+      <description>Απαγορευμένη κλήση</description>
+    </prompt>
+    <prompt id="DEST_NA" file="destnot_available.wav">
+      <description>Ο αριθμός που καλέσατε δεν είναι διαθέσιμος αυτη την στιγμή. Μή εγγεγραμμένος η δέν υπάρχουν διαδρομές προς τον αριθμό.</description>
+    </prompt>
+    <prompt id="NOANSWER" file="terminated_noanswer.wav">
+      <description>Καμία απάντηση - Η κλήση θα τερματιστεί</description>
+    </prompt>
+    <prompt id="BUSY" file="destination_isbusy.wav">
+      <description>Ο αριθμός που καλέσατε είναι απασχολημένος. Παρακαλώ καλέστε αργότερα.</description>
+    </prompt>
+    <prompt id="SERVER_ERROR" file="internal_servererror.wav">
+      <description>Δέν βρέθηκε ο αριθμός. Παρακαλώ καλέστε τον διαχειρηστη.</description>
+    </prompt>
+    <prompt id="DISABLED_FWD" file="calldisabled_fwrule.wav">
+      <description>Δεν βρέθηκε ο τελικός προορισμός. Παρακαλώ καλέστε τον διαχειρηστη.</description>
+    </prompt>
+    <prompt id="DISABLED_INB" file="calldisabled_inrule.wav">
+      <description>Αυτη η κλήση απαγορέυεται. Παρακαλώ καλέστε τον διαχειρηστη.</description>
+    </prompt>
+    <prompt id="NO_OUTBOUND" file="fwexternalnumber_nooutbound.wav">
+      <description>Δέν υπάρχουν διαθέσιμες γραμμές για αυτη την κλήση.</description>
+    </prompt>
+    <prompt id="LL" file="license_limit.wav">
+      <description>Όριο κλήσεων. Εχετε φτάσει τον μέγιστο αριθμό κλήσεων για το σύστημα. Παρακαλώ καλέστε τον διαχειριστή.</description>
+    </prompt>
+    <prompt id="FEAT_NA" file="feature_notavailable.wav">
+      <description>Αυτή η λειτουργία δέν είναι διαθέσιμη στην δώρεαν έκδοση του συστήματος. Παρακαλώ καλέστε τον διαχειριστή.</description>
+    </prompt>
+    <prompt id="QUEUE_UNATT" file="noavailable_queueagents.wav">
+      <description>Δέν υπάρχουν διαθέσιμοι τηλεφώνητες αυτη την στιγμή.</description>
+    </prompt>
+    <prompt id="AWAY_ON" file="away_on.wav">
+      <description>Η λειτουργία "Μην ενοχλείτε" : Ενεργποιήθηκε</description>
+    </prompt>
+    <prompt id="AWAY_OFF" file="away_off.wav">
+      <description>Η λειτουργία "Μην ενοχλείτε" : Απενεργοποιήθηκε</description>
+    </prompt>
+    <prompt id="LOGGED_IN" file="logged_inqueue.wav">
+      <description>Αυτό το τηλέφωνο είναι: "Μέλος της γραμμή αναμονής"</description>
+    </prompt>
+    <prompt id="LOGGED_OUT" file="logged_outqueue.wav">
+      <description>Αυτό το τηλέφωνο είναι: "Έξω απο την γραμμή αναμονής"</description>
+    </prompt>
+    <prompt id="REDIRVMAIL" file="redir_vmail.wav">
+      <description>Μεταφέρεστε στον προσώπικο τηλεφωνητη του συνδρομητή που καλέσατε</description>
+    </prompt>
+    <prompt id="UHVCALL" file="uhavecall.wav">
+      <description>Έχετε κλήση απο...</description>
+    </prompt>
+    <prompt id="PRESS1TOTAKECALL" file="totakecall.wav">
+      <description>Πατήστε το ένα για να απαντήσετε την κλήση</description>
+    </prompt>
+    <prompt id="PRESSSENDTOVMAIL" file="tosend_tovmail.wav">
+      <description>Πατήστε τήν δίεση για να να στέιλετε την κλήση στον τηλεφωνητή σας</description>
+    </prompt>
+    <prompt id="PLSWAITLOCATE" file="plswait_locate.wav">
+      <description>Παρακαλώ περιμένετε καθώς ψάχνουμε για τον αριθμο...</description>
+    </prompt>
+    <prompt id="USERUNAVAIL" file="user_unavail.wav">
+      <description>Ο συνδρομητής που καλέσατε δέν είναι διαθέσιμος.</description>
+    </prompt>
+    <prompt id="ACCBLOCKED" file="AccountBlocked.wav">
+      <description>Ο λογαριασμός έχει προσωρινα μπλοκαριστεί.</description>
+    </prompt>
+    <prompt id="MSGFWDED" file="MsgForwarded.wav">
+      <description>Έχετε το προώθησει το μήνυμα.</description>
+    </prompt>
+    <prompt id="NOMSGSTOFWD" file="NoMsgToForward.wav">
+      <description>Δέν ύπαρχουν μήνυματα για προώθηση.</description>
+    </prompt>
+    <prompt id="ENTEREXT_FWDVMAIL" file="PlsEnterExtFwdVM.wav">
+      <description>Παρακαλώ δώστε τον αριθμό στον οποίο θα προώθησετε το μήνυμα.</description>
+    </prompt>
+    <prompt id="TRYLATER" file="PLSTRYLATER.wav">
+      <description>Παρακαλώ δοκιμάστε αργότερα.</description>
+    </prompt>
+    <prompt id="OHOVERRIDE_OFF" file="officehr_override_off.wav">
+			<description>Το τηλεφωνικό σύστημα έχει ρυθμιστεί να χρησιμοποιεί τις κανονικές ώρες γραφείου. Ενημερωτικός τόνος</description>
+		</prompt>
+		<prompt id="OHOVERRIDE_IN" file="officehr_override_in.wav">
+			<description>Το τηλεφωνικό σύστημα έχει ρυθμιστεί να είναι εντός ωρών γραφείου. Ενημερωτικός τόνος</description>
+		</prompt>
+		<prompt id="OHOVERRIDE_OUT" file="officehr_override_out.wav">
+			<description>Το τηλεφωνικό σύστημα έχει ρυθμιστεί να είναι εκτός ωρών γραφείου. Ενημερωτικός τόνος</description>
+		</prompt>
+    <prompt id="STATUS_MENU" file="profile_menu.wav">
+      <description>Πατήστε το 1 για διαθέσιμο, πατήστε 2 για μακριά, πατήστε 3 για εκτός γραφείου, πατήστε 4 για προφίλ 1, πατήστε 5 για προφίλ 2</description>
+    </prompt>
+    <prompt id="ST_AVAILABLE_SET" file="avaiable_status_set.wav">
+      <description>Διαθέσιμο, η κατάσταση του έχει ρυθμιστεί Ενημερωτικός τόνος</description>
+    </prompt>
+    <prompt id="ST_AWAY_SET" file="away_status_set.wav">
+      <description>Μακριά, η κατάσταση του έχει ρυθμιστεί Ενημερωτικός τόνος</description>
+    </prompt>
+    <prompt id="ST_OUTOFFICE_SET" file="outofoffice_status_set.wav">
+      <description>Κατάσταση Εκτός γραφείου ορίστικε</description>
+    </prompt>
+    <prompt id="ST_CUSTOM1_SET" file="custom1_status_set.wav">
+      <description>Προφίλ 1, η κατάσταση του έχει ρυθμιστεί Ενημερωτικός τόνος</description>
+    </prompt>
+    <prompt id="ST_CUSTOM2_SET" file="custom2_status_set.wav">
+      <description>Προφίλ 2, η κατάσταση του έχει ρυθμιστεί Ενημερωτικός τόνος</description>
+    </prompt>
+		<prompt id="CB_EDIT_NUM" file="enter_callback_number.wav">
+      <description>Enter the number you wish to be called back on and press Pound</description>
+    </prompt>
+	<prompt id="CB_REQ" file="callback_request_number.wav">
+      <description>You have requested a call back to the following number</description>
+    </prompt>
+	<prompt id="CB_CONFIRM" file="callback_action_menu.wav">
+      <description>Press STAR to confirm, Press ZERO to change call back number or press pound to cancel</description>
+    </prompt>
+	<prompt id="CB_BYE" file="thankyou_callback_confirmed.wav">
+      <description>Thank you. An Agent will contact you shortly</description>
+    </prompt>
+	<prompt id="ACCESS_OK_PINPROTECT" file="AccessAllowedBySystem.wav">
+      <description>Access allowed by system</description>
+    </prompt>
+	<prompt id="LOGGEDINHD" file="logged_in_hotdesking.wav">
+      <description>Η σύνδεσή σας ήταν επιτυχής. Θα γίνει τώρα η επαναφορά του τηλεφώνου στον λογαριασμό σας.</description>
+    </prompt>
+	<prompt id="LOGGEDOUTHD" file="logged_out_hotdesking.wav">
+      <description>Έχετε αποσυνδεθεί. Θα γίνει τώρα η επαναφορά του τηλεφώνου.</description>
+    </prompt>
+	<prompt id="FEAT_NA2" file="feature_not_available2.wav">
+      <description>Η λειτουργία αυτή δεν είναι διαθέσιμη. Απαιτείται κλειδί ενεργοποίησης για Επαγγελματική ή Επιχειρηματική χρήση. Επικοινωνήστε με τον Διαχειριστή.</description>
+    </prompt>
+	<prompt id="PLUS" file="numbers/plus.wav">
+      <description>Συν</description>
+    </prompt>
+	<prompt id="PRESS_POUND_TO_CONFIRM" file="press_pound_to_confirm.wav">
+      <description>Πατήστε ΔΙΕΣΗ για επιβεβαίωση ή πατήστε αστερίσκο για να αλλάξετε τον αριθμό.</description>
+    </prompt>
+	<prompt id="YOU_HAVE_ENTERED" file="you_have_entered.wav">
+      <description>Έχετε εισαγάγει τον ακόλουθο αριθμό</description>
+    </prompt>
+	<prompt id="SELECT_CALL_BY" file="select_call_by.wav">
+      <description>Πατήστε 1 για να καλέσετε με βάση το όνομα, Πατήστε 2 για να καλέσετε με βάση το επίθετο.</description>
+    </prompt>
+    <prompt id="USER_FIRST_NAME" file="UserFirstName.wav">			
+        <description>&quot;&lt;I&gt;τα πρώτα 3 γράμματα του ονόματος του ατόμου που επιθυμείτε να καλέσετε&lt;/I&gt;&quot; στη φράση &quot;
+        Παρακαλώ πληκτρολογήστε &lt;B&gt;τα πρώτα 3 γράμματα του ονόματος του ατόμου που επιθυμείτε να καλέσετε&lt;/B&gt;&quot;.</description>
+    </prompt>
+  </prompts>
+</set>

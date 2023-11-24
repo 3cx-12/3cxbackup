@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<set>
+<info language="NL" system="1" id="1e6ed594-af95-4bb4-af56-b957ac87d6d7" name="Dutch Prompts Set" version="4.0.4">
+<langopts num_style="0" />
+<description>Dutch set of prompts.
+</description>
+</info>
+<prompts>
+<prompt id="ACCDND" file="access_denied.wav"><description>Geen toegang</description></prompt>
+<prompt id="AND" file="and.wav"><description>en</description></prompt>
+<prompt id="BEEP" file="beep.wav"><description>beep</description></prompt>
+<prompt id="BEGOFMSGS" file="begin_of_messages.wav"><description>Begin berichten</description></prompt>
+<prompt id="CALLTRAN_FAILED" file="call_transfer_failed.wav"><description>Doorverbinden is niet gelukt</description></prompt>
+<prompt id="CANCELLED" file="cancelled.wav"><description>geannuleerd</description></prompt>
+<prompt id="CONFIRM" file="confirm.wav"><description>druk sterretje, om te annuleren, druk hekje</description></prompt>
+<prompt id="DELETED" file="deleted.wav"><description>Verwijderd</description></prompt>
+<prompt id="ENDOFMSGS" file="end_of_messages.wav"><description>Einde berichten</description></prompt>
+<prompt id="ERROR" file="error.wav"><description>Een fout is opgetreden</description></prompt>
+<prompt id="EXTNUM" file="ext_num.wav"><description>Extensie nummer</description></prompt>
+<prompt id="EXTNOTENAB" file="extension_not_enabled.wav"><description>Entensie is niet actief</description></prompt>
+<prompt id="EXTNOTFOUND" file="extension_not_found.wav"><description>Extensie werd niet gevonden</description></prompt>
+<prompt id="FILNOTFOUND" file="file_not_found.wav"><description>Bestand werdt niet gevonden</description></prompt>
+<prompt id="GROUPID" file="group_id.wav"><description>Group identifier</description></prompt>
+<prompt id="INVPIN" file="invalid_pin.wav"><description>Ongeldig PIN nummer</description></prompt>
+<prompt id="IS" file="is.wav"><description>is</description></prompt>
+<prompt id="IVRNUM" file="ivr_num.wav"><description>IVR nummer</description></prompt>
+<prompt id="MSG" file="message.wav"><description>Bericht</description></prompt>
+<prompt id="MSG_FROM" file="message_from.wav"><description>Bericht van</description></prompt>
+<prompt id="MSG_GRT" file="greeting_message.wav"><description>Welkom bericht</description></prompt>
+<prompt id="MSG_SELFID" file="SelfIDMsg.wav"><description>Zelf-indentificatie bericht</description></prompt>
+<prompt id="MSGALRDDLTD" file="message_already_deleted.wav"><description>Bericht is al verwijderd, selecteer een andere</description></prompt>
+<prompt id="MSGDLTD" file="message_deleted.wav"><description>Bericht verwijderd</description></prompt>
+<prompt id="MSGREC_MNU" file="MsgRecMnu.wav"><description>Toets nul. Om het standaard bericht terug te zetten, toets een. Om het huidige bericht af te luisterre, toets twee. Om te terug te gaan, toets hekje</description></prompt>
+<prompt id="MSGREC_MNU2" file="MsgRecMnu2.wav"><description>Toets nul. Om dit bericht te verwijderen, toets een. Om uw zelf identificatie bericht te beluisteren, toets twee. Druk hekje om terug te gaan</description></prompt>
+<prompt id="MSGS" file="messages.wav"><description>Berichten</description></prompt>
+<prompt id="MSGSAVFAIL" file="msg_save_failed.wav"><description>Er is een fout opgetreden bij het opslaan van het bericht</description></prompt>
+<prompt id="MSGSVD" file="msg_saved.wav"><description>Bericht opgeslagen</description></prompt>
+<prompt id="NEW" file="new.wav"><description>Nieuw</description></prompt>
+<prompt id="NEW_MSG" file="new_message.wav"><description>Nieuw bericht</description></prompt>
+<prompt id="NEW_MSGS" file="new_messages.wav"><description>Nieuwe berichten</description></prompt>
+<prompt id="NEW_PIN_CODE" file="new_pin_code.wav"><description>Nieuw PIN nummer</description></prompt>
+<prompt id="NO_ANSWER" file="no_answer.wav"><description>Geen antwoord</description></prompt>
+<prompt id="NOACTPERF" file="no_action_performed.wav"><description>Actie is niet uitgevoerd</description></prompt>
+<prompt id="NOMSGSLCT" file="no_message_selected.wav"><description>Geen bericht geselecteerd</description></prompt>
+<prompt id="NOMSGSTODEL" file="no_msgs_todelete.wav"><description>Geen bericht om te verwijderen</description></prompt>
+<prompt id="NOSVDMSGS" file="no_saved_msgs.wav"><description>Geen opgeslagen berichten</description></prompt>
+<prompt id="NOTALLMSGSDELETED" file="notall_msgs_deleted.wav"><description>Enkele berichten konden niet verwijdered worden</description></prompt>
+<prompt id="NUMBER_BUSY" file="number_is_busy.wav"><description>Nummer is bezet</description></prompt>
+<prompt id="OLD" file="old.wav"><description>oud</description></prompt>
+<prompt id="OPFAIL" file="operation_failed.wav"><description>Operatie faalde</description></prompt>
+<prompt id="OPTIONS_MENU" file="OPTMNU.wav"><description>Om berichten af te spelen, toets sterretje.To change your profile status press 1. Om een extern nummer te bellen, toets drie. Om alle gelezen berichten te verwijderen, toets vier. Om uw identificatie bericht te veranderen, toets vijf. Voor mailbox informatie, toets zes. Om uw PIN te veranderen, toets zeven. Om uw welkom te berichten te veranderen, toets acht. Om dit bericht te herhalen, toets negen. Om terug te gaan, toets hekje</description></prompt>
+<prompt id="NUMBER_ENT" file="number.wav"><description>nummer</description></prompt>
+<prompt id="PIN" file="pin.wav"><description>PIN code</description></prompt>
+<prompt id="PLAYBACK_MENU" file="PBACKMNU.wav"><description>Toets 0 voor het volgende bericht, Toets 1 voor het vorige bericht, Toets 2 om het huidige bericht te herhalen, Toets 3 om dit bericht te verwijderen, Toets 4 om terug te bellen, Toets 5 om het door te sturen naar een andere voicemail, Toets 9 voor opties, Om te stoppen toets hekje</description></prompt>
+<prompt id="PLSENTER" file="please_enter.wav"><description>Enter uw</description></prompt>
+<prompt id="PLSHOLD" file="please_hold.wav"><description>Een ogenblik, U wordt doorverbonden</description></prompt>
+<prompt id="PLSHOLD_CALL" file="PleaseHold_Calling.wav"><description>Een ogenblik, het nummer wordt gebeld</description></prompt>
+<prompt id="PRESS" file="press.wav"><description>Toets</description></prompt>
+<prompt id="PRESSNINE_FOROPTIONS" file="press_nine_for_options.wav"><description>toets negen voor opties</description></prompt>
+<prompt id="PRESSSTAR_TOPLAY" file="press_star_to_play.wav"><description>Toets sterretje om af te spelen</description></prompt>
+<prompt id="QUEID" file="queue_id.wav"><description>Queue identifier</description></prompt>
+<prompt id="QUEUE_TOBE_CONNECTED" file="queue_tobe_connected.wav"><description>in de wachtrij. Een ogenblik</description></prompt>
+<prompt id="RECYA" file="record_your.wav"><description>Neem op uw</description></prompt>
+<prompt id="RECYAMSG" file="record_your_message.wav"><description>Neem uw bericht op en toets hekje of toets sterretje voor de operator</description></prompt>
+<prompt id="SAVED" file="saved.wav"><description>Opgeslagen</description></prompt>
+<prompt id="SAVMSGCNFRM" file="SaveMsgCnfrm.wav"><description>Om het bericht te bewaren, toets nul. Om te herhalen, toets een. Om uw bericht te verifieren, toets twee. Toets hekje om op te hangen</description></prompt>
+<prompt id="STACK_OVRFLW" file="stack_overflow.wav"><description>Er is een probleem opgetreden</description></prompt>
+<prompt id="STDMSGRST" file="standard_message_restored.wav"><description>Standaard bericht is terug gezet</description></prompt>
+<prompt id="BYE" file="thankyou_goodbye.wav"><description>Danku, tot ziens</description></prompt>
+<prompt id="THENPRESPND" file="then_press_pound.wav"><description>Toets dan hekje</description></prompt>
+<prompt id="TIME_IS" file="msg_received.wav"><description>Bericht is ontvangen</description></prompt>
+<prompt id="TOCALL_TO" file="ToCallTo.wav"><description>Voor</description></prompt>
+<prompt id="TODAY" file="today.wav"><description>Vandaag</description></prompt>
+<prompt id="TODLTMSG" file="to_delete_msg.wav"><description>Om het bericht te verwijderen</description></prompt>
+<prompt id="TODLTREADMSGS" file="todelete_read_messages.wav"><description>Om all berichten te verwijderen</description></prompt>
+<prompt id="TOEXIT_PRESSPOUND" file="toexit_presspnd.wav"><description>Om op te hangen press hekje</description></prompt>
+<prompt id="TORECNEW" file="to_record_new.wav"><description>Voor het opnemen van een nieuw</description></prompt>
+<prompt id="TO_SAVE" file="to_save.wav"><description>Om te bewaren</description></prompt>
+<prompt id="USER_NAME" file="UserName.wav"><description>Gebruikers naam, the first 3 letters of the last name of the person you are trying to contact in the phrase " Please enter the first 3 letters of the last name of the person you are trying to contact</description></prompt>
+<prompt id="VMLDSBL" file="voicemail_disabled.wav"><description>Deze extensie heeft geen voice mail funktie</description></prompt>
+<prompt id="YAHV" file="you_have.wav"><description>U Heeft</description></prompt>
+<prompt id="YAHVNO" file="you_have_no.wav"><description>U heeft geen</description></prompt>
+<prompt id="YESTERDAY" file="yesterday.wav"><description>Gisteren</description></prompt>
+<prompt id="YOUR" file="your.wav"><description>Uw</description></prompt>
+<prompt id="YOUR_AT_POSITION" file="your_at_position.wav"><description>U bent op positie nummer</description></prompt>
+<prompt id="INV_INP" file="InvalidInput.wav"><description>Ongeldige invoer</description></prompt>
+<prompt id="INV_NUM" file="InvalidNumber.wav"><description>Ongeldig nummer</description></prompt>
+<prompt id="UNKN_PRMT" file="unknown_prompt.wav"><description>Onbekende prompt</description></prompt>
+<prompt id="NUM_0" file="numbers/0.wav"><description>Nul</description></prompt>
+<prompt id="NUM_0_B" file="numbers/0^b.wav"><description>Zero</description></prompt>
+<prompt id="NUM_1" file="numbers/1.wav"><description>een</description></prompt>
+<prompt id="NUM_1_B" file="numbers/1^b.wav"><description>One</description></prompt>
+<prompt id="NUM_1_O" file="numbers/1o.wav"><description>First</description></prompt>
+<prompt id="NUM_10" file="numbers/10.wav"><description>Tien</description></prompt>
+<prompt id="NUM_10_O" file="numbers/10o.wav"><description>Tiende</description></prompt>
+<prompt id="NUM_11" file="numbers/11.wav"><description>Elf</description></prompt>
+<prompt id="NUM_11_O" file="numbers/11o.wav"><description>Elfde</description></prompt>
+<prompt id="NUM_12" file="numbers/12.wav"><description>Twaalf</description></prompt>
+<prompt id="NUM_12_O" file="numbers/12o.wav"><description>Twaalfde</description></prompt>
+<prompt id="NUM_13" file="numbers/13.wav"><description>Dertien</description></prompt>
+<prompt id="NUM_13_O" file="numbers/13o.wav"><description>Dertiende</description></prompt>
+<prompt id="NUM_14" file="numbers/14.wav"><description>Viertien</description></prompt>
+<prompt id="NUM_14_O" file="numbers/14o.wav"><description>Veertiende</description></prompt>
+<prompt id="NUM_15" file="numbers/15.wav"><description>Vijftien</description></prompt>
+<prompt id="NUM_15_O" file="numbers/15o.wav"><description>Vijftiende</description></prompt>
+<prompt id="NUM_16" file="numbers/16.wav"><description>Zestien</description></prompt>
+<prompt id="NUM_16_O" file="numbers/16o.wav"><description>Zestiende</description></prompt>
+<prompt id="NUM_17" file="numbers/17.wav"><description>Zeventien</description></prompt>
+<prompt id="NUM_17_O" file="numbers/17o.wav"><description>Zeventiende</description></prompt>
+<prompt id="NUM_18" file="numbers/18.wav"><description>Achttien</description></prompt>
+<prompt id="NUM_18_O" file="numbers/18o.wav"><description>Achttiende</description></prompt>
+<prompt id="NUM_19" file="numbers/19.wav"><description>negentien</description></prompt>
+<prompt id="NUM_19_O" file="numbers/19o.wav"><description>negentiende</description></prompt>
+<prompt id="NUM_2" file="numbers/2.wav"><description>twee</description></prompt>
+<prompt id="NUM_2_B" file="numbers/2^b.wav"><description>twee</description></prompt>
+<prompt id="NUM_2_O" file="numbers/2o.wav"><description>tweede</description></prompt>
+<prompt id="NUM_20+" file="numbers/20+.wav"><description>entwintig</description></prompt>
+<prompt id="NUM_20" file="numbers/20.wav"><description>twintig</description></prompt>
+<prompt id="NUM_20_O" file="numbers/20o.wav"><description>twintigste</description></prompt>
+<prompt id="NUM_3" file="numbers/3.wav"><description>drie</description></prompt>
+<prompt id="NUM_3_B" file="numbers/3^b.wav"><description>drie</description></prompt>
+<prompt id="NUM_3_O" file="numbers/3o.wav"><description>derde</description></prompt>
+<prompt id="NUM_30+" file="numbers/30+.wav"><description>endertig</description></prompt>
+<prompt id="NUM_30" file="numbers/30.wav"><description>dertig</description></prompt>
+<prompt id="NUM_30_O" file="numbers/30o.wav"><description>dertigste</description></prompt>
+<prompt id="NUM_4" file="numbers/4.wav"><description>vier</description></prompt>
+<prompt id="NUM_4_B" file="numbers/4^b.wav"><description>vier</description></prompt>
+<prompt id="NUM_4_O" file="numbers/4o.wav"><description>vierde</description></prompt>
+<prompt id="NUM_40+" file="numbers/40+.wav"><description>Forty</description></prompt>
+<prompt id="NUM_40" file="numbers/40.wav"><description>veertig</description></prompt>
+<prompt id="NUM_5" file="numbers/5.wav"><description>Five</description></prompt>
+<prompt id="NUM_5_B" file="numbers/5^b.wav"><description>Five</description></prompt>
+<prompt id="NUM_5_O" file="numbers/5o.wav"><description>Fifth</description></prompt>
+<prompt id="NUM_50+" file="numbers/50+.wav"><description>envijftig</description></prompt>
+<prompt id="NUM_50" file="numbers/50.wav"><description>vijftig</description></prompt>
+<prompt id="NUM_6" file="numbers/6.wav"><description>Six</description></prompt>
+<prompt id="NUM_6_B" file="numbers/6^b.wav"><description>Six</description></prompt>
+<prompt id="NUM_6_O" file="numbers/6o.wav"><description>Sixth</description></prompt>
+<prompt id="NUM_60+" file="numbers/60+.wav"><description>enzestig</description></prompt>
+<prompt id="NUM_60" file="numbers/60.wav"><description>zestig</description></prompt>
+<prompt id="NUM_7" file="numbers/7.wav"><description>zeven</description></prompt>
+<prompt id="NUM_7_B" file="numbers/7^b.wav"><description>zeven</description></prompt>
+<prompt id="NUM_7_O" file="numbers/7o.wav"><description>zevende</description></prompt>
+<prompt id="NUM_70+" file="numbers/70+.wav"><description>enzeventig</description></prompt>
+<prompt id="NUM_70" file="numbers/70.wav"><description>zeventig</description></prompt>
+<prompt id="NUM_8" file="numbers/8.wav"><description>acht</description></prompt>
+<prompt id="NUM_8_B" file="numbers/8^b.wav"><description>acht</description></prompt>
+<prompt id="NUM_8_O" file="numbers/8o.wav"><description>achtste</description></prompt>
+<prompt id="NUM_80+" file="numbers/80+.wav"><description>entachtig</description></prompt>
+<prompt id="NUM_80" file="numbers/80.wav"><description>tachtig</description></prompt>
+<prompt id="NUM_9" file="numbers/9.wav"><description>negen</description></prompt>
+<prompt id="NUM_9_B" file="numbers/9^b.wav"><description>negen</description></prompt>
+<prompt id="NUM_9_O" file="numbers/9o.wav"><description>negende</description></prompt>
+<prompt id="NUM_90+" file="numbers/90+.wav"><description>ennegentig</description></prompt>
+<prompt id="NUM_90" file="numbers/90.wav"><description>negentig</description></prompt>
+<prompt id="NUM_AND" file="numbers/and.wav"><description>en</description></prompt>
+<prompt id="NUM_HNDR" file="numbers/hundred.wav"><description>honderd</description></prompt>
+<prompt id="NUM_MLN" file="numbers/million.wav"><description>miljoen</description></prompt>
+<prompt id="NUM_STAR" file="numbers/star.wav"><description>sterretje</description></prompt>
+<prompt id="NUM_STAR_B" file="numbers/star^b.wav"><description>sterretje</description></prompt>
+<prompt id="NUM_THSND" file="numbers/thousand.wav"><description>Duizend</description></prompt>
+<prompt id="TM_AM" file="time/am.wav"><description>voormiddag</description></prompt>
+<prompt id="TM_PM" file="time/pm.wav"><description>namiddag</description></prompt>
+<prompt id="TM_OU" file="time/ou.wav"><description>en</description></prompt>
+<prompt id="TM_MON_01" file="time/january.wav"><description>Januarie</description></prompt>
+<prompt id="TM_MON_02" file="time/february.wav"><description>Februarie</description></prompt>
+<prompt id="TM_MON_03" file="time/march.wav"><description>Maart</description></prompt>
+<prompt id="TM_MON_04" file="time/april.wav"><description>April</description></prompt>
+<prompt id="TM_MON_05" file="time/may.wav"><description>Mei</description></prompt>
+<prompt id="TM_MON_06" file="time/june.wav"><description>Juni</description></prompt>
+<prompt id="TM_MON_07" file="time/july.wav"><description>Juli</description></prompt>
+<prompt id="TM_MON_08" file="time/august.wav"><description>Augustus</description></prompt>
+<prompt id="TM_MON_09" file="time/september.wav"><description>September</description></prompt>
+<prompt id="TM_MON_10" file="time/october.wav"><description>October</description></prompt>
+<prompt id="TM_MON_11" file="time/november.wav"><description>November</description></prompt>
+<prompt id="TM_MON_12" file="time/december.wav"><description>December</description></prompt>
+<prompt id="TM_MIDNIGHT" file="time/midnight.wav"><description>middernacht</description></prompt>
+<prompt id="TM_MINUTE" file="time/minute.wav"><description>minuut</description></prompt>
+<prompt id="TM_MINUTES" file="time/minutes.wav"><description>minuten</description></prompt>
+<prompt id="TM_OCLOCK" file="time/oclock.wav"><description>uur</description></prompt>
+<prompt id="TM_PAST" file="time/past.wav"><description>na</description></prompt>
+<prompt id="CONF_NAME" file="SpeakYourName.wav"><description>Spreek uw naam in na de toon een druk een toets</description></prompt>
+<prompt id="CONF_CONFPROMPT" file="ConfPrompt.wav"><description>Welkom bij de conferentie</description></prompt>
+<prompt id="CONF_NEWMEMBER" file="newMember.wav"><description>voegt zich bij de conferentie</description></prompt>
+<prompt id="CONF_PIN" file="PleaseEnterPIN.wav"><description>Toets uw conferentie ID in en toets hekje</description></prompt>
+<prompt id="CONF_LEFT" file="leftPrompt.wav"><description>verliet de conferentie</description></prompt>
+<prompt id="CONF_CREATING" file="creating.wav"><description>U start een nieuwe conferentie</description></prompt>
+<prompt id="CONF_JOINING" file="joining.wav"><description>Aanwezig bij deze conferentie zijn</description></prompt>
+<prompt id="CONF_HASHORSTAR" file="hashorstar.wav"><description>Druk hekje om af te breken, of sterretje om door te gaan</description></prompt>
+<prompt id="REDIRVMAIL" file="redir_vmail.wav"><description>Er wordt doorverbonden naar voicemail</description></prompt>
+<prompt id="UHVCALL" file="uhavecall.wav"><description>U heeft een gesprek van</description></prompt>
+<prompt id="PRESS1TOTAKECALL" file="totakecall.wav"><description>Kies 1 om het gesprek aan te nemen</description></prompt>
+<prompt id="PRESSSENDTOVMAIL" file="tosend_tovmail.wav"><description>Kies hekje om het door te sturen naar voicemail</description></prompt>
+<prompt id="PLSWAITLOCATE" file="plswait_locate.wav"><description>Wacht alstublieft tot wij het gesprek gelokaliseerd hebben</description></prompt>
+<prompt id="USERUNAVAIL" file="user_unavail.wav"><description>De gebruiker is niet beschikbaar</description></prompt>
+<prompt id="NOTFOUND" file="destnot_found.wav"><description>Het gekozen nummer bestaat niet</description></prompt>
+<prompt id="FORBIDDEN" file="forbidden_byadmin.wav"><description>Het gesprek wordt door de systeembeheerder niet toegestaan</description></prompt>
+<prompt id="DEST_NA" file="destnot_available.wav"><description>De bestemming is niet beschikbaar, niet geregistreerd of er zijn geen verbindingen beschikbaar</description></prompt>
+<prompt id="NOANSWER" file="terminated_noanswer.wav"><description>Geen gehoor - Het gesprek zal worden beëindigd</description></prompt>
+<prompt id="BUSY" file="destination_isbusy.wav"><description>Het nummer dat u probeert te bereiken is in gesprek</description></prompt>
+<prompt id="SERVER_ERROR" file="internal_servererror.wav"><description>Het gesprek kon niet tot stand worden gebracht. Neem contact op met de systeembeheerder</description></prompt>
+<prompt id="DISABLED_FWD" file="calldisabled_fwrule.wav"><description>Het gesprek zal worden beëindigd</description></prompt>
+<prompt id="DISABLED_INB" file="calldisabled_inrule.wav"><description>Het gesprek is door het systeem niet toegestaan - Neem contact op met de systeembeheerder</description></prompt>
+<prompt id="NO_OUTBOUND" file="fwexternalnumber_nooutbound.wav"><description>Er waren voor dit gesprek geen uitgaande lijnen beschikbaar</description></prompt>
+<prompt id="LL" file="license_limit.wav"><description>Licentielimiet - het maximaal aantal gesprekken is bereikt. Neem contact op met de systeembeheerder</description></prompt>
+<prompt id="FEAT_NA" file="feature_notavailable.wav"><description>De functie is niet beschikbaar in de 3CX Vrije Uitgave. Neem contact op met de beheerder</description></prompt>
+<prompt id="QUEUE_UNATT" file="noavailable_queueagents.wav"><description>Er zijn op dit moment geen beschikbare medewerkers in de wachtrij</description></prompt>
+<prompt id="AWAY_ON" file="away_on.wav"><description>Niet storen Aan</description></prompt>
+<prompt id="AWAY_OFF" file="away_off.wav"><description>Niet storen Uit</description></prompt>
+<prompt id="LOGGED_IN" file="logged_inqueue.wav"><description>Dit doorkiesnummer wordt doorverbonden naar de wachtrij</description></prompt>
+<prompt id="LOGGED_OUT" file="logged_outqueue.wav"><description>Dit doorkiesnummer wordt uit de wachtrij genomen</description></prompt>
+<prompt id="MSGFWDED" file="MsgForwarded.wav"><description>Het bericht is doorgestuurd</description></prompt>
+<prompt id="NOMSGSTOFWD" file="NoMsgToForward.wav"><description>Er zijn geen berichten om door te sturen</description></prompt>
+<prompt id="ENTEREXT_FWDVMAIL" file="PlsEnterExtFwdVM.wav"><description>Kies alstublieft het doorkiesnummer voor het doorsturen van voicemail</description></prompt>
+<prompt id="ACCBLOCKED" file="AccountBlocked.wav"><description>Het account is tijdelijk geblokkeerd</description></prompt>
+<prompt id="TRYLATER" file="PLSTRYLATER.wav"><description>Probeer het alstublieft later nog eens</description></prompt>
+<prompt id="STATUS_MENU" file="profile_menu.wav"><description>Press 1 for available, press 2 for away, press 3 for out of office, press 4 for custom prof 1, press 5 for custom prof 2</description></prompt>
+<prompt id="ST_AVAILABLE_SET" file="avaiable_status_set.wav"><description>Available, status set</description></prompt>
+<prompt id="ST_AWAY_SET" file="away_status_set.wav"><description>away, status set</description></prompt>
+<prompt id="ST_OUTOFFICE_SET" file="outofoffice_status_set.wav"><description>Out of office, status set</description></prompt>
+<prompt id="ST_CUSTOM1_SET" file="custom1_status_set.wav"><description>Custom profile 1, status set</description></prompt>
+<prompt id="ST_CUSTOM2_SET" file="custom2_status_set.wav"><description>Custom profile 2, status set</description></prompt>
+<prompt id="OHOVERRIDE_OFF" file="officehr_override_off.wav"><description>Phone System is now using the default Office hours. Informational intonation.</description></prompt>
+<prompt id="OHOVERRIDE_IN" file="officehr_override_in.wav"><description>Phone System is now set to IN Office Hours. Informational intonation.</description></prompt>
+<prompt id="OHOVERRIDE_OUT" file="officehr_override_out.wav"><description>Phone System is now set to OUT of Office Hours. Informational intonation.</description></prompt>
+<prompt id="CB_EDIT_NUM" file="enter_callback_number.wav"><description>Enter the number you wish to be called back on and press Pound</description></prompt>
+<prompt id="CB_REQ" file="callback_request_number.wav"><description>You have requested a call back to the following number</description></prompt>
+<prompt id="CB_CONFIRM" file="callback_action_menu.wav"><description>Press STAR to confirm, Press ZERO to change call back number or press pound to cancel</description></prompt>
+<prompt id="CB_BYE" file="thankyou_callback_confirmed.wav"><description>Thank you. An Agent will contact you shortly</description></prompt>
+<prompt id="ACCESS_OK_PINPROTECT" file="AccessAllowedBySystem.wav"><description>PIN Protect is disabled for this extension. You can now make external calls</description></prompt>
+<prompt id="LOGGEDINHD" file="logged_in_hotdesking.wav"><description>Succesvol ingelogd. De telefoon zal nu worden gereset naar uw account.</description></prompt>
+<prompt id="LOGGEDOUTHD" file="logged_out_hotdesking.wav"><description>U bent uitgelogd. De telefoon zal nu worden gereset.</description></prompt>
+<prompt id="FEAT_NA2" file="feature_not_available2.wav"><description>Functie niet beschikbaar. Professional of Enterprise licentiesleutel benodigd. Neem contact op met de systeembeheerder.</description></prompt>
+<prompt id="PLUS" file="numbers/plus.wav"><description>Plus</description></prompt>
+<prompt id="PRESS_POUND_TO_CONFIRM" file="press_pound_to_confirm.wav"><description>Toest hekje om te bevestigen of sterretje om het nummer te wijzigen</description></prompt>
+<prompt id="YOU_HAVE_ENTERED" file="you_have_entered.wav"><description>U heeft het volgende nummer ingevoerd</description></prompt>
+<prompt id="SELECT_CALL_BY" file="select_call_by.wav"><description>Druk op 1 om te bellen op naam. Druk op 2 om te bellen op achternaam.</description></prompt>
+<prompt id="USER_FIRST_NAME" file="UserFirstName.wav"><description>&quot;&lt;I&gt;de eerste 3 letters van de voornaam van de persoon die u wilt bereiken&lt;/I&gt;&quot; in de zin &quot;Voer &lt;B&gt;de eerste 3 letters in van de voornaam van de persoon die u wilt bereiken&lt;/B&gt;&quot;.</description></prompt>
+</prompts>
+</set>

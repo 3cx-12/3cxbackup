@@ -1,0 +1,1 @@
+id_participant,fkid_message,participant_no,participant_pbx,participant_name,time_received,is_visible,is_sender,is_received,fkid_chat_conversation_member,delivery_status,emoji

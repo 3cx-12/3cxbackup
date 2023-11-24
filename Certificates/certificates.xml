@@ -1,0 +1,37 @@
+<doc>
+  <item>
+    <fileName>root_cert_dt.pem</fileName>
+    <name>Deutsche Telekom</name>
+    <version>1</version>
+    <description>Deutsche Telekom Cert Exp: 1 Oct 2033, 11:59 p.m</description>
+    <pbx_version>18.0.7,18.0.8,18.0.9</pbx_version>
+  </item>
+  <item>
+    <fileName>root_cert_voxtelesys.pem</fileName>
+    <name>Voxtelesys</name>
+    <version>1</version>
+    <description>Voxtelesys TLS Cert Exp: 4 Jun 2035, 11:04 a.m</description>
+    <pbx_version>18.0.7,18.0.8,18.0.9</pbx_version>
+  </item>
+  <item>
+    <fileName>root_cert_bouyguestelecom.pem</fileName>
+    <name>Bouygues Telecom</name>
+    <version>1</version>
+    <description>Bouygues Telecom TLS Cert Exp: 10 Nov 2031, 11:59 a.m</description>
+    <pbx_version>18.0.7,18.0.8,18.0.9</pbx_version>
+  </item>
+  <item>
+    <fileName>root_cert_televoip.pem</fileName>
+    <name>Televoip</name>
+    <version>1</version>
+    <description>Televoip TLS Cert Exp: 4 Jun 2035, 11:04 a.m</description>
+    <pbx_version>18.0.7,18.0.8,18.0.9</pbx_version>
+  </item>
+  <item>
+    <fileName>root_cert_modulus.pem</fileName>
+    <name>Modulus</name>
+    <version>1</version>
+    <description>Modulus TLS Cert Exp: 15 Jan 2038, 00:00 a.m</description>
+    <pbx_version>18.0.8,18.0.9</pbx_version>
+  </item>
+</doc>

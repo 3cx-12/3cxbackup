@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<IVROrderSet culture="jp">
+
+  <response name="QUEINTRO"      order="YOUR_AT_POSITION+$Num$+QUEUE_TOBE_CONNECTED" />
+  <response name="VMDATETIME"    order="TIME_IS+$Date$+EMPTY+$Time$" />
+  <response name="VMCALLER"      order="MSG_FROM+$PhoneNum$" />
+  <response name="VMMSGDEL"      order="$Num$+$Messages$+DELETED" />
+  <response name="VMRECINTRO"    order="RECYA+$Prompt$+THENPRESPND+BEEP" />
+  <response name="EXTNUMBER"     order="PLSENTER+EXTNUM" />
+  <response name="ENTERPIN"      order="PLSENTER+PIN+THENPRESPND" />
+  <response name="ENTERNEWPIN"   order="PLSENTER+NEW_PIN_CODE+THENPRESPND" />
+  <response name="YOURNEWPIN"    order="YOUR+NEW_PIN_CODE+IS+$PIN$" />
+  <response name="PINCONFIRM"    order="TO_SAVE+CONFIRM" />
+  <response name="MENUENTRY"     order="PRESSSTAR_TOPLAY+PRESSNINE_FOROPTIONS+TOEXIT_PRESSPOUND" />
+  <response name="DIALOUT"       order="PLSENTER+NUMBER_ENT+THENPRESPND" />
+  <response name="NEWSELFID"     order="TORECNEW+MSG_SELFID+MSGREC_MNU2" />
+  <response name="NEWGREETING"   order="TORECNEW+MSG_GRT+MSGREC_MNU" />
+  <response name="ENTERUSERNAME" order="PLSENTER+USER_NAME" />
+  <response name="ENTERUSERFIRSTNAME" order="PLSENTER+USER_FIRST_NAME" />
+  <response name="BOOMGREET"     order="PLSWAITLOCATE+$PhoneNum$" />
+  <response name="BOOMACCEPTGREET" 
+			order="UHVCALL+$VMAILAUDIO$+$PhoneNum$+EMPTY+PRESS1TOTAKECALL+EMPTY+PRESSSENDTOVMAIL" />
+  <response name="BOOMNOTLOCATED" order="USERUNAVAIL+REDIRVMAIL" />
+  <response name="PROFSTATUSOPT" order="STATUS_MENU" /> 
+
+</IVROrderSet>

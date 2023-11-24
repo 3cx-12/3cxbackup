@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mappings>
+    <DNMappings>
+        <DN No="*0" ID="1" />
+        <DN No="*1" ID="2" />
+        <DN No="*777" ID="3" />
+        <DN No="*888" ID="4" />
+        <DN No="SP0" ID="5" />
+        <DN No="SP1" ID="6" />
+        <DN No="SP2" ID="7" />
+        <DN No="SP3" ID="8" />
+        <DN No="SP4" ID="9" />
+        <DN No="SP5" ID="10" />
+        <DN No="SP6" ID="11" />
+        <DN No="SP7" ID="12" />
+        <DN No="SP8" ID="13" />
+        <DN No="SP9" ID="14" />
+        <DN No="SP10" ID="15" />
+        <DN No="777" ID="17" />
+        <DN No="888" ID="18" />
+        <DN No="143" ID="19" />
+        <DN No="700" ID="20" />
+        <DN No="GRP0000" ID="21" />
+        <DN No="100" ID="22" />
+        <DN No="90000" ID="23" />
+        <DN No="QCB" ID="24" />
+        <DN No="ROUTER" ID="25" />
+        <DN No="EndCall" ID="26" />
+        <DN No="IVRForward" ID="27" />
+        <DN No="MakeCall" ID="28" />
+        <DN No="PlayFile" ID="29" />
+        <DN No="RecordFile" ID="30" />
+        <DN No="HotDeskIVR" ID="31" />
+        <DN No="DialCode" ID="32" />
+        <DN No="GRP0001" ID="33" />
+        <DN No="GRP0002" ID="34" />
+        <DN No="800" ID="35" />
+        <DN No="101" ID="36" />
+    </DNMappings>
+    <GroupMappings>
+        <Group Name="__DEFAULT__" ID="21" />
+        <Group Name="New Department" ID="33" />
+        <Group Name="New Department (1)" ID="34" />
+    </GroupMappings>
+</Mappings>

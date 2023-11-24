@@ -1,0 +1,1309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Screen>
+  <LeftStatusBar>
+    <Layout width="57">
+	  <DisplayRectangle x="0" y="0" width="55" height="120" color="White" bgcolor="Light6"></DisplayRectangle>
+	  <DisplayRectangle x="53" y="0" width="2" height="120" bgcolor="Light5"></DisplayRectangle>
+	  <DisplayRectangle x="55" y="0" width="1" height="120" bgcolor="Light4"></DisplayRectangle>
+      <DisplayAccountList>
+        <X>0</X>
+        <Y>1</Y>
+      </DisplayAccountList>
+    </Layout>
+    <Account height="25">
+      <DisplayElement>
+        <DisplayBitmap isfile="true">
+          <Bitmap>/app/resource/etc/account_line_bg.bmp</Bitmap>
+          <X>6</X>
+          <Y>0</Y>
+        </DisplayBitmap>
+        <DisplayRectangle x="1" y="0" width="6" height="23" bgcolor="Light6"></DisplayRectangle>
+        <DisplayBitmap isfile="true" renew-rate="second" isrenew="true">
+          <Bitmap>/app/resource/etc/account_r.bmp</Bitmap>
+          <X>1</X>
+          <Y>0</Y>
+          <displayCondition>
+            <conditionType>accountRegistered</conditionType>
+          </displayCondition>
+        </DisplayBitmap>
+
+        <DisplayBitmap isfile="true" isflash="true" renew-rate="second">
+          <Bitmap>/app/resource/etc/account_nr.bmp</Bitmap>
+          <X>1</X>
+          <Y>0</Y>
+          <displayCondition negate="true">
+            <conditionType>accountRegistered</conditionType>
+          </displayCondition>
+        </DisplayBitmap>
+      </DisplayElement>
+      <!-- Account Name -->
+      <DisplayElement>
+        <DisplayString font="unifont" color="Black" bgcolor="Light5" height="16" width="46" renew-rate="second">
+          <DisplayStr>$a</DisplayStr>
+          <X>8</X>
+          <Y>3</Y>
+          <displayCondition>
+            <conditionType>accountRegistered</conditionType>
+          </displayCondition>
+        </DisplayString>
+        <DisplayString font="unifont" width="46" height="16" color="Light2" bgcolor="Light5" shadow-color="White" renew-rate="second">
+          <DisplayStr>$a</DisplayStr>
+          <X>8</X>
+          <Y>3</Y>
+          <displayCondition negate="true">
+            <conditionType>accountRegistered</conditionType>
+          </displayCondition>
+        </DisplayString>
+      </DisplayElement>
+      
+      <!-- Accont Icons -->
+      <DisplayElement>
+        <DisplayBitmap isfile="true" bgcolor="Light5" renew-rate="minute">
+          <Bitmap>/app/resource/icon/vm2.bmp</Bitmap>
+          <X>38</X>
+          <Y>4</Y>
+          <displayCondition>
+            <conditionType>hasVoiceMail</conditionType>
+          </displayCondition>
+        </DisplayBitmap>
+        <DisplayBitmap isfile="true" isflash="true" bgcolor="None" renew-rate="minute">
+          <Bitmap>/app/resource/icon/vm1.bmp</Bitmap>
+          <X>38</X>
+          <Y>4</Y>
+          <displayCondition>
+            <conditionType>hasVoiceMail</conditionType>
+          </displayCondition>
+        </DisplayBitmap>
+        <DisplayBitmap isfile="true" bgcolor="Light5">
+          <Bitmap>/app/resource/icon/im1.bmp</Bitmap>
+          <X>38</X>
+          <Y>4</Y>
+          <displayCondition>
+            <conditionType>hasIM</conditionType>
+          </displayCondition>
+        </DisplayBitmap>
+        <DisplayBitmap isfile="true" isflash="true" bgcolor="None" renew-rate="minute">
+          <Bitmap>/app/resource/icon/im2.bmp</Bitmap>
+          <X>38</X>
+          <Y>4</Y>
+          <displayCondition>
+            <conditionType>hasIM</conditionType>
+          </displayCondition>
+        </DisplayBitmap>
+        <DisplayBitmap isfile="true" bgcolor="Light5">
+          <Bitmap>/app/resource/icon/im_vm1.bmp</Bitmap>
+          <X>38</X>
+          <Y>4</Y>
+          <displayCondition>
+            <conditionType>hasVM_IM</conditionType>
+          </displayCondition>
+        </DisplayBitmap>
+        <DisplayBitmap isfile="true" isflash="true" bgcolor="None">
+          <Bitmap>/app/resource/icon/im_vm2.bmp</Bitmap>
+          <X>38</X>
+          <Y>4</Y>
+          <displayCondition>
+            <conditionType>hasVM_IM</conditionType>
+          </displayCondition>
+        </DisplayBitmap>
+      </DisplayElement>
+    </Account>
+  </LeftStatusBar>
+  <SoftkeyBar>
+    <Layout height="22" >
+      <DisplayBitmap isfile="true">
+        <Bitmap>/app/resource/etc/softkey_bg.bmp</Bitmap>
+        <X>0</X>
+        <Y>1</Y>
+      </DisplayBitmap>
+      <DisplayList>
+        <X>2</X>
+        <Y>4</Y>
+      </DisplayList>
+
+    </Layout>
+    <ButtonShape id="0" width="59" height="17">
+      <DisplayElement>
+        <DisplayBitmap isfile="true">
+          <Bitmap>/app/resource/etc/softkey_button_b.bmp</Bitmap>
+          <X>0</X>
+          <Y>0</Y>
+        </DisplayBitmap>
+      </DisplayElement>
+      <DisplayElement>
+        <DisplayString font="unifont" halign="center" color="White" bgcolor="Black" width="54">
+          <DisplayStr>$A</DisplayStr>
+          <X>2</X>
+          <Y>1</Y>
+        </DisplayString>
+      </DisplayElement>
+    </ButtonShape>
+    <ButtonShape id="1" width="59" >
+      <DisplayElement>
+        <DisplayBitmap isfile="true">
+          <Bitmap>/app/resource/etc/softkey_button_w.bmp</Bitmap>
+          <X>0</X>
+          <Y>0</Y>
+        </DisplayBitmap>
+      </DisplayElement>
+      <DisplayElement>
+        <DisplayString font="unifont" halign="center" color="Black" bgcolor="White" width="54">
+          <DisplayStr>$A</DisplayStr>
+          <X>2</X>
+          <Y>1</Y>
+        </DisplayString>
+      </DisplayElement>
+    </ButtonShape>
+
+  </SoftkeyBar>
+
+
+
+  <IdleScreen>
+
+    <ShowStatusLine>true</ShowStatusLine>
+
+    <!-- frame -->
+    <DisplayElement>
+      <DisplayRectangle x="0" y="0" width="183" height="1" bgcolor="Light6" ></DisplayRectangle>
+      <DisplayRectangle x="0" y="2" width="183" height="32" bgcolor="White" fgcolor="Light6"></DisplayRectangle>
+      <DisplayRectangle x="0" y="34" width="183" height="1" bgcolor="Light4" ></DisplayRectangle>      
+    </DisplayElement>
+
+    <DisplayElement>
+      <!-- WEATHER -->
+      <DisplayBitmap isfile="true" isrenew="true">
+        <Bitmap>/tmp/weather.bmp</Bitmap>        
+        <X>151</X>
+        <Y>2</Y>
+      </DisplayBitmap>
+
+      <!-- DATE -->
+      <DisplayString font="unifont" fgcolor="White" bgcolor="Light6" width="148">
+        <DisplayStr>$f</DisplayStr>
+        <X>1</X>
+        <Y>3</Y>
+      </DisplayString>
+
+      <!-- TIME -->
+      <DisplayString font="unifont" halign="right" bgcolor="White" fgcolor="Light6" width="50" height="13" renew-rate="second">
+        <DisplayStr>$T</DisplayStr>
+        <X>98</X>
+        <Y>18</Y>        
+      </DisplayString>
+      
+      <!-- IP -->
+      <DisplayString font="unifont" fgcolor="White" bgcolor="Light6" width="96">
+        <DisplayStr>$I</DisplayStr>
+        <X>1</X>
+        <Y>18</Y>
+      </DisplayString>
+
+
+    </DisplayElement>
+
+    <!-- logo -->
+    <DisplayBitmap isfile="false">
+<Bitmap>Qk2mYgAAAAAAADYAAAAoAAAAfgAAADIAAAABACAAAAAAAHBiAAATCwAAEwsAAAAAAAAAAAAA
+/////////////////////////////////////////////////v7+//////////////////v7
++//6+vr/+vr6//r6+v/6+vr/+vr6//r6+v/6+vr/+vr6//r6+v/8/Pz/////////////////
+/v7+////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////+/v7/
+//////////////////////v7+//6+vr/+vr6//r6+v/6+vr/+vr6//r6+v/6+vr/+vr6//v7
++////////////////////////v7+//////////////////////////////////r6+v/6+vr/
++vr6//r6+v/6+vr/+vr6//r6+v/6+vr/+vr6//39/f///////v7+////////////////////
+////////////////////////////////////////////////////////////////////////
+/////////////////////////////////v7+///////9/f3/+vr6//r6+v/6+vr/+vr6//r6
++v/6+vr/+vr6//r6+v/6+vr///////////////////////////////////////7+/v//////
+//////X19f/w8PD//////w8PD/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP9xcXH//v7+/+/v7//7+/v////////////+/v7/////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+///+/v7/////////////////+fn5/+/v7//w8PD//////zMzM/8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/zMzM///////8PDw/+/v7//5+fn////////////+/v7/////////
+/////////////wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/5eXl///////
+//////7+/v//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////+SkpL/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/////////////////////////
+///+/v7////////////x8fH/9PT0/zk5Of8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP+goKD/5+fn//39/f//////////////
+////////////////////////////////////////////////////////////////////////
+/////////////////v7+////////////+vr6/+Hh4f/v7+//d3d3/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP93d3f/
+7e3t//j4+P////////////7+/v///////v7+//////8ODg7/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP+enp7////////////+/v7/////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+///+/v7//////7CwsP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8aGhr/
+//////////////////////7+/v//////8fHx/+Dg4P9XV1f/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEBAf8AAAD/
+AAAA/7S0tP/V1dX/////////////////////////////////////////////////////////
+///////////////////////////////////+/v7////////////W1tb/oaGh/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/5GRkf/Y2Nj//Pz8/////////////v7+///////8/Pz/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEBAf8AAAD/oqKi/////////////v7+////
+////////////////////////////////////////////////////////////////////////
+//////////////////////7+/v///////////5OTk/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/x0dHf///////////////////////v7+///////6+vr/bGxs/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AQEB/wAAAP8AAAD/u7u7///////+/v7/////////////////
+//////////////////////////////////////////////////////7+/v///////////6ys
+rP8AAAD/AAAA/wEBAf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AQEB/wAAAP8AAAD/o6Oj/8TE
+xP/////////////////w8PD/JSUl/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8BAQH/
+AAAA/6Kiov//////////////////////////////////////////////////////////////
+/////////////////////////////////////////v7+////////////kJCQ/wAAAP8BAQH/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA//////////////////////////////////Ly
+8v9vb2//AAAA/wEBAf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/7S0
+tP///////v7+////////////////////////////////////////////////////////////
+/v7+//////+zs7P/qqqq/wAAAP8BAQH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8BAQH/AAAA/wAAAP+oqKj//v7+//7+/v//////+vr6/ywsLP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AQEB/wAAAP+fn5//////////////////////////////////
+///////////////////////////////////////////////////////////+/v7/////////
+//+Pj4//AAAA/wEBAf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/NjY2//T09P//////
+///////////+/v7//////8bGxv8AAAD/AQEB/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP+rq6v///////7+/v//////////////////////////////
+///////////////////+/v7//////6ioqP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/1ZWVv9cXFz/XFxc/1ZWVv8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD//Pz8///////+/v7/
+//////Ly8v8zMzP/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEBAf8AAAD/mJiY////
+////////////////////////////////////////////////////////////////////////
+/////////////////////4qKiv8AAAD/AQEB/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8+Pj7////////////+/v7///////7+/v//////+vr6/2NjY/8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8BAQH/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/oKCg////////////
+//////////////////////////////////////7+/v//////n5+f/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8+Pj7/dHR0/29vb/9vb2//ZmZm////////////
+//////////9mZmb/b29v/3Nzc/9HR0f/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD//Pz8/////////////v7+///////r6+v/Pj4+/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA///////+/v7/////////////////////////////////////////
+///////////////////////////////////+/v7/g4OD/wAAAP8BAQH/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8BAQH/AAAA/0VFRf/39/f///////7+/v/////////////////x8fH/Wlpa/wAA
+AP8BAQH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP+JiYn/
+hISE/2ZmZv8AAAD/AAAA/wAAAP8BAQH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/CAgI///////9/f3//////////////////////////////////f39//////+Xl5f/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/MTEx/4KCgv/X19f/////////
+///////////////////+/v7//v7+///////////////////////i4uL/eHh4/4uLi/8xMTH/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD//Pz8//////////////////7+/v//////r6+v/wAA
+AP8BAQH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/3x8fP///////v7+////////////
+//////////////////////////////////////////////////////7+/v//////AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/T09P//Hx8f///////v7+////////////
+/v7+///////x8fH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AQEB/wAA
+AP+NjY3/lZWV/5iYmP////////////X19f+MjIz/nJyc/09PT/8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/BwcH/4WFhf//////////////////////////////
+///9/f3//////5GRkf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/x4eHv+cnJz/
+y8vL/////////////v7+//////////////////////////////////////////////////7+
+/v/////////////////Ly8v/nJyc/x4eHv8AAAD/AAAA/wAAAP8AAAD//Pz8////////////
+////////////////4uLi/0hISP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP9ycnL///////39/f//////////////////////////////////////////////////////
+/v7+//////9nZ2f/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEBAf8AAAD/srKy////
+///+/v7///////////////////////X19f9DQ0P/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8BAQH/AAAA/5CQkP/////////////////+/v7//v7+/////////////////+vr
+6/9FRUX/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/xoaGv//////
+//////////////////////39/f//////j4+P/wICAv8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/ExMT/9PT0/////////////7+/v//////////////////////////////////////
+//////////////////////////////////////7+/v///////////9PT0/8UFBT/AAAA/wAA
+AP8AAAD//Pz8///////////////////////+/v7//////+zs7P9FRUX/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/a2tr///////9/f3/////////////////////////
+///////////////////9/f3//////11dXf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AQEB/wAAAP9YWFj/6+vr/////////////////////////////////+/v7/8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEBAf8AAAD/lJSU/////////////v7+////////////
+/////////////////v7+///////u7u7/QEBA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/ycnJ////////f39//////////////////////+IiIj/BQUF/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8MDAz/2tra///////+/v7/////////////////////////
+////////////////////////////////////////////////////////////////////////
+/v7+///////Ly8v/xsbG/wAAAP8AAAD//Pz8/////////////////////////////v7+////
+///u7u7/QEBA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/2dnZ///////
+/f39//////////////////////////////////39/f//////V1dX/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/1NTU//09PT///////7+/v//////////////////////
+/////+/v7/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP+ZmZn/////////
+///+/v7///////////////////////////////////////7+/v//////8vLy/0VFRf8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wQEBP9hYWH//////////////////f39////
+//9XV1f/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/CQkJ/9XV1f/U1NT///////7+/v//////
+////////////////////////////////////////////////////////////////////////
+//////////////////////////////7+/v///////////9zc3P8AAAD//Pz8////////////
+//////////////////////7+/v//////8/Pz/zg4OP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP9iYmL//////////////////////////////////f39//////9TU1P/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/TU1N//f39////////v7+////
+//////////////////////////////////8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP/IyMj///////7+/v//////////////////////////////////////////////
+///+/v7//////1tbW/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8xMTH/
+/////////////////////4CAgP8CAgL/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA////
+/////////v7+////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////v7+////
+///b29v//v7+///////////////////////////////////////+/v7///////j4+P87Ozv/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP81NTX///////39/f//////////////
+/////////////1BQUP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP9ERET/
+/Pz8///////+/v7/////////////////////////////////+vr6/wwMDP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP/CwsL/////////////////////////////////
+/////////////////////////////////////1lZWf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP80NDT////////////+/v7//////21tbf8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/8fHx////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+//////////////////////7+/v//////////////////////////////////////////////
+/////////v7+//////89PT3/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+XFxc///////+/v7////////////+/v7//////zExMf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/0NDQ/////////////7+/v//////////////////////////////////////
++vr6/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/6urq///////////////
+/////////////////////////////////////////////////////////////1lZWf8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP80NDT/////////////////g4OD/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP/29vb///////7+/v//////////////////////
+////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////+/v7///////7+/v//////
+////////////////////////////////////////////////Kysr/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/2RkZP///////v7+//7+/v//////TU1N/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/0VFRf///////v7+////////////////////
+////////////////////////+vr6/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/7Ozs////////v7+////////////////////////////////////////////////////
+/////////////1lZWf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP80NDT/
+//////7+/v//////fX19/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA//b29v///////v7+////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////AQEB///////+/v7///////////////////////////////////////7+/v//////
+/////yMjI/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP9vb2//////////
+//9WVlb/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/Nzc3////////////
+////////////////////////////////////////////////+vr6/wAAAP8HBwf/BwcH/wcH
+B/8HBwf/BwcH/wcHB/8HBwf/AAAA/7W1tf//////////////////////////////////////
+/////////////////////////////////////1lZWf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP80NDT///////////+Ojo7/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA//j4+P//////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////AgIC/wAAAP////////////7+/v//////////////
+/////////////////////////v7+//////8dHR3/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/i4uL/29vb/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8wMDD///////7+/v//////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////+/v7/////////
+///////////////////////////////////////////////////+/v7//////1paWv8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8zMzP///////////+SkpL/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/9/f3////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////AgIC/wAAAP8GBgb/
+/f39//////////////////////////////////////////////////7+/v//////CAgI/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/ysrK////////v7+////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////7+
+/v///////f39/01NTf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEBAf9QUFD/
+//////39/f99fX3/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/7Ozs////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////AgIC/wAAAP8AAAD/ExMT///////+/v7/////////////////////////////////
+////////////////KCgo/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/CgoK///////+/v7/////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+//////7+/v/////////////////4+Pj/S0tL/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/yIiIv///////////56env8AAAD/AQEB/wAAAP8AAAD/AAAA/wAAAP8cHBz/
+8PDw////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////AgIC/wAAAP8AAAD/GRkZ/+jo6P///////v7+////
+///////////////////////////////////+/v7//////y4uLv8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/Ojo6////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+///+/v7////////////////////////////09PT/urq6/8vLy/9XV1f/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/BAQE/15eXv///////////6Wlpf8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP/v7+////////7+/v//////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////AgIC/wAAAP8AAAD/
+AAAA/xISEv/i4uL///////7+/v///////////////////////////////////////v7+////
+//82Njb/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP9BQUH///////7+/v//////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////r6+v/66urv+urq7/rq6u/7Kysv98fHz/AAAA/wAA
+AP8AAAD/AQEB/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/DQ0N///////9/f3/
+/////6Wlpf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP/e3t7/////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////AgIC/wAAAP8AAAD/AAAA/wAAAP8bGxv/29vb///////+/v7/////////////////
+////////////////////////////////Pz8//wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/0lJSf///////v7+////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AQEB/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/dXV1/////////////////6Wlpf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP/e3t7/
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////AgIC/wAAAP8AAAD/AAAA/wAAAP8AAAD/ISEh/9bW
+1v///////v7+/////////////////////////////////////////////////0lJSf8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/VFRU///////+/v7/////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////AgIC/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP9/f3////////39/f///////////6Wlpf8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP/e3t7/////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////AgIC/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/yAgIP/ExMT/////////////////////////////////////////
+///+/v7///////f39/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////AgIC/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AQEB/wAAAP8AAAD/g4OD/4mJif///////v7+////////////
+/////6Wlpf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP/e3t7/////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////AgIC/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/yAgIP/ExMT/////////////////
+/////////////////////////////////////1tbW/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/ZmZm///////+/v7/////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////AgIC/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/5WVlf+qqqr/////////
+///+/v7//////////////////////6Wlpf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP/e3t7/
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////AgIC/wAAAP8AAAD/AAAA/wAAAP8AAAD/ISEh/9bW
+1v///////v7+////////////////////////////////////////////UFBQ/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/1xcXP///////v7+////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////AgIC/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/01NTf9SUlL//////////////////////////////////////6Wlpf8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP/e3t7/////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////AgIC/wAAAP8AAAD/
+AAAA/wAAAP8bGxv/29vb///////+/v7//////////////////////////////////v7+////
+//9HR0f/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP9SUlL/////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////AAAA/wAAAP8AAAD/AAAA/wAAAP8BAQH/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/NjY2///////+/v7/////////////////
+/////6Wlpf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP/v7+////////7+/v//////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////AgIC/wAAAP8AAAD/AAAA/xISEv/i4uL///////7+/v//////////////////////
+/////////////////////z4+Pv8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD///////7+/v//////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////0NDQ/9DQ0P/Q0ND/
+09PT/6Wlpf8AAAD/AAAA/wAAAP8BAQH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/y4u
+Lv///////v7+/////////////////56env8AAAD/AQEB/wAAAP8AAAD/AAAA/wAAAP8cHBz/
+8PDw////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////AgIC/wAAAP8AAAD/CQkJ/+rq6v///////v7+////
+///////////////////////////////////+/v7//////wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/Ozs7////
+///9/f3/////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+///+/v7///////////////////////v7+//c3Nz/6enp/3x8fP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8oKCj///////////////////////39/f99fX3/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/7Ozs////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////AgIC/wAAAP8QEBD/
+8fHx///////+/v7///////////////////////////////////////7+/v//////KSkp/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/zk5Of///////f39////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////v7+////////////////////
+//9xcXH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8ICAj///////7+/v//////
+/v7+//////+SkpL/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/9/f3////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////AgIC/wAAAP8HBwf///////7+/v//////////////////////////////////////
+/v7+//////8oKCj/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/goKC/2Zm
+Zv8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP86Ojr///////7+/v//////
+//////////////////////////////////////////////////////7+/v//////////////
+/////////////////////////////////////////v7+////////////////////////////
+/////////////////v7+////////////ampq/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/HBwc//////////////////////+Ojo7/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA//j4+P//////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////AgIC/wAAAP//////////////////////////////
+///////////////////+/v7//////ywsLP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP9mZmb///////////9OTk7/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/QEBA///////+/v7/////////////////////////////////////////////////
+///////////i4uL/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP/FxcX/////////
+////////////////////////////////////////////////////////bW1t/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/FRUV//////////////////7+/v//////fX19/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA//b29v///////v7+////////////////////////////
+////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////AQEB///////+/v7/
+////////////////////////////////////////////////MzMz/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/1tbW////////v7+//7+/v//////Q0ND/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/0pKSv///////v7+////////////////////
+///////////////////////////////////i4uL/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP/Gxsb///////7+/v//////////////////////////////////////////////
+////////bW1t/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/FRUV////////////
+////////////////g4OD/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP/29vb///////7+
+/v//////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+///+/v7///////7+/v///////////////////////////////////////v7+//////9AQED/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/UVFR///////+/v7/////////
+///+/v7//////zExMf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/0dHR///////
+//////7+/v/////////////////////////////////////////////////i4uL/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP+ysrL/////////////////////////////////
+////////////////////////////////bW1t/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/FRUV///////////////////////+/v7//////21tbf8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/8fHx////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+//////////////////////7+/v//////////////////////////////////////////////
+///+/v7///////////8/Pz//AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP82Njb/
+//////7+/v///////////////////////////0RERP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP9MTEz////////////+/v7/////////////////////////////////
+///////////i4uL/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEBAf8AAAD/19fX////
+///+/v7/////////////////////////////////////////////////bW1t/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/FRUV/////////////////////////////////4CA
+gP8CAgL/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/////////////v7+////////////
+////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////v7+///////b29v//v7+////////////
+//////////////////////7+/v///////Pz8/z8/P/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP9UVFT//////////////////////////////////f39//////9ERET/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/VlZW//7+/v///////v7+////
+///////////////////////////////////h4eH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/p6en//v7+/////////////////////////////////////////////7+
+/v//////cHBw/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/FRUV////////////
+/////////////////f39//////9XV1f/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/CQkJ/9XV
+1f/U1NT///////7+/v//////////////////////////////////////////////////////
+//////////////////////////////////////////////////////7+/v///////////9zc
+3P8AAAD//Pz8/////////////////////////////v7+///////29vb/SEhI/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/1dXV////////f39////////////////////
+//////////////39/f//////RkZG/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/15eXv/5+fn///////7+/v/////////////////////////////////q6ur/LCws/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8BAQH/AAAA/+vr6////////v7+////////////
+/////////////////v7+///////t7e3/TExM/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/FRUV//////////////////////////////////////+IiIj/BQUF/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8MDAz/2tra///////+/v7/////////////////////////
+////////////////////////////////////////////////////////////////////////
+/v7+///////Ly8v/xsbG/wAAAP8AAAD//Pz8/////////////////////////////////+3t
+7f9QUFD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/Wlpa///////9/f3/
+///////////////////////////////////////////9/f3//////0tLS/8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AQEB/wAAAP9kZGT/8fHx////////////////////////////
+//////7+/v//////4eHh/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/5KS
+kv/////////////////+/v7//v7+/////////////////+vr6/9FRUX/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/CwsL//////////////////////////////////39
+/f//////j4+P/wICAv8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/ExMT/9PT0///////
+//////7+/v//////////////////////////////////////////////////////////////
+//////////////7+/v///////////9PT0/8UFBT/AAAA/wAAAP8AAAD//Pz8////////////
+///////////+/v7//////5SUlP8AAAD/AQEB/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP9gYGD///////39/f//////////////////////////////////////////////////////
+/v7+//////8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEBAf8AAAD/sLCw////
+///+/v7/////////////////////////////////5ubm/0RERP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AQEB/wAAAP+NjY3/lZWV/5iYmP////////////X19f+MjIz/nJyc/09P
+T/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8DAwP/e3t7////////////
+///////////////////////////9/f3//////5GRkf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/x4eHv+cnJz/y8vL/////////////v7+////////////////////////////
+//////////////////////7+/v/////////////////Ly8v/nJyc/x4eHv8AAAD/AAAA/wAA
+AP8AAAD//Pz8//////////////////7+/v//////7Ozs/09PT/8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP///////v7+////////////////////////////////////
+//////////////////////////////////9nZ2f/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/XV1d//X19f///////v7+///////////////////////+/v7//////8rK
+yv8AAAD/AQEB/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP+JiYn/
+hISE/2ZmZv8AAAD/AAAA/wAAAP8BAQH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD///////39/f///////////////////////////////////////f39//////+Xl5f/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/MTEx/4KCgv/X19f/////////
+///////////////////+/v7////////////////////////////i4uL/eHh4/4uLi/8xMTH/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD//Pz8/////////////v7+///////w8PD/RkZG/wAA
+AP8BAQH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/3x8fP//////////////////////
+//////////////////////////////////////////////////////7+/v//////cHBw/wAA
+AP8BAQH/AAAA/wAAAP8AAAD/AAAA/wAAAP8BAQH/AAAA/1RUVP/6+vr///////7+/v//////
+/////////////////////+jo6P9TU1P/AAAA/wEBAf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8BAQH/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP+YmJj/////////////////////////////////////////
+//////////////7+/v//////n5+f/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8+Pj7/dHR0/29vb/9vb2//ZmZm/////////////////2lpaf9vb2//b29v/3Nz
+c/9HR0f/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD//Pz8///////+/v7/
+//////X19f9CQkL/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEBAf8AAAD/hYWF////
+///+/v7/////////////////////////////////////////////////////////////////
+/////////////////////3h4eP8AAAD/AQEB/wAAAP8AAAD/AAAA/wAAAP8AAAD/AQEB/wAA
+AP9OTk7////////////+/v7//////////////////v7+///////x8fH/W1tb/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/6Kiov///////v7+////////////
+///////////////////////////////////////////+/v7//////6ioqP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/1ZWVv9cXFz/
+Wlpa/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD//Pz8//7+/v///////Pz8/zw8PP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AQEB/wAAAP+NjY3/////////////////////////////////////////////////////////
+///////////////////////////////////+/v7///////////9+fn7/AAAA/wEBAf8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/R0dH//X19f////////////////////////////7+
+/v//////mpqa/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEBAf8AAAD/qqqq////
+///+/v7/////////////////////////////////////////////////////////////////
+/v7+//////+zs7P/qqqq/wAAAP8AAAD/AQEB/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8BAQH/AAAA/wAAAP+oqKj//v7+///////y8vL/NTU1/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8BAQH/AAAA/5KSkv//////////////////////////////////////
+/////////////////////////////////////////////////////////////////v7+////
+///+/v7/hYWF/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA////////////
+////////////////////////////////6Ojo/87Ozv9NTU3/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AQEB/wAAAP+vr6//////////////////////////////////////////////////////////
+//////////////////////////////7+/v///////////8TExP+jo6P/AAAA/wAAAP8BAQH/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEBAf8AAAD/o6Oj/8TExP/////////////////9/f3/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/mJiY/////////////v7+////
+////////////////////////////////////////////////////////////////////////
+//////////////////////7+/v//////xsbG/wAAAP8BAQH/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/y0tLf/////////////////////////////////+/v7////////////5+fn/
+QkJC/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wEBAf8AAAD/AAAA/7Gxsf//////////////////////////////////////
+///////////////////////////////////////////////////////////+/v7/////////
+///8/Pz/2NjY/5GRkf8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP+enp7/////////
+/////////v7+//////8cHBz/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wEBAf8AAAD/
+ysrK///////+/v7/////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////+/v7/42Njf8AAAD/
+AQEB/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8oKCj/////////////////////////
+//////////////7+/v//////7+/v//T09P8oKCj/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP+goKD/5+fn//39/f///////v7+////
+////////////////////////////////////////////////////////////////////////
+//////////////////////7+/v////////////j4+P/t7e3/d3d3/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP93d3f/
+7+/v/+Hh4f/7+/v///////7+/v///////////wcHB/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAA
+AP8AAAD/AAAA/wAAAP+enp7/////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+///+/v7///////////+Hh4f/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/
+///////////////////////////////////////////+/v7////////////09PT/8PDw//39
+/f8CAgL/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP9xcXH//v7+/+/v7//7+/v/
+///////////+/v7/////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////v7+////////////
++fn5/+/v7//w8PD//////zMzM/8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/zMz
+M///////8PDw/+/v7//5+fn//////////////////v7+/////////////////+/v7//w8PD/
+8PDw//Dw8P/w8PD/8PDw//Dw8P/w8PD/8PDw/+/v7//7+/v///////7+/v//////////////
+////////////////////////////////////////////////////////////////////////
+/////////////////////////////////v7+///////6+vr/7+/v//Dw8P/w8PD/8PDw//Dw
+8P/w8PD/8PDw//Dw8P/w8PD/////////////////////////////////////////////////
+//////7+/v/////////////////7+/v/+vr6//r6+v/6+vr/+vr6//r6+v/6+vr/+vr6//r6
++v/8/Pz//////////////////v7+////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////
+///////////////////+/v7///////////////////////v7+//6+vr/+vr6//r6+v/6+vr/
++vr6//r6+v/6+vr/+vr6//v7+////////////////////////v7+////////////////////
+/////////v7+////////////////////////////////////////////////////////////
+/v7+////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////7+/v//////
+////////////////////////////////////////////////</Bitmap>
+      <X>30</X>
+      <Y>36</Y>
+    </DisplayBitmap>
+
+    <!-- WRITING -->
+    <DisplayBitmap isfile="true">
+      <Bitmap>/app/resource/icon/icon_save.bmp</Bitmap>
+      <X>167</X>
+      <Y>36</Y>
+      <displayCondition>
+        <conditionType>writing</conditionType>
+      </displayCondition>
+    </DisplayBitmap>
+    <!-- DND -->
+    <DisplayBitmap isfile="true">
+      <Bitmap>/app/resource/icon/dnd2.bmp</Bitmap>
+      <X>167</X>
+      <Y>36</Y>
+      <displayCondition>
+        <conditionType>dnd</conditionType>
+      </displayCondition>
+    </DisplayBitmap>
+    <DisplayBitmap isfile="true" isflash="true">
+      <Bitmap>/app/resource/icon/dnd.bmp</Bitmap>
+      <X>167</X>
+      <Y>36</Y>
+      <displayCondition>
+        <conditionType>dnd</conditionType>
+      </displayCondition>
+    </DisplayBitmap>
+    <!-- NETWORK DOWN -->
+    <DisplayBitmap isfile="true" >
+      <Bitmap>/app/resource/icon/network_down2.bmp</Bitmap>
+      <X>167</X>
+      <Y>36</Y>
+      <displayCondition negate="true">
+        <conditionType>networkUp</conditionType>
+      </displayCondition>
+    </DisplayBitmap>
+    <DisplayBitmap isfile="true" isflash="true">
+      <Bitmap>/app/resource/icon/network_down.bmp</Bitmap>
+      <X>167</X>
+      <Y>36</Y>
+      <displayCondition negate="true">
+        <conditionType>networkUp</conditionType>
+      </displayCondition>
+    </DisplayBitmap>
+      <!-- CORE DUMP -->
+      <DisplayBitmap isfile="true">
+        <Bitmap>/app/resource/icon/coredump.bmp</Bitmap>
+            <X>1</X>
+            <Y>36</Y>
+        <displayCondition>
+          <conditionType>coredump</conditionType>
+        </displayCondition>
+      </DisplayBitmap>
+    <DisplayBitmap isfile="true">
+      <Bitmap>/app/resource/icon/lock_g.bmp</Bitmap>
+      <X>167</X>
+      <Y>70</Y>
+      <displayCondition>
+        <conditionType>keypadLock</conditionType>
+      </displayCondition>
+    </DisplayBitmap>
+
+    <!-- Headset -->
+    <DisplayBitmap isfile="true" >
+      <Bitmap>/app/resource/icon/empty.bmp</Bitmap>
+      <X>167</X>
+      <Y>90</Y>
+    </DisplayBitmap>
+    <DisplayBitmap isfile="true" >
+      <Bitmap>/app/resource/icon/headset.bmp</Bitmap>
+      <X>167</X>
+      <Y>90</Y>
+      <displayCondition>
+        <conditionType>headsetMode</conditionType>
+      </displayCondition>
+    </DisplayBitmap>
+
+    <!-- MISS CALL -->
+    <DisplayBitmap isfile="true">
+      <Bitmap>/app/resource/icon/miss2.bmp</Bitmap>
+      <X>167</X>
+      <Y>54</Y>
+      <displayCondition>
+        <conditionType>missCall</conditionType>
+      </displayCondition>
+    </DisplayBitmap>
+    <DisplayBitmap isfile="true" isflash="true">
+      <Bitmap>/app/resource/icon/miss.bmp</Bitmap>
+      <X>167</X>
+      <Y>54</Y>
+      <displayCondition>
+        <conditionType>missCall</conditionType>
+      </displayCondition>
+    </DisplayBitmap>
+
+    <!-- CALL FORWARDED -->
+    <DisplayBitmap isfile="true">
+      <Bitmap>/app/resource/icon/fwd_noanswer.bmp</Bitmap>
+      <X>149</X>
+      <Y>36</Y>
+      <displayCondition>
+        <conditionType>delayedFwded</conditionType>
+      </displayCondition>
+    </DisplayBitmap>
+    <DisplayBitmap isfile="true">
+      <Bitmap>/app/resource/icon/fwd_busy.bmp</Bitmap>
+      <X>149</X>
+      <Y>36</Y>
+      <displayCondition>
+        <conditionType>busyFwded</conditionType>
+      </displayCondition>
+    </DisplayBitmap>
+    <DisplayBitmap isfile="true">
+      <Bitmap>/app/resource/icon/fwd_busy_noanswer.bmp</Bitmap>
+      <X>149</X>
+      <Y>36</Y>
+      <displayCondition>
+        <conditionType>busyNoAnswerFwded</conditionType>
+      </displayCondition>
+    </DisplayBitmap>
+    <DisplayBitmap isfile="true">
+      <Bitmap>/app/resource/icon/fwd_all.bmp</Bitmap>
+      <X>149</X>
+      <Y>36</Y>
+      <displayCondition>
+        <conditionType>callFwded</conditionType>
+      </displayCondition>
+    </DisplayBitmap>
+
+    <DisplayElement>
+      <DisplayBitmap isfile="true">
+        <Bitmap>/app/resource/etc/whitebox_small.bmp</Bitmap>
+        <X>0</X>
+        <Y>85</Y>
+        <displayCondition>
+          <conditionType>hasFowardedCallLog</conditionType>
+        </displayCondition>
+      </DisplayBitmap>
+      <DisplayString font="unifont" halign="center" width="165">
+        <DisplayStr>$j</DisplayStr>
+        <X>0</X>
+        <Y>85</Y>
+        <displayCondition>
+          <conditionType>hasFowardedCallLog</conditionType>
+        </displayCondition>
+      </DisplayString>
+    </DisplayElement>
+
+    <!-- MISSED CALLED -->
+    <DisplayElement>
+      <DisplayBitmap isfile="true">
+        <Bitmap>/app/resource/etc/whitebox_small.bmp</Bitmap>
+        <X>10</X>
+        <Y>85</Y>
+        <displayCondition>
+          <conditionType>missCall</conditionType>
+        </displayCondition>
+      </DisplayBitmap>
+
+
+      <DisplayString font="unifont" halign="center" width="165">
+        <DisplayStr>$c</DisplayStr>
+        <X>10</X>
+        <Y>85</Y>
+        <displayCondition>
+          <conditionType>missCall</conditionType>
+        </displayCondition>
+      </DisplayString>
+    </DisplayElement>
+
+    <!-- 5V WARNING -->
+    <DisplayElement>
+      <DisplayBitmap isfile="true">
+        <Bitmap>/app/resource/etc/whitebox_small.bmp</Bitmap>
+        <X>0</X>
+        <Y>85</Y>
+        <displayCondition>
+          <conditionType>wrongPower</conditionType>
+        </displayCondition>
+      </DisplayBitmap>
+      <DisplayString font="unifont" halign="center" width="165">
+        <DisplayStr>$v</DisplayStr>
+        <X>0</X>
+        <Y>85</Y>
+        <displayCondition>
+          <conditionType>wrongPower</conditionType>
+        </displayCondition>
+      </DisplayString>
+    </DisplayElement>
+
+
+    <!-- coredump -->
+    <DisplayElement>
+      <DisplayBitmap isfile="true">
+        <Bitmap>/app/resource/etc/whitebox_small.bmp</Bitmap>
+        <X>0</X>
+        <Y>85</Y>
+        <displayCondition>
+          <conditionType>kdump</conditionType>
+        </displayCondition>
+      </DisplayBitmap>
+      <DisplayString font="unifont" halign="center" width="165">
+        <DisplayStr>kdump</DisplayStr>
+        <X>0</X>
+        <Y>85</Y>
+        <displayCondition>
+          <conditionType>kdump</conditionType>
+        </displayCondition>
+      </DisplayString>
+    </DisplayElement>
+    <DisplayElement>
+      <DisplayBitmap isfile="true">
+        <Bitmap>/app/resource/etc/whitebox_small.bmp</Bitmap>
+        <X>0</X>
+        <Y>85</Y>
+        <displayCondition>
+          <conditionType>crash</conditionType>
+        </displayCondition>
+      </DisplayBitmap>
+      <DisplayString font="unifont" halign="center" width="165">
+        <DisplayStr>$+1512</DisplayStr>
+        <X>0</X>
+        <Y>85</Y>
+        <displayCondition>
+          <conditionType>crash</conditionType>
+        </displayCondition>
+      </DisplayString>
+    </DisplayElement>
+
+    <SoftKeys>
+      <SoftKey useshapeid="1">        
+        <Action>
+          <SwitchSCR/>
+        </Action>
+        <displayCondition>
+          <conditionType>SubScreen</conditionType>
+        </displayCondition>
+      </SoftKey>
+      <SoftKey>
+        <Action>
+          <XmlService/>
+        </Action>
+        <displayCondition>
+          <conditionType>XmlApp</conditionType>
+        </displayCondition>
+      </SoftKey>
+      <SoftKey>
+        <Action>
+          <SignIn/>
+        </Action>
+        <displayCondition>
+          <conditionType>signIn</conditionType>
+        </displayCondition>
+      </SoftKey>
+      <SoftKey>
+        <Action>
+          <SignOut/>
+        </Action>
+        <displayCondition>
+          <conditionType>signOut</conditionType>
+        </displayCondition>
+      </SoftKey>
+      <SoftKey>
+        <Action>
+          <BackSpace/>
+        </Action>
+        <displayCondition>
+          <conditionType>backSpace</conditionType>
+        </displayCondition>
+      </SoftKey>
+      <SoftKey>
+        <Action>
+          <CANCEL/>
+        </Action>
+        <displayCondition>
+          <conditionType>backSpace</conditionType>
+        </displayCondition>
+      </SoftKey>
+      <SoftKey>
+        <Action>
+          <MissedCalls/>
+        </Action>
+        <displayCondition>
+          <conditionType>missCall</conditionType>
+        </displayCondition>
+      </SoftKey>
+      <SoftKey>
+        <Action>
+          <FwdedCalls/>
+        </Action>
+        <displayCondition>
+          <conditionType>hasFowardedCallLog</conditionType>
+        </displayCondition>
+      </SoftKey>
+      <SoftKey>
+        <Action>
+          <FwdAll/>
+        </Action>
+        <displayCondition>
+          <conditionType>callFwdCancelled</conditionType>
+        </displayCondition>
+      </SoftKey>
+      <SoftKey>
+        <Action>
+          <CancelFwd/>
+        </Action>
+        <displayCondition>
+          <conditionType>callFwded</conditionType>
+        </displayCondition>
+      </SoftKey>
+      <SoftKey>
+        <Action>
+          <Redial/>
+        </Action>
+        <displayCondition>
+          <conditionType>hasDialedCalllog</conditionType>
+        </displayCondition>
+      </SoftKey>
+    </SoftKeys>
+  </IdleScreen>
+
+  <IdleScreen>
+    <ScreenShow>weatherShow</ScreenShow>
+
+    <ShowStatusLine>false</ShowStatusLine>
+
+    <DisplayElement>
+      <DisplayRectangle x="0" y="0" width="239" height="17" bgcolor="Dark5" shadow-color="Light3"></DisplayRectangle>
+      <!-- WEALTHER -->
+      <DisplayBitmap isfile="true" isrenew="true">
+        <Bitmap>/tmp/weather.bmp</Bitmap>
+        <X>4</X>
+        <Y>20</Y>
+      </DisplayBitmap>
+      <DisplayString font="unifont" color="White" shadow-color="Dark3"  bgcolor="Dark5">
+        <DisplayStr>$L, $S, $g</DisplayStr>
+        <X>4</X>
+        <Y>1</Y>
+      </DisplayString>
+      <DisplayString font="unifont" color="Dark3">
+        <DisplayStr>$+1215: $w, $+1152: $x%</DisplayStr>
+        <X>37</X>
+        <Y>20</Y>
+      </DisplayString>
+      <DisplayString font="unifont" color="Dark3">
+        <DisplayStr>$0t</DisplayStr>
+        <X>37</X>
+        <Y>35</Y>
+      </DisplayString>
+    </DisplayElement>
+
+
+    <DisplayElement>
+      <!-- frame -->
+      <DisplayRectangle x="0" y="51" width="239" height="17" bgcolor="Dark5" shadow-color="Light3"></DisplayRectangle>
+      <DisplayString font="unifont" color="White" shadow-color="Dark3" bgcolor="Dark5">
+        <DisplayStr>$+1216</DisplayStr>
+        <X>4</X>
+        <Y>52</Y>
+      </DisplayString>
+
+
+
+      <!-- WEATHER -->
+      <DisplayBitmap isfile="true" isrenew="true">
+        <Bitmap>/tmp/weather_0.bmp</Bitmap>
+        <X>4</X>
+        <Y>70</Y>
+      </DisplayBitmap>
+      <DisplayBitmap isfile="true" isrenew="true">
+        <Bitmap>/tmp/weather_1.bmp</Bitmap>
+        <X>123</X>
+        <Y>70</Y>
+      </DisplayBitmap>
+
+      <DisplayString font = "unifont" color="Dark3">
+        <DisplayStr>$+1217</DisplayStr>
+        <X>40</X>
+        <Y>70</Y>
+      </DisplayString>
+      <DisplayString font = "unifont" color="Dark3">
+        <DisplayStr>$0l - $0h</DisplayStr>
+        <X>40</X>
+        <Y>85</Y>
+      </DisplayString>
+
+      <DisplayString font = "unifont" color="Dark3">
+        <DisplayStr>$+1153</DisplayStr>
+        <X>163</X>
+        <Y>70</Y>
+      </DisplayString>
+      <DisplayString font = "unifont" color="Dark3">
+        <DisplayStr>$1l - $1h</DisplayStr>
+        <X>163</X>
+        <Y>85</Y>
+      </DisplayString>
+    </DisplayElement>
+
+    <SoftKeys>
+      <SoftKey useshapeid="1">        
+        <Action>
+          <SwitchSCR/>
+        </Action>
+      </SoftKey>
+    </SoftKeys>
+  </IdleScreen>
+
+  <IdleScreen>
+    <ScreenShow>stockShow</ScreenShow>
+    <ShowStatusLine>false</ShowStatusLine>
+
+    <DisplayElement>
+      <DisplayRectangle x="0" y="0" width="239" height="17" bgcolor="Dark5" shadow-color="Light3"></DisplayRectangle>
+      <DisplayString font="unifont" color="White" shadow-color="Dark3" bgcolor="Dark5" >
+        <DisplayStr>$+1218</DisplayStr>
+        <X>2</X>
+        <Y>0</Y>
+      </DisplayString>
+    </DisplayElement>
+
+    <DisplayElement>
+      <DisplayBitmap isfile="true">
+        <Bitmap>/app/resource/icon/refresh_i.bmp</Bitmap>
+        <X>221</X>
+        <Y>2</Y>
+      </DisplayBitmap>
+      <DisplayString font="unifont" color="White" halign="right" width="50" bgcolor="Dark5" renew-rate="minute">
+        <DisplayStr>$*T</DisplayStr>
+        <X>169</X>
+        <Y>1</Y>
+      </DisplayString>
+    </DisplayElement>
+    <!-- LIST BEGIN HERE -->
+    <!-- pagingRecordRefreshIntervalRate: in millisecond, equal or less than 0  means no automatic refresh for additional records -->
+    <DisplaySet id="stock" x="1" y="19" maxNumberOfRecord="5" pagingRecordRefreshIntervalRate="3000" dataSourceName="$Stock" displayDirection="vertical">
+      <ItemTemplate height="16">
+
+        <!-- Main frame -->
+        <DisplayRectangle x="0" y="0" width="238" height="15" color="White" bgcolor="White" fgcolor="Light5" border-color="Light2">
+          <displayCondition negate="true">
+            <conditionType>stockValueIncrease</conditionType>
+          </displayCondition>
+        </DisplayRectangle>
+        <DisplayRectangle x="0" y="0" width="238" height="15" color="White" bgcolor="White" border-color="Light2">
+          <displayCondition>
+            <conditionType>stockValueIncrease</conditionType>
+          </displayCondition>
+        </DisplayRectangle>
+
+        <DisplayBitmap isfile="true">
+          <Bitmap>/app/resource/icon/stock_down.bmp</Bitmap>
+          <X>164</X>
+          <Y>1</Y>
+          <displayCondition negate="true">
+            <conditionType>stockValueIncrease</conditionType>
+          </displayCondition>
+        </DisplayBitmap>
+        <DisplayBitmap isfile="true">
+          <Bitmap>/app/resource/icon/stock_up.bmp</Bitmap>
+          <X>164</X>
+          <Y>1</Y>
+          <displayCondition>
+            <conditionType>stockValueIncrease</conditionType>
+          </displayCondition>
+        </DisplayBitmap>
+
+
+        <!-- symbol -->
+        <DisplayString font = "unifont" width="94" height="13" bgcolor="White" fgcolor="Light5">
+          <DisplayStr>$*c</DisplayStr>
+          <X>2</X>
+          <Y>1</Y>
+          <displayCondition negate="true">
+            <conditionType>stockValueIncrease</conditionType>
+          </displayCondition>
+        </DisplayString>
+
+        <DisplayString font = "unifont" width="94" height="13" bgcolor="White">
+          <DisplayStr>$*c</DisplayStr>
+          <X>2</X>
+          <Y>1</Y>
+          <displayCondition >
+            <conditionType>stockValueIncrease</conditionType>
+          </displayCondition>
+        </DisplayString>
+
+        <!-- last time updated stock value -->
+        <DisplayString font = "unifont" halign="right" width="50" height="13" bgcolor="White" fgcolor="Light5">
+          <DisplayStr>$*p</DisplayStr>
+          <X>110</X>
+          <Y>1</Y>
+          <displayCondition negate="true">
+            <conditionType>stockValueIncrease</conditionType>
+          </displayCondition>
+        </DisplayString>
+
+        <DisplayString font = "unifont" halign="right" width="50" height="13" bgcolor="White" >
+          <DisplayStr>$*p</DisplayStr>
+          <X>110</X>
+          <Y>1</Y>
+          <displayCondition>
+            <conditionType>stockValueIncrease</conditionType>
+          </displayCondition>
+        </DisplayString>
+
+        <!--  stock changed value -->
+        <DisplayString font = "unifont" halign="right" color="Black" width="45" height="13" bgcolor="White" fgcolor="Light5">
+          <DisplayStr>$*C</DisplayStr>
+          <X>190</X>
+          <Y>1</Y>
+          <displayCondition negate="true">
+            <conditionType>stockValueIncrease</conditionType>
+          </displayCondition>
+        </DisplayString>
+        <!--  stock changed value -->
+        <DisplayString font = "unifont" halign="right" color="Dark3" width="45" height="13" bgcolor="White">
+          <DisplayStr>$*C</DisplayStr>
+          <X>190</X>
+          <Y>1</Y>
+          <displayCondition>
+            <conditionType>stockValueIncrease</conditionType>
+          </displayCondition>
+        </DisplayString>
+
+
+
+      </ItemTemplate>
+    </DisplaySet>
+    <DisplayElement>
+      <DisplayBitmap isfile="true" >
+        <Bitmap>/app/resource/icon/arrow_up.bmp</Bitmap>
+        <X>115</X>
+        <Y>19</Y>
+        <displayCondition>
+          <conditionType>scrollUp</conditionType>
+        </displayCondition>
+      </DisplayBitmap>
+      <DisplayBitmap isfile="true" >
+        <Bitmap>/app/resource/icon/arrow_down.bmp</Bitmap>
+        <X>115</X>
+        <Y>93</Y>
+        <displayCondition>
+          <conditionType>scrollDown</conditionType>
+        </displayCondition>
+      </DisplayBitmap>
+    </DisplayElement>
+    <!-- $*T > stock update time -->
+    <SoftKeys>
+      <SoftKey useshapeid="1">        
+        <Action>
+          <SwitchSCR/>
+        </Action>
+      </SoftKey>
+      <SoftKey>
+        <Action>
+          <RefreshStock/>
+        </Action>
+      </SoftKey>
+    </SoftKeys>
+  </IdleScreen>
+
+  <IdleScreen>
+    <ScreenShow>currencyShow</ScreenShow>
+    <ShowStatusLine>false</ShowStatusLine>
+
+    <DisplayElement>
+      <DisplayRectangle x="0" y="0" width="239" height="17" bgcolor="Dark5" shadow-color="Light3"></DisplayRectangle>
+      <DisplayString font="unifont" color="White" shadow-color="Dark3" bgcolor="Dark5">
+        <DisplayStr>$+1220</DisplayStr>
+        <X>2</X>
+        <Y>0</Y>
+      </DisplayString>
+    </DisplayElement>
+
+
+    <!-- LIST BEGIN HERE -->
+    <DisplaySet id="currency" x="1" y="19" maxNumberOfRecord="5" dataSourceName="$Currency" displayDirection="vertical">
+      <ItemTemplate height="16">
+        <DisplayRectangle x="0" y="0" width="238" height="15" bgcolor="White" border-color="Light2"></DisplayRectangle>
+        <!-- symbol -->
+        <DisplayString font="unifont" width="100" height="13" bgcolor="Light5">
+          <DisplayStr>$*x - $*y</DisplayStr>
+          <X>2</X>
+          <Y>1</Y>
+        </DisplayString>
+
+        <!--  stock changed value -->
+        <DisplayString font="unifont" width="50" height="13" halign="right">
+          <DisplayStr>$*r</DisplayStr>
+          <X>186</X>
+          <Y>1</Y>
+        </DisplayString>
+      </ItemTemplate>
+    </DisplaySet>
+    <DisplayElement>
+      <DisplayBitmap isfile="true" >
+        <Bitmap>/app/resource/icon/arrow_up.bmp</Bitmap>
+        <X>115</X>
+        <Y>19</Y>
+        <displayCondition>
+          <conditionType>scrollUp</conditionType>
+        </displayCondition>
+      </DisplayBitmap>
+      <DisplayBitmap isfile="true" >
+        <Bitmap>/app/resource/icon/arrow_down.bmp</Bitmap>
+        <X>115</X>
+        <Y>93</Y>
+        <displayCondition>
+          <conditionType>scrollDown</conditionType>
+        </displayCondition>
+      </DisplayBitmap>
+    </DisplayElement>
+    <SoftKeys>
+      <SoftKey useshapeid="1">        
+        <Action>
+          <SwitchSCR/>
+        </Action>
+      </SoftKey>
+      <SoftKey>
+        <Action>
+          <ReverseCurrency/>
+        </Action>
+      </SoftKey>
+      <SoftKey>
+        <Action>
+          <RefreshCurrency/>
+        </Action>
+      </SoftKey>
+    </SoftKeys>
+  </IdleScreen>
+
+</Screen>

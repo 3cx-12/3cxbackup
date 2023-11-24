@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ppxml 
+xmlns="http://panasonic/sip_phone" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://panasonic/sip_phone sip_phone.xsd">
+	<Screen name="Screen" version="2.0">
+		<Components>
+			<PictureBox name="PictureBox1" left="0" top="0" width="242" height="109" source="http://%%pbx_ip%%:%%pbx_http_port%%/provisioning/logo/ut136_pana.bmp" />
+		</Components>
+	</Screen>
+</ppxml>

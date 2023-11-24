@@ -1,0 +1,1 @@
+id,__name,wav_file,callee,caller,caller_name,duration,created_time,heard_time,removed_time,notified_time,heard,notification_sent,removed,notify_failed,attempts,last_attempt_time,lasterror,forwarded_by,forwarded_to,forwarded_time,transcription,crm_contact

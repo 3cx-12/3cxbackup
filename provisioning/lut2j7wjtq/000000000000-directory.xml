@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--$RCSfile: 000000000000-directory~.xml,v $  $Revision: 1.3 $ -->
+<directory>
+  <item_list>
+    <item>
+      <ln>d</ln>
+      <fn>d</fn>
+      <ct>101</ct>
+      <rt>0</rt>
+      <dc />
+      <ad>0</ad>
+      <ar>0</ar>
+      <bw>1</bw>
+      <bb>0</bb>
+    </item>
+    <item>
+      <ln>as</ln>
+      <fn>ranatunga</fn>
+      <ct>100</ct>
+      <rt>0</rt>
+      <dc />
+      <ad>0</ad>
+      <ar>0</ar>
+      <bw>1</bw>
+      <bb>0</bb>
+    </item>
+  </item_list>
+</directory>

@@ -1,0 +1,1 @@
+id,call_id,info_id,role,is_inbound,end_status,forward_reason,failure_reason,start_time,answer_time,end_time,billing_code,billing_ratename,billing_rate,billing_cost,billing_duration,recording_url,billing_group

@@ -1,0 +1,692 @@
+﻿<?xml version="1.0"?>
+<set>
+<info language="UA" system="1" id="UKRAINEP-4512-485D-AFGG-UKR54F4A9BDB" name="Ukrainian Prompts Set" version="4.0.4">
+<langopts num_style="0" />
+<description>Ukrainian set of prompts.
+</description>
+</info>
+<prompts>
+<prompt id="ACCDND" file="access_denied.wav">
+<description>Доступ закрито</description>
+</prompt>
+<prompt id="AND" file="and.wav">
+<description>і</description>
+</prompt>
+<prompt id="BEEP" file="beep.wav">
+<description>beep</description>
+</prompt>
+<prompt id="BEGOFMSGS" file="begin_of_messages.wav">
+<description>Початок повідомлень</description>
+</prompt>
+<prompt id="CALLTRAN_FAILED" file="call_transfer_failed.wav">
+<description>Переведення виклика не можливо</description>
+</prompt>
+<prompt id="CANCELLED" file="cancelled.wav">
+<description>Відмінено</description>
+</prompt>
+<prompt id="CONFIRM" file="confirm.wav">
+<description>Натисніть зірочку, для відміни натисніть решітку</description>
+</prompt>
+<prompt id="DELETED" file="deleted.wav">
+<description>стерто</description></prompt>
+<prompt id="ENDOFMSGS" file="end_of_messages.wav">
+<description>Кінець повідомлення</description>
+</prompt>
+<prompt id="ERROR" file="error.wav">
+<description>Виявлена внутрішня помилка</description>
+</prompt>
+<prompt id="EXTNUM" file="ext_num.wav">
+<description>Внутрішній номер</description>
+</prompt>
+<prompt id="EXTNOTENAB" file="extension_not_enabled.wav">
+<description>Внутрішній номер не існує</description>
+</prompt>
+<prompt id="EXTNOTFOUND" file="extension_not_found.wav">
+<description>Внутрішній номер не знайдено</description>
+</prompt>
+<prompt id="FILNOTFOUND" file="file_not_found.wav">
+<description>Файл не знайдено</description>
+</prompt>
+<prompt id="GROUPID" file="group_id.wav">
+<description>Груповий ID</description>
+</prompt>
+<prompt id="INVPIN" file="invalid_pin.wav">
+<description>Невірний пін-код</description>
+</prompt>
+<prompt id="IS" file="is.wav">
+<description>нульова довжина файлу - в мовах східнослов'янської підгрупи не використовується</description>
+</prompt>
+<prompt id="IVRNUM" file="ivr_num.wav">
+<description>Номер IVR</description>
+</prompt>
+<prompt id="MSG" file="message.wav">
+<description>Повідомлення</description>
+</prompt>
+<prompt id="MSG_FROM" file="message_from.wav">
+<description>Повідомлення від</description>
+</prompt>
+<prompt id="MSG_GRT" file="greeting_message.wav">
+<description>Привітання</description></prompt>
+<prompt id="MSG_SELFID" file="SelfIDMsg.wav">
+<description>Ідентифікаційне повідомлення</description>
+</prompt>
+<prompt id="MSGALRDDLTD" file="message_already_deleted.wav">
+<description>Повідомлення видалено, будь ласка виберіть інше</description>
+</prompt>
+<prompt id="MSGDLTD" file="message_deleted.wav">
+<description>Повідомлення видалено</description>
+</prompt>
+<prompt id="MSGREC_MNU" file="MsgRecMnu.wav">
+<description>Натисніть 0. Для відновлення стандартного повідомлення натисніть 1. Для прослуховування привітання натисніть 2. Для виходу натисніть решітку.</description>
+</prompt>
+<prompt id="MSGREC_MNU2" file="MsgRecMnu2.wav">
+<description>Натисніть 0. Для видалення натисніть 1. Для прослуховування ідентифікаційоного повідомлення натисніть 2. Для виходу натисніть решітку.</description>
+</prompt>
+<prompt id="MSGS" file="messages.wav">
+<description>Повідомлення</description>
+</prompt>
+<prompt id="MSGSAVFAIL" file="msg_save_failed.wav">
+<description>Повідомлення не збережено</description>
+</prompt>
+<prompt id="MSGSVD" file="msg_saved.wav">
+<description>Повідомлення збережено</description>
+</prompt>
+<prompt id="NEW" file="new.wav">
+<description>Нових</description>
+</prompt>
+<prompt id="NEW_MSG" file="new_message.wav">
+<description>Нове повідомлення</description>
+</prompt>
+<prompt id="NEW_MSGS" file="new_messages.wav">
+<description>Нові повідомлення</description>
+</prompt>
+<prompt id="NEW_PIN_CODE" file="new_pin_code.wav">
+<description>Новий пін-код</description>
+</prompt>
+<prompt id="NO_ANSWER" file="no_answer.wav">
+<description>Номер Не відповідає</description>
+</prompt>
+<prompt id="NOACTPERF" file="no_action_performed.wav">
+<description>Дія не виконана</description>
+</prompt>
+<prompt id="NOMSGSLCT" file="no_message_selected.wav">
+<description>Повідомлення не вибрано</description>
+</prompt>
+<prompt id="NOMSGSTODEL" file="no_msgs_todelete.wav">
+<description>Повідомлень для видалення - нема</description>
+</prompt>
+<prompt id="NOSVDMSGS" file="no_saved_msgs.wav">
+<description>Нема збережених повідомлень</description>
+</prompt>
+<prompt id="NOTALLMSGSDELETED" file="notall_msgs_deleted.wav">
+<description>Деякі повідомлення не можуть бути видалені</description>
+</prompt>
+<prompt id="NUMBER_BUSY" file="number_is_busy.wav">
+<description>Номер зайнятий</description>
+</prompt>
+<prompt id="OLD" file="old.wav">
+<description>старих</description>
+</prompt>
+<prompt id="OPFAIL" file="operation_failed.wav">
+<description>Дія не можлива</description>
+</prompt>
+<prompt id="OPTIONS_MENU" file="OPTMNU.wav">
+<description>"Для прослуховування повідомлень натисніть зірочку. Для зміни профілю натисніть 1. Для набору номеру натисніть 3. Для видалення всіх прослуханих повідомлень натисніть 4. Для зміни ідентифікаційного повідомлення натисніть 5. Для прослуховування інформації про голосову скриньку натисніть 6. Для зміни пін-коду натисніть 7. Для зміни привітання натисніть 8.  Для повтора меню натисніть 9. Для виходу натисніть решітку."</description></prompt>
+<prompt id="NUMBER_ENT" file="number.wav">
+<description>номер</description>
+</prompt>
+<prompt id="PIN" file="pin.wav">
+<description>Персональний ідентификаційний номер</description>
+</prompt>
+<prompt id="PLAYBACK_MENU" file="PBACKMNU.wav">
+<description>Натисніть 0 для прослуховування наступного повідомлення. Натисніть 1 для прослуховування попереднього повідомлення. Натисніть 2 для повтора даного повідомлення. Натисніть 3 для видалення даного повідомлення. Натисніть 9 для переходу до меню опцій.  Для виходу натисніть решітку.</description></prompt>
+<prompt id="PLSENTER" file="please_enter.wav">
+<description>"Будь ласка введить"</description>
+</prompt>
+<prompt id="PLSHOLD" file="please_hold.wav">
+<description>Будь ласка зачекайте, йде переадресація</description>
+</prompt>
+<prompt id="PLSHOLD_CALL" file="PleaseHold_Calling.wav">
+<description>Будь ласка зачекайте, виклик на номер</description>
+</prompt>
+<prompt id="PRESS" file="press.wav">
+<description>натисніть</description>
+</prompt>
+<prompt id="PRESSNINE_FOROPTIONS" file="press_nine_for_options.wav">
+<description>Натисніть 9 для переходу до меню опцій</description>
+</prompt>
+<prompt id="PRESSSTAR_TOPLAY" file="press_star_to_play.wav">
+<description>Натисніть зірочку для прослуховування</description>
+</prompt>
+<prompt id="QUEID" file="queue_id.wav">
+<description>Ідентифікатор черги</description>
+</prompt>
+<prompt id="QUEUE_TOBE_CONNECTED" file="queue_tobe_connected.wav">
+<description>в черзі. Будь ласка, залишайтесь на лінії"</description>
+</prompt>
+<prompt id="RECYA" file="record_your.wav">
+<description>Запишіть</description>
+</prompt>
+<prompt id="RECYAMSG" file="record_your_message.wav">
+<description>Запишіть повідомлення, потім натисніть решітку або натисніть зірочку для з`єднання з оператором</description>
+</prompt>
+<prompt id="SAVED" file="saved.wav">
+<description>збережений</description>
+</prompt>
+<prompt id="SAVMSGCNFRM" file="SaveMsgCnfrm.wav">
+<description>для збереження повідомлення натисніть 0. Для повтора натисніть 1. Для виходу натисніть решітку.</description>
+</prompt>
+<prompt id="STACK_OVRFLW" file="stack_overflow.wav">
+<description>сховище переповнене. вибачте</description>
+</prompt>
+<prompt id="STDMSGRST" file="standard_message_restored.wav">
+<description>стандартне повідомлення відновлено</description>
+</prompt>
+<prompt id="BYE" file="thankyou_goodbye.wav">
+<description>Дякуємо. До побачення.</description></prompt>
+<prompt id="THENPRESPND" file="then_press_pound.wav">
+<description>потім натисніть решітку</description>
+</prompt>
+<prompt id="TIME_IS" file="msg_received.wav">
+<description>повідомлення получено</description>
+</prompt>
+<prompt id="TOCALL_TO" file="ToCallTo.wav">
+<description>для дзвінка</description>
+</prompt>
+<prompt id="TODAY" file="today.wav">
+<description>сьогодня</description>
+</prompt>
+<prompt id="TODLTMSG" file="to_delete_msg.wav">
+<description>Для видалення повідомлень</description>
+</prompt>
+<prompt id="TODLTREADMSGS" file="todelete_read_messages.wav">
+<description>Для видалення всіх прослуханих повідомлень</description>
+</prompt>
+<prompt id="TOEXIT_PRESSPOUND" file="toexit_presspnd.wav">
+<description>Для виходу натисніть решітку</description>
+</prompt>
+<prompt id="TORECNEW" file="to_record_new.wav">
+<description>Для запису нового</description>
+</prompt>
+<prompt id="TO_SAVE" file="to_save.wav">
+<description>Для збереження</description>
+</prompt>
+<prompt id="USER_NAME" file="UserName.wav">
+<description>перші три букви прізвища абонента, якому необхідно позвонити</description>
+</prompt>
+<prompt id="VMLDSBL" file="voicemail_disabled.wav">
+<description>Для цього номера голосова пошта недоступна</description>
+</prompt>
+<prompt id="YAHV" file="you_have.wav">
+<description>У Вас</description>
+</prompt>
+<prompt id="YAHVNO" file="you_have_no.wav">
+<description>У Вас нема</description>
+</prompt>
+<prompt id="YESTERDAY" file="yesterday.wav">
+<description>вчора</description>
+</prompt>
+<prompt id="YOUR" file="your.wav">
+<description>Ваш</description>
+</prompt>
+<prompt id="YOUR_AT_POSITION" file="your_at_position.wav">
+<description>Ви</description>
+</prompt>
+<prompt id="INV_INP" file="InvalidInput.wav">
+<description>Неправильний ввод. Будь ласка спробуйте ще раз.</description>
+</prompt>
+<prompt id="INV_NUM" file="InvalidNumber.wav">
+<description>Невірний номер</description>
+</prompt>
+<prompt id="UNKN_PRMT" file="unknown_prompt.wav">
+<description>Невідомий запис</description>
+</prompt>
+<prompt id="NUM_0" file="numbers/0.wav">
+<description>нуль</description>
+</prompt>
+<prompt id="NUM_0_B" file="numbers/0^b.wav">
+<description>нуль</description>
+</prompt>
+<prompt id="NUM_1" file="numbers/1.wav">
+<description>одне</description>
+</prompt>
+<prompt id="NUM_1_B" file="numbers/1^b.wav">
+<description>один</description>
+</prompt>
+<prompt id="NUM_1_O" file="numbers/1o.wav">
+<description>перше</description>
+</prompt>
+<prompt id="NUM_10" file="numbers/10.wav">
+<description>десять</description>
+</prompt>
+<prompt id="NUM_10_O" file="numbers/10o.wav">
+<description>десяте</description>
+</prompt>
+<prompt id="NUM_11" file="numbers/11.wav">
+<description>одинадцять</description>
+</prompt>
+<prompt id="NUM_11_O" file="numbers/11o.wav">
+<description>одинадцяте</description>
+</prompt>
+<prompt id="NUM_12" file="numbers/12.wav">
+<description>дванадцять</description>
+</prompt>
+<prompt id="NUM_12_O" file="numbers/12o.wav">
+<description>дванадцяте</description>
+</prompt>
+<prompt id="NUM_13" file="numbers/13.wav">
+<description>тринадцять</description>
+</prompt>
+<prompt id="NUM_13_O" file="numbers/13o.wav">
+<description>тринадцяте</description>
+</prompt>
+<prompt id="NUM_14" file="numbers/14.wav">
+<description>чотирнадцять</description>
+</prompt>
+<prompt id="NUM_14_O" file="numbers/14o.wav">
+<description>чотирнадцяте</description>
+</prompt>
+<prompt id="NUM_15" file="numbers/15.wav">
+<description>п’ятнадцять</description>
+</prompt>
+<prompt id="NUM_15_O" file="numbers/15o.wav">
+<description>п’ятнадцяте</description>
+</prompt>
+<prompt id="NUM_16" file="numbers/16.wav">
+<description>шістьнадцять</description>
+</prompt>
+<prompt id="NUM_16_O" file="numbers/16o.wav">
+<description>шістьнадцяте</description>
+</prompt>
+<prompt id="NUM_17" file="numbers/17.wav">
+<description>сімнадцять</description>
+</prompt>
+<prompt id="NUM_17_O" file="numbers/17o.wav">
+<description>сімнадцяте</description>
+</prompt>
+<prompt id="NUM_18" file="numbers/18.wav">
+<description>вісімнадцять</description>
+</prompt>
+<prompt id="NUM_18_O" file="numbers/18o.wav">
+<description>вісімнадцяте</description>
+</prompt>
+<prompt id="NUM_19" file="numbers/19.wav">
+<description>дев’ятнадцять</description>
+</prompt>
+<prompt id="NUM_19_O" file="numbers/19o.wav">
+<description>дев’ятнадцяте</description>
+</prompt>
+<prompt id="NUM_2" file="numbers/2.wav">
+<description>два</description>
+</prompt>
+<prompt id="NUM_2_B" file="numbers/2^b.wav">
+<description>два</description>
+</prompt>
+<prompt id="NUM_2_O" file="numbers/2o.wav">
+<description>друге</description>
+</prompt>
+<prompt id="NUM_20+" file="numbers/20+.wav">
+<description>двадцять</description>
+</prompt>
+<prompt id="NUM_20" file="numbers/20.wav">
+<description>двадцять</description>
+</prompt>
+<prompt id="NUM_20_O" file="numbers/20o.wav">
+<description>двадцяте</description>
+</prompt>
+<prompt id="NUM_3" file="numbers/3.wav">
+<description>три</description>
+</prompt>
+<prompt id="NUM_3_B" file="numbers/3^b.wav">
+<description>три</description>
+</prompt>
+<prompt id="NUM_3_O" file="numbers/3o.wav">
+<description>третє</description>
+</prompt>
+<prompt id="NUM_30+" file="numbers/30+.wav">
+<description>тридцять</description>
+</prompt>
+<prompt id="NUM_30" file="numbers/30.wav">
+<description>тридцять</description>
+</prompt>
+<prompt id="NUM_30_O" file="numbers/30o.wav">
+<description>тридцяте</description>
+</prompt>
+<prompt id="NUM_4" file="numbers/4.wav">
+<description>чотирі</description>
+</prompt>
+<prompt id="NUM_4_B" file="numbers/4^b.wav">
+<description>чотирі</description>
+</prompt>
+<prompt id="NUM_4_O" file="numbers/4o.wav">
+<description>четверте</description>
+</prompt>
+<prompt id="NUM_40+" file="numbers/40+.wav">
+<description>сорок</description>
+</prompt>
+<prompt id="NUM_40" file="numbers/40.wav">
+<description>сорок</description>
+</prompt>
+<prompt id="NUM_5" file="numbers/5.wav">
+<description>п`ять</description>
+</prompt>
+<prompt id="NUM_5_B" file="numbers/5^b.wav">
+<description>п’ять</description>
+</prompt>
+<prompt id="NUM_5_O" file="numbers/5o.wav">
+<description>п’яте</description>
+</prompt>
+<prompt id="NUM_50+" file="numbers/50+.wav">
+<description>п’ятдесят</description>
+</prompt>
+<prompt id="NUM_50" file="numbers/50.wav">
+<description>п’ятьдесят</description>
+</prompt>
+<prompt id="NUM_6" file="numbers/6.wav">
+<description>шість</description>
+</prompt>
+<prompt id="NUM_6_B" file="numbers/6^b.wav">
+<description>шість</description>
+</prompt>
+<prompt id="NUM_6_O" file="numbers/6o.wav">
+<description>шосте</description>
+</prompt>
+<prompt id="NUM_60+" file="numbers/60+.wav">
+<description>шістдесят</description>
+</prompt>
+<prompt id="NUM_60" file="numbers/60.wav">
+<description>шістдесят</description>
+</prompt>
+<prompt id="NUM_7" file="numbers/7.wav">
+<description>сімь</description>
+</prompt>
+<prompt id="NUM_7_B" file="numbers/7^b.wav">
+<description>сімь</description>
+</prompt>
+<prompt id="NUM_7_O" file="numbers/7o.wav">
+<description>сьоме</description>
+</prompt>
+<prompt id="NUM_70+" file="numbers/70+.wav">
+<description>сімдесят</description>
+</prompt>
+<prompt id="NUM_70" file="numbers/70.wav">
+<description>сімдесят</description>
+</prompt>
+<prompt id="NUM_8" file="numbers/8.wav">
+<description>вісім</description>
+</prompt>
+<prompt id="NUM_8_B" file="numbers/8^b.wav">
+<description>вісім</description>
+</prompt>
+<prompt id="NUM_8_O" file="numbers/8o.wav">
+<description>восьме</description>
+</prompt>
+<prompt id="NUM_80+" file="numbers/80+.wav">
+<description>вісімдесят</description>
+</prompt>
+<prompt id="NUM_80" file="numbers/80.wav">
+<description>вісімдесят</description>
+</prompt>
+<prompt id="NUM_9" file="numbers/9.wav">
+<description>д’евять</description>
+</prompt>
+<prompt id="NUM_9_B" file="numbers/9^b.wav">
+<description>д’евять</description>
+</prompt>
+<prompt id="NUM_9_O" file="numbers/9o.wav">
+<description>д’евяте</description>
+</prompt>
+<prompt id="NUM_90+" file="numbers/90+.wav">
+<description>д’евяносто</description>
+</prompt>
+<prompt id="NUM_90" file="numbers/90.wav">
+<description>д’евяносто</description>
+</prompt>
+<prompt id="NUM_AND" file="numbers/and.wav">
+<description>нульова довжина файлу - в мовах східнослов'янської підгрупи не використовується</description>
+</prompt>
+<prompt id="NUM_HNDR" file="numbers/hundred.wav">
+<description>сто</description>
+</prompt>
+<prompt id="NUM_MLN" file="numbers/million.wav">
+<description>міліон</description>
+</prompt>
+<prompt id="NUM_STAR" file="numbers/star.wav">
+<description>зірочка</description>
+</prompt>
+<prompt id="NUM_STAR_B" file="numbers/star^b.wav">
+<description>зірочка</description>
+</prompt>
+<prompt id="NUM_THSND" file="numbers/thousand.wav">
+<description>тисяча</description>
+</prompt>
+<prompt id="TM_AM" file="time/am.wav">
+<description>нульова довжина файлу - в мовах східнослов'янської підгрупи не використовується</description>
+</prompt>
+<prompt id="TM_PM" file="time/pm.wav">
+<description>нульова довжина файлу - в мовах східнослов'янської підгрупи не використовується</description>
+</prompt>
+<prompt id="TM_OU" file="time/ou.wav">
+<description>нульова довжина файлу - в мовах східнослов'янської підгрупи не використовується</description></prompt>
+<prompt id="TM_MON_01" file="time/january.wav">
+<description>січня</description>
+</prompt>
+<prompt id="TM_MON_02" file="time/february.wav">
+<description>лютого</description>
+</prompt>
+<prompt id="TM_MON_03" file="time/march.wav">
+<description>березня</description>
+</prompt>
+<prompt id="TM_MON_04" file="time/april.wav">
+<description>квітня</description>
+</prompt>
+<prompt id="TM_MON_05" file="time/may.wav">
+<description>травня</description>
+</prompt>
+<prompt id="TM_MON_06" file="time/june.wav">
+<description>червня</description>
+</prompt>
+<prompt id="TM_MON_07" file="time/july.wav">
+<description>липня</description>
+</prompt>
+<prompt id="TM_MON_08" file="time/august.wav">
+<description>березня</description>
+</prompt>
+<prompt id="TM_MON_09" file="time/september.wav">
+<description>вересня</description>
+</prompt>
+<prompt id="TM_MON_10" file="time/october.wav">
+<description>жовтня</description>
+</prompt>
+<prompt id="TM_MON_11" file="time/november.wav">
+<description>листопада</description>
+</prompt>
+<prompt id="TM_MON_12" file="time/december.wav">
+<description>грудня</description>
+</prompt>
+<prompt id="TM_MIDNIGHT" file="time/midnight.wav">
+<description>півночі</description>
+</prompt>
+<prompt id="TM_MINUTE" file="time/minute.wav">
+<description>хвилина</description>
+</prompt>
+<prompt id="TM_MINUTES" file="time/minutes.wav">
+<description>хвилин</description>
+</prompt>
+<prompt id="TM_OCLOCK" file="time/oclock.wav">
+<description>годин</description>
+</prompt>
+<prompt id="TM_PAST" file="time/past.wav">
+<description>післе</description>
+</prompt>
+<prompt id="CONF_NAME" file="SpeakYourName.wav">
+<description>Вимовіть своє ім’я після сигналу, потім натисніть будь-яку кнопку</description>
+</prompt>
+<prompt id="CONF_CONFPROMPT" file="ConfPrompt.wav">
+<description>Ласкаво просимо до конференції</description>
+</prompt>
+<prompt id="CONF_NEWMEMBER" file="newMember.wav">
+<description>Приєднався до конференції (перед цим вимовляється ім’я)</description>
+</prompt>
+<prompt id="CONF_PIN" file="PleaseEnterPIN.wav">
+<description>Будь ласка, введіть номер конференції, потім натисніть решітку</description>
+</prompt>
+<prompt id="CONF_LEFT" file="leftPrompt.wav">
+<description>покинув конференцію</description>
+</prompt>
+<prompt id="CONF_CREATING" file="creating.wav">
+<description>Ви створили нову конференцію</description>
+</prompt>
+<prompt id="CONF_JOINING" file="joining.wav">
+<description>Ви приєдналися до конференції з наступними учасниками</description>
+</prompt>
+<prompt id="CONF_HASHORSTAR" file="hashorstar.wav">
+<description>натисніть решітку для відміни, зірочку для продовження</description>
+</prompt>
+<prompt id="REDIRVMAIL" file="redir_vmail.wav">
+<description>Переадресація на голосову пошту</description>
+</prompt>
+<prompt id="UHVCALL" file="uhavecall.wav">
+<description>Вам дзвінок з номера</description>
+</prompt>
+<prompt id="PRESS1TOTAKECALL" file="totakecall.wav">
+<description>натисніть один для прийняття виклику</description>
+</prompt>
+<prompt id="PRESSSENDTOVMAIL" file="tosend_tovmail.wav">
+<description>натисніть решітку для відправлення голосового повідомлення</description>
+</prompt>
+<prompt id="PLSWAITLOCATE" file="plswait_locate.wav">
+<description>Будь ласка, зачекайте поки ми знайдемо</description>
+</prompt>
+<prompt id="USERUNAVAIL" file="user_unavail.wav">
+<description>Абонент недоступний</description>
+</prompt>
+<prompt id="NOTFOUND" file="destnot_found.wav">
+<description>Набраний номер не існує</description>
+</prompt>
+<prompt id="FORBIDDEN" file="forbidden_byadmin.wav">
+<description>Адміністратор заборонив цей виклик</description>
+</prompt>
+<prompt id="DEST_NA" file="destnot_available.wav">
+<description>Номер не існує, не доступний, не зареєстрований або для нього не існує маршруту</description>
+</prompt>
+<prompt id="NOANSWER" file="terminated_noanswer.wav">
+<description>Немає відповіді - виклик буде завершений</description>
+</prompt>
+<prompt id="BUSY" file="destination_isbusy.wav">
+<description>Номер зайняти, будь ласка спробуйте пізніше</description>
+</prompt>
+<prompt id="SERVER_ERROR" file="internal_servererror.wav">
+<description>Виклик неможливий. Будь ласка, зверніться до администратора</description>
+</prompt>
+<prompt id="DISABLED_FWD" file="calldisabled_fwrule.wav">
+<description>Помилка переадресації. Будь ласка, зверніться до администратора</description>
+</prompt>
+<prompt id="DISABLED_INB" file="calldisabled_inrule.wav">
+<description>Даний вклик заборонений. Будь ласка, зверніться до администратора</description>
+</prompt>
+<prompt id="NO_OUTBOUND" file="fwexternalnumber_nooutbound.wav">
+<description>Для вихідного виклику недостатньо вільних ліній</description>
+</prompt>
+<prompt id="LL" file="license_limit.wav">
+<description>Обмеження ліцензії - досягнута максимально можлива кількість викликів. Будь ласка, зверніться до администратора</description></prompt>
+<prompt id="FEAT_NA" file="feature_notavailable.wav">
+<description>Дана функція недоступна в бескоштовній версії. Будь ласка, зверніться до администратора</description>
+</prompt>
+<prompt id="QUEUE_UNATT" file="noavailable_queueagents.wav">
+<description>В цій черзі нема доступних агентів.</description>
+</prompt>
+<prompt id="AWAY_ON" file="away_on.wav">
+<description>Опція "не турбувати" - включена</description>
+</prompt>
+<prompt id="AWAY_OFF" file="away_off.wav">
+<description>Опція "не турбувати" - відключена</description>
+</prompt>
+<prompt id="LOGGED_IN" file="logged_inqueue.wav">
+<description>Цей номер став агентом черги</description>
+</prompt>
+<prompt id="LOGGED_OUT" file="logged_outqueue.wav">
+<description>Цей номер відключився від черги</description>
+</prompt>
+<prompt id="MSGFWDED" file="MsgForwarded.wav">
+<description>Повідомлення переадресовані</description>
+</prompt>
+<prompt id="NOMSGSTOFWD" file="NoMsgToForward.wav">
+<description>Нема повідомлень для переадресації</description>
+</prompt>
+<prompt id="ENTEREXT_FWDVMAIL" file="PlsEnterExtFwdVM.wav">
+<description>Будь ласка, вкажіть внутрішній номер для переадресації голосових повідомлень</description>
+</prompt>
+<prompt id="ACCBLOCKED" file="AccountBlocked.wav">
+<description>Акаунт тимчасово відключений</description>
+</prompt>
+<prompt id="TRYLATER" file="PLSTRYLATER.wav">
+<description>Будь ласка, спробуйте пізніше</description>
+</prompt>
+<prompt id="STATUS_MENU" file="profile_menu.wav">
+<description>натисніть 1 для встановлення статуса доступений, 2 - нема на місці, натисніть 3 для статуса відсутній, натисніть 4 для статуса призначений для користувача 1,  5 призначений для користувача 2</description></prompt>
+<prompt id="ST_AVAILABLE_SET" file="avaiable_status_set.wav">
+<description>Встановлений статус - Доступний</description>
+</prompt>
+<prompt id="ST_AWAY_SET" file="away_status_set.wav">
+<description>Встановлений статус - відсутній</description>
+</prompt>
+<prompt id="ST_OUTOFFICE_SET" file="outofoffice_status_set.wav">
+<description>Встановлений статус - Нема в офісі</description>
+</prompt>
+<prompt id="ST_CUSTOM1_SET" file="custom1_status_set.wav">
+<description>Встановлений статус - призначений для користувача 1</description>
+</prompt>
+<prompt id="ST_CUSTOM2_SET" file="custom2_status_set.wav">
+<description>Встановлений статус - призначений для користувача 2</description>
+</prompt>
+<prompt id="OHOVERRIDE_OFF" file="officehr_override_off.wav">
+<description>Система зв’язку в режимі - за замовчувванням</description>
+</prompt>
+<prompt id="OHOVERRIDE_IN" file="officehr_override_in.wav">
+<description>Система зв’язку в режимі - робочій час</description>
+</prompt>
+<prompt id="OHOVERRIDE_OUT" file="officehr_override_out.wav">
+<description>Система зв’язку в режимі - не робочій час</description>
+</prompt>
+<prompt id="CB_EDIT_NUM" file="enter_callback_number.wav">
+<description>введіть номер куди мыи зможем передзвонити, та натисніть решітку</description>
+</prompt>
+<prompt id="CB_REQ" file="callback_request_number.wav">
+<description>Вы запросили звортній дзвінок на цей номер</description>
+</prompt>
+<prompt id="CB_CONFIRM" file="callback_action_menu.wav">
+<description>натисніть зірочку для підтверждення, нуль для зміни номеру, або решітку для відміни</description>
+</prompt>
+<prompt id="CB_BYE" file="thankyou_callback_confirmed.wav">
+<description>Дякуємо, ми звяжемось з Вами в найближчій час</description>
+</prompt>
+<prompt id="ACCESS_OK_PINPROTECT" file="AccessAllowedBySystem.wav">
+<description>Доступ дозволено системою</description>
+</prompt>
+<prompt id="LOGGEDINHD" file="logged_in_hotdesking.wav">
+<description>Активація пройшла успішно. Телефон буде переведений до вашого облікового запису</description>
+</prompt>
+<prompt id="LOGGEDOUTHD" file="logged_out_hotdesking.wav">
+<description>Ви успішно вийшли з облікового запису. Налаштування телефону будуть скинуті.</description>
+</prompt>
+<prompt id="FEAT_NA2" file="feature_not_available2.wav">
+<description>Функція недоступна. Потрібна наявність Professional або Enterprise ліцензійних ключів. Зв'яжіться з адміністратором</description>
+</prompt>
+<prompt id="PLUS" file="numbers/plus.wav">
+<description>плюс</description>
+</prompt>
+<prompt id="PRESS_POUND_TO_CONFIRM" file="press_pound_to_confirm.wav">
+<description>Натисніть решітку для підтвердження або натисніть зірочку, щоб змінити номер</description>
+</prompt>
+<prompt id="YOU_HAVE_ENTERED" file="you_have_entered.wav">
+<description>Ви ввели наступний номер</description>
+</prompt>
+<prompt id="SELECT_CALL_BY" file="select_call_by.wav">
+<description>Натисніть 1 для виклику по буквах імені, Натисніть 2 для виклику по буквах прізвища.</description>
+</prompt>
+<prompt id="USER_FIRST_NAME" file="UserFirstName.wav">			
+<description>&quot;&lt;I&gt;перші 3 літери імені людини, з яким ви намоґаете зв'язатися&lt;/I&gt;&quot; в фразі &quot;Введіть &lt;B&gt;перші 3 літери імені людини, з яким ви намоґаете зв'язатися&lt;/B&gt;&quot;.</description>
+</prompt>
+</prompts>
+</set>

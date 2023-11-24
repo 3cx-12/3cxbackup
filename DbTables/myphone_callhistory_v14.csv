@@ -1,0 +1,1 @@
+idmpch14,call_id,calltype,dnowner,party_dn,party_dntype,party_name,party_callerid,party_crm_contact,via_role,via_dn,via_dntype,via_dnname,via_callerid,start_time,established_time,end_time,end_status,end_status_hint,divert_dn,divert_dntype,divert_dnname,divert_callerid,dialed_number

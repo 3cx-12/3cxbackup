@@ -1,0 +1,9 @@
+<root_dialing_shortcut>
+<item  id_name="favorite_shortcut"  display_name="Favorites"  priority="1"  enable="1"/>
+<item  id_name="local_calllog_shortcut"  display_name="History"  priority="2"  enable="1"/>
+<item  id_name="local_contact_shortcut"  display_name="Local Contacts"  priority="3"  enable="1"/>
+<item  id_name="remote_contact_shortcut"  display_name="Remote Phonebook"  priority="4"  enable="1"/>
+<item  id_name="ldap_contact_shortcut"  display_name="LDAP"  priority="1"  enable="0"/>
+<item  id_name="broadsoft_contact_shortcut"  display_name="Broadsoft Directory"  priority="1"  enable="0"/>
+<item  id_name="broadsoft_calllog_shortcut"  display_name="Broadsoft Calllog"  priority="1"  enable="0"/>
+</root_dialing_shortcut>

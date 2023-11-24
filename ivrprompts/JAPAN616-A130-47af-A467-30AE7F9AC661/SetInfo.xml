@@ -1,0 +1,948 @@
+﻿<?xml version="1.0"?>
+<set>
+	<info language="JP" system="1" id="JAPAN616-A130-47af-A467-30AE7F9AC661" name="Japanese Prompts Set" version="4.0.3">
+		<langopts num_style="0" />
+		<description>Japanese set of prompts.
+		</description>
+	</info>
+	<prompts>
+		<prompt id="ACCDND" file="access_denied.wav">
+			<description>アクセスが拒否されました</description>
+		</prompt>
+
+		<prompt id="AND" file="and.wav">
+			<description>フレーズ内に「と」　2通のメッセージがあります：2通は既読、1通は未読です</description>
+		</prompt>
+
+		<prompt id="BEEP" file="beep.wav">
+			<description>音声録音または再生の前に発信音が鳴ります</description>
+		</prompt>
+
+		<prompt id="BEGOFMSGS" file="begin_of_messages.wav">
+			<description>メッセージ開始</description>
+		</prompt>
+		
+		<prompt id="CALLTRAN_FAILED" file="call_transfer_failed.wav">
+			<description>着信転送に失敗しました</description>
+		</prompt>
+
+		<prompt id="CANCELLED" file="cancelled.wav">
+			<description>キャンセルされました</description>
+		</prompt>
+
+		<prompt id="CONFIRM" file="confirm.wav">
+			<description>フレーズ内に「星印を押してください、キャンセルするにはシャープを押してください」　メッセージを削除するには星印を、キャンセルするにはシャープを押してください</description>
+		</prompt>
+
+		<prompt id="DELETED" file="deleted.wav">
+			<description>フレーズ内に「が削除されました」　2通のメッセージが削除されました</description>
+		</prompt>
+
+		<prompt id="ENDOFMSGS" file="end_of_messages.wav">
+			<description>メッセージ終了</description>
+		</prompt>
+
+		<prompt id="ERROR" file="error.wav">
+			<description>内部エラーが発生しました。申し訳ございません。</description>
+		</prompt>
+
+		<prompt id="EXTNUM" file="ext_num.wav">
+			<description>フレーズ内に「内線番号」　内線番号を入力してください　</description>
+		</prompt>
+
+		<prompt id="EXTNOTENAB" file="extension_not_enabled.wav">
+			<description>内線が有効になっていません</description>
+		</prompt>
+
+		<prompt id="EXTNOTFOUND" file="extension_not_found.wav">
+			<description>内線が見つかりませんでした</description>
+		</prompt>
+
+		<prompt id="FILNOTFOUND" file="file_not_found.wav">
+			<description>ファイルが見つかりません</description>
+		</prompt>
+
+		<prompt id="GROUPID" file="group_id.wav">
+			<description>フレーズ内に「グループID」　グループIDを入力してください。それからシャープを押してください</description>
+		</prompt>
+
+		<prompt id="INVPIN" file="invalid_pin.wav">
+			<description>無効なPINナンバーです</description>
+		</prompt>
+
+		<prompt id="IS" file="is.wav">
+			<description>フレーズ内に「は」　あなたのPINナンバーは1-2-3です</description>
+		</prompt>
+
+		<prompt id="IVRNUM" file="ivr_num.wav">
+			<description>フレーズ内に「IVRナンバー」　IVRナンバーを入力してください</description>
+		</prompt>
+
+		<prompt id="MSG" file="message.wav">
+			<description>フレーズ内に「メッセージ」　1通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="MSG_FROM" file="message_from.wav">
+			<description>フレーズ内に「からメッセージ」　1-7-5からのメッセージです</description>
+		</prompt>
+
+		<prompt id="MSG_GRT" file="greeting_message.wav">
+			<description>フレーズ内に「挨拶用メッセージ」　挨拶用メッセージを録音するか、0を押して新しい挨拶用のメッセージを録音してください</description>
+		</prompt>
+
+		<prompt id="MSG_SELFID" file="SelfIDMsg.wav">
+			<description>フレーズ内に「セルフIDメッセージ」　セルフIDメッセージを入力してください</description>
+		</prompt>
+
+		<prompt id="MSGALRDDLTD" file="message_already_deleted.wav">
+			<description>メッセージは既に削除されています。他のメッセージを選択してください</description>
+		</prompt>
+
+		<prompt id="MSGDLTD" file="message_deleted.wav">
+			<description>メッセージが削除されました</description>
+		</prompt>
+
+		<prompt id="MSGREC_MNU" file="MsgRecMnu.wav">
+			<description>フレーズ内に「0を押してください。標準メッセージに戻すには1を押してください。現在の挨拶用メッセージを確認するには2を押してください。終了するにはシャープを押してください」　メッセージを録音するには0を押してください。標準メッセージに戻すには1を押してください。現在の挨拶用メッセージを確認するには2を押してください。終了するにはシャープを押してください</description>
+		</prompt>
+
+		<prompt id="MSGREC_MNU2" file="MsgRecMnu2.wav">
+			<description>フレーズ内に「0を押してください。メッセージを削除するには1を押してください。現在のセルフIDメッセージを確認するには2を押してください。終了するにはシャープを押してください」　メッセージを録音するには0を押してください。メッセージを削除するには1を押してください。現在のセルフIDメッセージを確認するには2を押してください。終了するにはシャープを押してください。</description>
+		</prompt>
+
+		<prompt id="MSGS" file="messages.wav">
+			<description>フレーズ内に「メッセージ」　3通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="MSGSAVFAIL" file="msg_save_failed.wav">
+			<description>メッセージは保存できませんでした</description>
+		</prompt>
+
+		<prompt id="MSGSVD" file="msg_saved.wav">
+			<description>メッセージが保存されました</description>
+		</prompt>
+
+		<prompt id="NEW" file="new.wav">
+			<description>フレーズ内に「新しい」　5通の新しいメッセージと1通の古いメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NEW_MSG" file="new_message.wav">
+			<description>フレーズ内に「新しいメッセージ」　1通の新しいメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NEW_MSGS" file="new_messages.wav">
+			<description>フレーズ内に「新しいメッセージ」　5通の新しいメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NEW_PIN_CODE" file="new_pin_code.wav">
+			<description>フレーズ内に「新しいPINナンバー」　あなたの新しいPINナンバーは1-2-3です。または、新しいPINナンバーを入力してください</description>
+		</prompt>
+
+		<prompt id="NO_ANSWER" file="no_answer.wav">
+			<description>応答がありません</description>
+		</prompt>
+
+		<prompt id="NOACTPERF" file="no_action_performed.wav">
+			<description>何も対応していません</description>
+		</prompt>
+
+		<prompt id="NOMSGSLCT" file="no_message_selected.wav">
+			<description>メッセージが選択されていません</description>
+		</prompt>
+
+		<prompt id="NOMSGSTODEL" file="no_msgs_todelete.wav">
+			<description>削除するメッセージはありません</description>
+		</prompt>
+
+		<prompt id="NOSVDMSGS" file="no_saved_msgs.wav">
+			<description>保存されたメッセージはありません</description>
+		</prompt>
+
+		<prompt id="NOTALLMSGSDELETED" file="notall_msgs_deleted.wav">
+			<description>いくつかのメッセージを削除できませんでした</description>
+		</prompt>
+
+		<prompt id="NUMBER_BUSY" file="number_is_busy.wav">
+			<description>この番号は現在使用中です</description>
+		</prompt>
+
+		<prompt id="OLD" file="old.wav">
+			<description>フレーズ内に「古い」　5通の古いメッセージがあります</description>
+		</prompt>
+
+		<prompt id="OPFAIL" file="operation_failed.wav">
+			<description>操作に失敗しました</description>
+		</prompt>
+
+		<prompt id="OPTIONS_MENU" file="OPTMNU.wav">
+			<description>メッセージを再生するには星印を押してください。
+						 プロフィールを変更するには1を押してください
+						 ダイアルするには3を押してください
+						 既読メッセージをすべて削除するには4を押してください。
+						 セルフIDメッセージを変更するには5を押してください。
+						 メールボックス情報を再生するには6を押してください。
+						 PINナンバーを変更するには7を押してください。
+						 挨拶用メッセージを変更するには8を押してください。
+						 この操作方法をもう一度聞くには、9を押してください。
+						 終了するにはシャープを押してください</description>
+		</prompt>
+		
+		<prompt id="NUMBER_ENT" file="number.wav">
+			<description>フレーズ内に「番号」　番号を入力してからシャープを押してください
+			</description>
+		</prompt>
+
+		<prompt id="PIN" file="pin.wav">
+			<description>フレーズ内に「個人IDナンバー」　個人IDナンバーを入力してからシャープを押してください</description>
+		</prompt>
+
+		<prompt id="PLAYBACK_MENU" file="PBACKMNU.wav">
+			<description>次のメッセージを開くには0を押してください。
+						 前のメッセージを開くには1を押してください。
+						 現在のメッセージを繰り返すには2を押してください。
+						 現在のメッセージを削除するには3を押してください。
+						 折り返し電話をかけるには4を押してください。
+						 他のボイスメールを転送するには5を押してください。
+						 オプションについては9を押してください。
+						 終了するにはシャープを押してください</description>
+		</prompt>
+
+		<prompt id="PLSENTER" file="please_enter.wav">
+			<description>フレーズ内に「入力してください」　個人IDナンバーを入力してください</description>
+		</prompt>
+
+		<prompt id="PLSHOLD" file="please_hold.wav">
+			<description>転送しますので少々お待ちください</description>
+		</prompt>
+
+		<prompt id="PLSHOLD_CALL" file="PleaseHold_Calling.wav">
+			<description>1-0-6に発信しますので少々お待ちください</description>
+		</prompt>
+
+		<prompt id="PRESS" file="press.wav">
+			<description>フレーズ内に「を押してください」　ジョン・スミスさんに電話をかけるには0を押してください</description>
+		</prompt>
+
+		<prompt id="PRESSNINE_FOROPTIONS" file="press_nine_for_options.wav">
+			<description>オプションについては9を押してください</description>
+		</prompt>
+
+		<prompt id="PRESSSTAR_TOPLAY" file="press_star_to_play.wav">
+			<description>再生するには星印を押してください</description>
+		</prompt>
+
+		<prompt id="QUEID" file="queue_id.wav">
+			<description>フレーズ内に「キューID」　キューIDを入力してからシャープを押してください</description>
+		</prompt>
+
+		<prompt id="QUEUE_TOBE_CONNECTED" file="queue_tobe_connected.wav">
+			<description>>フレーズ内に「がこのキューにあります。つながるまで少々お待ちください。」　このキューでは、あなたは11番目です。つながるまで少々お待ちください</description>
+		</prompt>
+
+		<prompt id="RECYA" file="record_your.wav">
+			<description>フレーズ内に「を録音」　メッセージを録音してからシャープを押してください</description>
+		</prompt>
+
+		<prompt id="RECYAMSG" file="record_your_message.wav">
+			<description>メッセージを録音してからシャープを押すか、星印を押してオペレーターにご連絡ください</description>
+		</prompt>
+
+		<prompt id="SAVED" file="saved.wav">
+			<description>フレーズ内に「保存されました」　新しいPINナンバーが保存されました</description>
+		</prompt>
+
+		<prompt id="SAVMSGCNFRM" file="SaveMsgCnfrm.wav">
+			<description>メッセージを保存するには0を押してください。録音を繰り返すには1を押してください。録音を確認するには2を押してください。終了するにはシャープを押してください</description>
+		</prompt>
+
+		<prompt id="STACK_OVRFLW" file="stack_overflow.wav">
+			<description>ドキュメントが多く、オーバーフロー状態です。申し訳ございません</description>
+		</prompt>
+		
+		<prompt id="STDMSGRST" file="standard_message_restored.wav">
+			<description>標準メッセージに戻されました</description>
+		</prompt>
+
+		<prompt id="BYE" file="thankyou_goodbye.wav">
+			<description>ありがとうございました。さようなら</description>
+		</prompt>
+
+		<prompt id="THENPRESPND" file="then_press_pound.wav">
+			<description>フレーズ内に「それからシャープを押してください」　グループIDを入力してください。それからシャープを押してください</description>
+		</prompt>
+
+		<prompt id="TIME_IS" file="msg_received.wav">
+			<description>フレーズ内に「メッセージが受信されました」　メッセージは昨日の午後1時5分に受信されました</description>
+		</prompt>
+
+		<prompt id="TOCALL_TO" file="ToCallTo.wav">
+			<description>フレーズ内に「電話をかけるには」　ジョン・スミスさんに電話をかけるには0を押してください</description>
+		</prompt>
+
+		<prompt id="TODAY" file="today.wav">
+			<description>フレーズ内に「今日」　時間は今日の午後1時5分です</description>
+		</prompt>
+
+		<prompt id="TODLTMSG" file="to_delete_msg.wav">
+			<description>フレーズ内に「メッセージを削除するには」　メッセージを削除するには星印を、キャンセルするにはシャープを押してください</description>
+		</prompt>
+
+		<prompt id="TODLTREADMSGS" file="todelete_read_messages.wav">
+			<description>フレーズ内に「すべてのメッセージを削除するには」　すべてのメッセージを削除するには星印を、キャンセルするにはシャープを押してください</description>
+		</prompt>
+
+		<prompt id="TOEXIT_PRESSPOUND" file="toexit_presspnd.wav">
+			<description>終了するにはシャープを押してください</description>
+		</prompt>
+
+		<prompt id="TORECNEW" file="to_record_new.wav">
+			<description>フレーズ内に「新しいメッセージを録音するには」　新しいメッセージを録音するには0を押してください</description>
+		</prompt>
+
+		<prompt id="TO_SAVE" file="to_save.wav">
+			<description>フレーズ内に「保存するには」　メッセージを保存するには星印を、キャンセルするにはシャープを押してください</description>
+		</prompt>
+
+		<prompt id="USER_NAME" file="UserName.wav">
+			<description>フレーズ内に「連絡しようとしている人の名字の最初の3文字」　連絡しようとしている人の名字の最初の3文字を入力してください</description>
+		</prompt>
+
+		<prompt id="VMLDSBL" file="voicemail_disabled.wav">
+			<description>この内線番号にはボイスメールを使用できません</description>
+		</prompt>
+
+		<prompt id="YAHV" file="you_have.wav">
+			<description>フレーズ内に「があります」　2通の新しいメッセージがあります</description>
+		</prompt>
+
+		<prompt id="YAHVNO" file="you_have_no.wav">
+			<description>フレーズ内に「はありません」　新しいメッセージはありません</description>
+		</prompt>
+
+		<prompt id="YESTERDAY" file="yesterday.wav">
+			<description>フレーズ内に「昨日」　メッセージは昨日の午後1時5分に受信されました</description>
+		</prompt>
+
+		<prompt id="YOUR" file="your.wav">
+			<description>フレーズ内に「あなたの」　あなたの新しいPINナンバーは1-2-3です</description>
+		</prompt>
+
+		<prompt id="YOUR_AT_POSITION" file="your_at_position.wav">
+			<description>>フレーズ内に「あなたはXXX番目です」　このキューでは、あなたは11番目です。つながるまで少々お待ちください</description>
+		</prompt>
+
+		<prompt id="INV_INP" file="InvalidInput.wav">
+			<description>入力内容が無効です。再度お試しください</description>
+		</prompt>
+
+		<prompt id="INV_NUM" file="InvalidNumber.wav">
+			<description>無効な番号です</description>
+		</prompt>
+
+		<prompt id="UNKN_PRMT" file="unknown_prompt.wav">
+			<description>不明な指示です</description>
+		</prompt>
+		
+		<prompt id="OHOVERRIDE_OFF" file="officehr_override_off.wav">
+			<description>現在、電話システムは既定の営業時間を使用しています</description>
+		</prompt>
+		
+		<prompt id="OHOVERRIDE_IN" file="officehr_override_in.wav">
+			<description>現在、電話システムは社内勤務時間に設定されています</description>
+		</prompt>
+		
+		<prompt id="OHOVERRIDE_OUT" file="officehr_override_out.wav">
+			<description>現在、電話システムは外出中に設定されています</description>
+		</prompt>
+
+		<prompt id="NUM_0" file="numbers/0.wav">
+			<description>0</description>
+		</prompt>
+
+		<prompt id="NUM_0_B" file="numbers/0^b.wav">
+			<description>0。語尾が途切れました</description>
+		</prompt>
+
+		<prompt id="NUM_1" file="numbers/1.wav">
+			<description>フレーズ内に「1」　131、101、または101通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_1_B" file="numbers/1^b.wav">
+			<description>1。語尾が途切れました</description>
+		</prompt>
+
+		<prompt id="NUM_1_O" file="numbers/1o.wav">
+			<description>F1番目</description>
+		</prompt>
+
+		<prompt id="NUM_10" file="numbers/10.wav">
+			<description>フレーズ内に「10」　10、110、または10通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_10_O" file="numbers/10o.wav">
+			<description>10番目</description>
+		</prompt>
+
+		<prompt id="NUM_11" file="numbers/11.wav">
+			<description>フレーズ内に「11」　11、111、または11通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_11_O" file="numbers/11o.wav">
+			<description>11番目</description>
+		</prompt>
+
+		<prompt id="NUM_12" file="numbers/12.wav">
+			<description>フレーズ内に「12」　12、112、または12通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_12_O" file="numbers/12o.wav">
+			<description>12番目。</description>
+		</prompt>
+
+		<prompt id="NUM_13" file="numbers/13.wav">
+			<description>フレーズ内に「13」　13、113、または13通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_13_O" file="numbers/13o.wav">
+			<description>13番目。</description>
+		</prompt>
+
+		<prompt id="NUM_14" file="numbers/14.wav">
+			<description>フレーズ内に「14」　14、114、または14通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_14_O" file="numbers/14o.wav">
+			<description>14番目</description>
+		</prompt>
+
+		<prompt id="NUM_15" file="numbers/15.wav">
+			<description>フレーズ内に「15」　15、115、または15通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_15_O" file="numbers/15o.wav">
+			<description>15番目。</description>
+		</prompt>
+
+		<prompt id="NUM_16" file="numbers/16.wav">
+			<description>フレーズ内に「16」　16、116、または16通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_16_O" file="numbers/16o.wav">
+			<description>16番目。</description>
+		</prompt>
+
+		<prompt id="NUM_17" file="numbers/17.wav">
+			<description>フレーズ内に「17」　17、117、または17通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_17_O" file="numbers/17o.wav">
+			<description>17番目。</description>
+		</prompt>
+
+		<prompt id="NUM_18" file="numbers/18.wav">
+			<description>フレーズ内に「18」　18、118、または18通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_18_O" file="numbers/18o.wav">
+			<description>18番目。</description>
+		</prompt>
+
+		<prompt id="NUM_19" file="numbers/19.wav">
+			<description>フレーズ内に「19」　19、119、または19通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_19_O" file="numbers/19o.wav">
+			<description>19番目。</description>
+		</prompt>
+
+		<prompt id="NUM_2" file="numbers/2.wav">
+			<description>フレーズ内に「2」　232、202、または202通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_2_B" file="numbers/2^b.wav">
+			<description>2。語尾が途切れました</description>
+		</prompt>
+
+		<prompt id="NUM_2_O" file="numbers/2o.wav">
+			<description>2番目</description>
+		</prompt>
+
+		<prompt id="NUM_20+" file="numbers/20+.wav">
+			<description>フレーズ内に「20」 <B>20</B> 1、または21通のメッセージがあります。</description>
+		</prompt>
+
+		<prompt id="NUM_20" file="numbers/20.wav">
+			<description>フレーズ内に「20」　20、120、または20通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_20_O" file="numbers/20o.wav">
+			<description>20番目。</description>
+		</prompt>
+
+		<prompt id="NUM_3" file="numbers/3.wav">
+			<description>Like 1.wav</description>
+		</prompt>
+
+		<prompt id="NUM_3_B" file="numbers/3^b.wav">
+			<description>フレーズ内に「3」　3、33、303、または303通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_3_O" file="numbers/3o.wav">
+			<description>3番目。</description>
+		</prompt>
+
+		<prompt id="NUM_30+" file="numbers/30+.wav">
+			<description>フレーズ内に「30」 <B>30</B> 1、または31通のメッセージがあります。</description>
+		</prompt>
+
+		<prompt id="NUM_30" file="numbers/30.wav">
+			<description>フレーズ内に「30」　30、130、または30通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_30_O" file="numbers/30o.wav">
+			<description>30番目。</description>
+		</prompt>
+
+		<prompt id="NUM_4" file="numbers/4.wav">
+			<description>フレーズ内に「4」　4、34、404、または404通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_4_B" file="numbers/4^b.wav">
+			<description>4。語尾が途切れました</description>
+		</prompt>
+
+		<prompt id="NUM_4_O" file="numbers/4o.wav">
+			<description>4番目</description>
+		</prompt>
+
+		<prompt id="NUM_40+" file="numbers/40+.wav">
+			<description>フレーズ内に「40」 <B>40</B> 1、または41通のメッセージがあります。</description>
+		</prompt>
+
+		<prompt id="NUM_40" file="numbers/40.wav">
+			<description>フレーズ内に「40」　40、140、または40通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_5" file="numbers/5.wav">
+			<description>フレーズ内に「5」　5、35、505、または505通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_5_B" file="numbers/5^b.wav">
+			<description>5。語尾が途切れました</description>
+		</prompt>
+
+		<prompt id="NUM_5_O" file="numbers/5o.wav">
+			<description>5番目。</description>
+		</prompt>
+
+		<prompt id="NUM_50+" file="numbers/50+.wav">
+			<description>フレーズ内に「50」 <B>50</B> 1、または51通のメッセージがあります。</description>
+		</prompt>
+
+		<prompt id="NUM_50" file="numbers/50.wav">
+			<description>フレーズ内に「50」　50、150、または50通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_6" file="numbers/6.wav">
+			<description>フレーズ内に「6」　6、36、606、または606通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_6_B" file="numbers/6^b.wav">
+			<description>6。語尾が途切れました</description>
+		</prompt>
+
+		<prompt id="NUM_6_O" file="numbers/6o.wav">
+			<description>6番目。</description>
+		</prompt>
+
+		<prompt id="NUM_60+" file="numbers/60+.wav">
+			<description>フレーズ内に「60」 <B>60</B> 1、または61通のメッセージがあります。</description>
+		</prompt>
+
+		<prompt id="NUM_60" file="numbers/60.wav">
+			<description>フレーズ内に「60」　60、160、または60通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_7" file="numbers/7.wav">
+			<description>フレーズ内に「7」　7、37、707、または707通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_7_B" file="numbers/7^b.wav">
+			<description>7。語尾が途切れました</description>
+		</prompt>
+
+		<prompt id="NUM_7_O" file="numbers/7o.wav">
+			<description>7番目</description>
+		</prompt>
+
+		<prompt id="NUM_70+" file="numbers/70+.wav">
+			<description>フレーズ内に「70」 <B>70</B> 1、または71通のメッセージがあります。</description>
+		</prompt>
+
+		<prompt id="NUM_70" file="numbers/70.wav">
+			<description>フレーズ内に「70」　70、170、または70通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_8" file="numbers/8.wav">
+			<description>フレーズ内に「8」　8、38、808、または808通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_8_B" file="numbers/8^b.wav">
+			<description>8。語尾が途切れました</description>
+		</prompt>
+
+		<prompt id="NUM_8_O" file="numbers/8o.wav">
+			<description>8番目。</description>
+		</prompt>
+
+		<prompt id="NUM_80+" file="numbers/80+.wav">
+			<description>フレーズ内に「80」 <B>80</B> 1、または81通のメッセージがあります。</description>
+		</prompt>
+
+		<prompt id="NUM_80" file="numbers/80.wav">
+			<description>フレーズ内に「80」　80、180、または80通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_9" file="numbers/9.wav">
+			<description>フレーズ内に「9」　39、909、または909通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_9_B" file="numbers/9^b.wav">
+			<description>9。語尾が途切れました</description>
+		</prompt>
+
+		<prompt id="NUM_9_O" file="numbers/9o.wav">
+			<description>9番目。</description>
+		</prompt>
+
+		<prompt id="NUM_90+" file="numbers/90+.wav">
+			<description>フレーズ内に「90」 <B>90</B> 1、または91通のメッセージがあります。</description>
+		</prompt>
+
+		<prompt id="NUM_90" file="numbers/90.wav">
+			<description>フレーズ内に「90」　90、190、または90通のメッセージがあります</description>
+		</prompt>
+
+		<prompt id="NUM_AND" file="numbers/and.wav">
+			<description></description>
+		</prompt>
+
+		<prompt id="NUM_HNDR" file="numbers/hundred.wav">
+			<description>フレーズ内に「100」　100または121。</description>
+		</prompt>
+
+		<prompt id="NUM_MLN" file="numbers/million.wav">
+			<description>フレーズ内に「100万」　100万または121万。</description>
+		</prompt>
+
+		<prompt id="NUM_STAR" file="numbers/star.wav">
+			<description>星印</description>
+		</prompt>
+
+		<prompt id="NUM_STAR_B" file="numbers/star^b.wav">
+			<description>星印。語尾が途切れました</description>
+		</prompt>
+
+		<prompt id="NUM_THSND" file="numbers/thousand.wav">
+			<description>フレーズ内に「1000」　1000または2021</description>
+		</prompt>
+
+		<prompt id="TM_AM" file="time/am.wav">
+			<description>時間再生を午前にする</description>
+		</prompt>
+
+		<prompt id="TM_PM" file="time/pm.wav">
+			<description>時間再生を午後にする</description>
+		</prompt>
+
+		<prompt id="TM_OU" file="time/ou.wav">
+			<description></description>
+		</prompt>
+
+		<prompt id="TM_MON_01" file="time/january.wav">
+			<description>1月</description>
+		</prompt>
+
+		<prompt id="TM_MON_02" file="time/february.wav">
+			<description>2月</description>
+		</prompt>
+
+		<prompt id="TM_MON_03" file="time/march.wav">
+			<description>3月</description>
+		</prompt>
+
+		<prompt id="TM_MON_04" file="time/april.wav">
+			<description>4月</description>
+		</prompt>
+
+		<prompt id="TM_MON_05" file="time/may.wav">
+			<description>5月</description>
+		</prompt>
+
+		<prompt id="TM_MON_06" file="time/june.wav">
+			<description>6月</description>
+		</prompt>
+
+		<prompt id="TM_MON_07" file="time/july.wav">
+			<description>7月</description>
+		</prompt>
+
+		<prompt id="TM_MON_08" file="time/august.wav">
+			<description>8月</description>
+		</prompt>
+
+		<prompt id="TM_MON_09" file="time/september.wav">
+			<description>9月</description>
+		</prompt>
+
+		<prompt id="TM_MON_10" file="time/october.wav">
+			<description>10月</description>
+		</prompt>
+
+		<prompt id="TM_MON_11" file="time/november.wav">
+			<description>11月</description>
+		</prompt>
+
+		<prompt id="TM_MON_12" file="time/december.wav">
+			<description>12月</description>
+		</prompt>
+
+		<prompt id="TM_MIDNIGHT" file="time/midnight.wav">
+			<description>フレーズ内に「午前0時」　午前0時15分過ぎ</description>
+		</prompt>
+
+		<prompt id="TM_MINUTE" file="time/minute.wav">
+			<description>フレーズ内に「分」　午前0時1分過ぎ</description>
+		</prompt>
+
+		<prompt id="TM_MINUTES" file="time/minutes.wav">
+			<description><description>フレーズ内に「分」　午前0時15分過ぎ</description></description>
+		</prompt>
+
+		<prompt id="TM_OCLOCK" file="time/oclock.wav">
+			<description>フレーズ内に「時」　12時</description>
+		</prompt>
+
+		<prompt id="TM_PAST" file="time/past.wav">
+			<description>フレーズ内に「過ぎ」　午前0時1分過ぎ</description>
+		</prompt>
+		
+		<prompt id="CONF_NAME" file="SpeakYourName.wav">
+		  <description>発信音の後にお名前をおっしゃってください。その後、どれでも結構ですのでボタンを押してください</description>
+		</prompt>
+
+		<prompt id="CONF_CONFPROMPT" file="ConfPrompt.wav">
+		  <description>カンファレンスへようこそ</description>
+		</prompt>
+		
+		<prompt id="CONF_NEWMEMBER" file="newMember.wav">
+		  <description>さんがカンファレンスに参加しました</description>
+		</prompt>		
+
+		<prompt id="CONF_PIN" file="PleaseEnterPIN.wav">
+		  <description>カンファレンスIDを入力し、シャープを押してください</description>
+		</prompt>
+		
+		<prompt id="CONF_LEFT" file="leftPrompt.wav">
+		  <description>さんがカンファレンスを退出しました</description>
+		</prompt>
+		
+		<prompt id="CONF_CREATING" file="creating.wav">
+		  <description>新しいカンファレンスを作成します</description>
+		</prompt>
+		
+		<prompt id="CONF_JOINING" file="joining.wav">
+		  <description>次の方々が参加しているカンファレンスに参加します</description>
+		</prompt>
+		
+		<prompt id="CONF_HASHORSTAR" file="hashorstar.wav">
+		  <description>キャンセルするにはシャープを、続けるには星印を押してください</description>
+		</prompt>
+
+    <prompt id="REDIRVMAIL" file="redir_vmail.wav">
+      <description>ボイスメールを転送しています</description>
+    </prompt>
+
+    <prompt id="UHVCALL" file="uhavecall.wav">
+      <description>お電話です。発信元は</description>
+    </prompt>
+
+    <prompt id="PRESS1TOTAKECALL" file="totakecall.wav">
+      <description>通話するには1を押してください</description>
+    </prompt>
+
+    <prompt id="PRESSSENDTOVMAIL" file="tosend_tovmail.wav">
+      <description>ボイスメールを送信するにはシャープを押してください</description>
+    </prompt>
+
+    <prompt id="PLSWAITLOCATE" file="plswait_locate.wav">
+      <description>検索しますので少々お待ちください</description>
+    </prompt>
+
+    <prompt id="USERUNAVAIL" file="user_unavail.wav">
+      <description>ユーザーは現在対応できません</description>
+    </prompt>
+    
+    <prompt id="NOTFOUND" file="Destnot_found.wav">
+      <description>お使いになった番号は存在しません</description>
+    </prompt>
+    
+    <prompt id="FORBIDDEN" file="forbidden_byadmin.wav">
+      <description>管理者より通話が禁止されています</description>
+    </prompt>
+    
+    <prompt id="DEST_NA" file="destnot_available.wav">
+      <description>宛先の番号は対応できない状態にある、または登録されていない、もしくはルートが使用できない状態になっています</description>
+    </prompt>
+    
+    <prompt id="NOANSWER" file="terminated_noanswer.wav">
+      <description>応答がありません。通話を終了します</description>
+    </prompt>
+    
+    <prompt id="BUSY" file="destination_isbusy.wav">
+      <description>おかけになった番号は現在使用中です－後ほどお試しください</description>
+    </prompt>
+    
+    <prompt id="SERVER_ERROR" file="internal_servererror.wav">
+      <description>通話が成立しませんでした。管理者にお問い合わせください</description>
+    </prompt>
+    
+    <prompt id="DISABLED_FWD" file="calldisabled_fwrule.wav">
+      <description>最終的な宛先へたどり着けません－管理者にお問い合わせください</description>
+    </prompt>
+    
+    <prompt id="DISABLED_INB" file="calldisabled_inrule.wav">
+      <description>システムにより通話が許可されていません－管理者にお問い合わせください</description>
+    </prompt>
+    
+    <prompt id="NO_OUTBOUND" file="fwexternalnumber_nooutbound.wav">
+      <description>この通話では、発信できません</description>
+    </prompt>
+    
+    <prompt id="LL" file="license_limit.wav">
+      <description>ライセンスの限界です－許可された通話数に達しました。管理者にお問い合わせください</description>
+    </prompt>
+    
+    <prompt id="FEAT_NA" file="feature_notavailable.wav">
+      <description>3CX無料版では機能をご利用いただけません。管理者にお問い合わせください</description>
+    </prompt>
+    
+    <prompt id="QUEUE_UNATT" file="noavailable_queueagents.wav">
+      <description>現在、このキューに対応できるエージェントがおりません</description>
+    </prompt>
+    
+    <prompt id="AWAY_ON" file="away_on.wav">
+      <description>対応しないをオンにする</description>
+    </prompt>
+    
+    <prompt id="AWAY_OFF" file="away_off.wav">
+      <description>対応しないをオフにする</description>
+    </prompt>
+    
+    <prompt id="LOGGED_IN" file="logged_inqueue.wav">
+      <description>この内線番号はキューにログインされています</description>
+    </prompt>
+    
+    <prompt id="LOGGED_OUT" file="logged_outqueue.wav">
+      <description>この内線番号はキューからログアウトされています</description>
+    </prompt>
+    
+    <prompt id="MSGFWDED" file="MsgForwarded.wav">
+      <description>メッセージが転送されました</description>
+    </prompt>
+    
+    <prompt id="NOMSGSTOFWD" file="NoMsgToForward.wav">
+      <description>転送するメッセージはありません</description>
+    </prompt>
+    
+    <prompt id="ENTEREXT_FWDVMAIL" file="PlsEnterExtFwdVM.wav">
+      <description>ボイスメールを送信するには内線番号を入力してください</description>
+    </prompt>
+    
+    <prompt id="ACCBLOCKED" file="AccountBlocked.wav">
+      <description>アカウントが一時的にブロックされています</description>
+    </prompt>
+    
+    <prompt id="TRYLATER" file="PlsTryLater.wav">
+      <description>後ほどお試しください</description>
+    </prompt>
+    
+    <prompt id="STATUS_MENU" file="profile_menu.wav">
+      <description>対応可能な場合は1を、外出中の場合は2を、不在の場合は3を、カスタムプロファイル1は4を、カスタムプロファイル2は5を押してください。</description>
+    </prompt>
+    
+    <prompt id="ST_AVAILABLE_SET" file="avaiable_status_set.wav">
+      <description>対応可能に設定しました</description>
+    </prompt>
+    
+    <prompt id="ST_AWAY_SET" file="away_status_set.wav">
+      <description>不在に設定しました</description>
+    </prompt>
+    
+    <prompt id="ST_OUTOFFICE_SET" file="outofoffice_status_set.wav">
+      <description>外出中に設定しました</description>
+    </prompt>
+    
+    <prompt id="ST_CUSTOM1_SET" file="custom1_status_set.wav">
+      <description>カスタムプロファイル1に設定しました</description>
+    </prompt>
+    
+    <prompt id="ST_CUSTOM2_SET" file="custom2_status_set.wav">
+      <description>カスタムプロファイル2に設定しました</description>
+    </prompt>
+	
+	<prompt id="CB_EDIT_NUM" file="enter_callback_number.wav">
+      <description>電話の折り返し先として使用する番号を入力し、シャープを押してください</description>
+    </prompt>
+	
+	<prompt id="CB_REQ" file="callback_request_number.wav">
+      <description>折り返し用の電話番号として次の番号をリクエストしました</description>
+    </prompt>
+	
+	<prompt id="CB_CONFIRM" file="callback_action_menu.wav">
+      <description>正しい場合は星印を、折り返し用の電話番号を変更する場合は0を、キャンセルする場合はシャープを押してください</description>
+    </prompt>
+	
+	<prompt id="CB_BYE" file="thankyou_callback_confirmed.wav">
+      <description>ありがとうございました。エージェントからご連絡を差し上げますので少々お待ちください</description>
+    </prompt>
+	
+	<prompt id="ACCESS_OK_PINPROTECT" file="AccessAllowedBySystem.wav">
+      <description>システムによりアクセスが許可されました</description>
+    </prompt>
+	
+	<prompt id="LOGGEDINHD" file="logged_in_hotdesking.wav">
+      <description>ログインができました。携帯はあなたのアカウントにリセットされます。</description>
+    </prompt>
+	
+	<prompt id="LOGGEDOUTHD" file="logged_out_hotdesking.wav">
+      <description>ログアウトしました。携帯はリセットされます。</description>
+    </prompt>
+	
+	<prompt id="FEAT_NA2" file="feature_not_available2.wav">
+      <description>利用できません。プロフェッショナル又はエンタープライスライセンスキイがいります。アドミニストレータに連絡してください。</description>
+    </prompt>
+	
+	<prompt id="PLUS" file="numbers/plus.wav">
+      <description>プラス</description>
+    </prompt>
+	
+	<prompt id="PRESS_POUND_TO_CONFIRM" file="press_pound_to_confirm.wav">
+      <description>番号を変更するには星印を押してください</description>
+    </prompt>
+	
+	<prompt id="YOU_HAVE_ENTERED" file="you_have_entered.wav">
+      <description>次の番号を入力しました</description>
+    </prompt>
+	
+	<prompt id="SELECT_CALL_BY" file="select_call_by.wav">
+      <description>1を押して名前で発信、2を押して名字で発信</description>
+    </prompt>
+    
+    <prompt id="USER_FIRST_NAME" file="UserFirstName.wav">			
+        <description>&quot;&lt;I&gt;連絡したい人の名前の最初の3文字&lt;/I&gt;&quot; というフレーズにある &quot;
+        &lt;B&gt;連絡したい人の名前の最初の3文字&lt;/B&gt;&quot; を入力してください.</description>
+    </prompt>
+
+	</prompts>
+</set>

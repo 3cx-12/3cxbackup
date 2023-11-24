@@ -1,0 +1,751 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<set>
+  <info language="SW" system="1" id="32E3AD5C-3252-4ef2-A9D5-115A92B847AF" name="Swedish Prompts Set" version="4.0.3">
+    <langopts num_style="1" />
+    <description>
+      Swedish set of prompts.
+    </description>
+  </info>
+  <prompts>
+    <prompt id="ACCDND" file="access_denied.wav">
+      <description>Tillträde nekat.Nekande intonation</description>
+    </prompt>
+    <prompt id="AND" file="and.wav">
+      <description>OCH.Upplysande intonation</description>
+    </prompt>
+    <prompt id="BEEP" file="beep.wav">
+      <description>BEEP</description>
+    </prompt>
+    <prompt id="BEGOFMSGS" file="begin_of_messages.wav">
+      <description>Meddelanden börjar.Nekande intonation</description>
+    </prompt>
+    <prompt id="CALLTRAN_FAILED" file="call_transfer_failed.wav">
+      <description>Samtalsöverföring misslyckades.Nekande intonation</description>
+    </prompt>
+    <prompt id="CANCELLED" file="cancelled.wav">
+      <description>Tryck stjärna. För att avbryta tryck fyrkant</description>
+    </prompt>
+    <prompt id="CONFIRM" file="confirm.wav">
+      <description>tryck stjärna, för att avbryta tryck pundtecken. För att radera tryck stjärna, för att avbryta tryck pundtecken..Bekräftande intonation</description>
+    </prompt>
+    <prompt id="DELETED" file="deleted.wav">
+      <description>raderat.Upplysande intonation</description>
+    </prompt>
+    <prompt id="ENDOFMSGS" file="end_of_messages.wav">
+      <description>Slut på meddelanden.Nekande intonation</description>
+    </prompt>
+    <prompt id="ERROR" file="error.wav">
+      <description>Ett internt fel uppstod; ursäkta.Upplysande intonation</description>
+    </prompt>
+    <prompt id="EXTNUM" file="ext_num.wav">
+      <description>Nummer för vidarekoppling.Inbjudande intonation</description>
+    </prompt>
+    <prompt id="EXTNOTENAB" file="extension_not_enabled.wav">
+      <description>Vidarekoppling inte möjlig.Nekande intonation</description>
+    </prompt>
+    <prompt id="EXTNOTFOUND" file="extension_not_found.wav">
+      <description>Kan inte finna vidarekoppling.Nekande intonation</description>
+    </prompt>
+    <prompt id="FILNOTFOUND" file="file_not_found.wav">
+      <description>Kan inte finna fil.Nekande intonation</description>
+    </prompt>
+    <prompt id="GROUPID" file="group_id.wav">
+      <description>Gruppidentifierare.Inbjudande intonation</description>
+    </prompt>
+    <prompt id="INVPIN" file="invalid_pin.wav">
+      <description>Ogiltigt pinnummer.Nekande intonation</description>
+    </prompt>
+    <prompt id="IS" file="is.wav">
+      <description>är.Upplysande intonation</description>
+    </prompt>
+    <prompt id="IVRNUM" file="ivr_num.wav">
+      <description>IVR-nummer.Inbjudande intonation</description>
+    </prompt>
+    <prompt id="MSG" file="message.wav">
+      <description>Meddelande.Upplysande intonation</description>
+    </prompt>
+    <prompt id="MSG_FROM" file="message_from.wav">
+      <description>Meddelande från.Upplysande intonation</description>
+    </prompt>
+    <prompt id="MSG_GRT" file="greeting_message.wav">
+      <description>Hälsningsmeddelande.Inbjudande intonation</description>
+    </prompt>
+    <prompt id="MSG_SELFID" file="SelfIDMsg.wav">
+      <description>Meddelande för självidentifiering</description>
+    </prompt>
+    <prompt id="MSGALRDDLTD" file="message_already_deleted.wav">
+      <description>Meddelande redan raderat, var god välj ett annat.Nekande intonation</description>
+    </prompt>
+    <prompt id="MSGDLTD" file="message_deleted.wav">
+      <description>Meddelande raderat.Underrättande intonation</description>
+    </prompt>
+    <prompt id="MSGREC_MNU" file="MsgRecMnu.wav">
+      <description>tryck noll. För att återställa standardmeddelande tryck ett. För att kontrollera nuvarande hälsningsmeddelande tryck två. För att gå ut tryck pundtecken. För att spela in ditt meddelande tryck noll. För att återställa standardmeddelande tryck ett. För att kontrollera nuvarande hälsningsmeddelande tryck två. För att gå ut tryck pundtecken..Inbjudande intonation</description>
+    </prompt>
+    <prompt id="MSGREC_MNU2" file="MsgRecMnu2.wav">
+      <description>tryck noll. För att radera meddelande tryck ett. För att kontrollera nuvarande meddelande för självidentifiering tryck två. För att gå ut tryck pundtecknet. För att spela in ditt meddelande tryck noll. För att radera meddelande tryck ett. För att kontrollera nuvarande meddelande för självidentifiering tryck två. För att gå ut tryck pundtecken..Inbjudande intonation</description>
+    </prompt>
+    <prompt id="MSGS" file="messages.wav">
+      <description>Meddelanden </description>
+    </prompt>
+    <prompt id="MSGSAVFAIL" file="msg_save_failed.wav">
+      <description>Meddelanden sparades inte.Varnande intonation</description>
+    </prompt>
+    <prompt id="MSGSVD" file="msg_saved.wav">
+      <description>Meddelanden sparade.Underrättande intonation</description>
+    </prompt>
+    <prompt id="NEW" file="new.wav">
+      <description>nytt.Upplysande intonation</description>
+    </prompt>
+    <prompt id="NEW_MSG" file="new_message.wav">
+      <description>nytt meddelande</description>
+    </prompt>
+    <prompt id="NEW_MSGS" file="new_messages.wav">
+      <description>nya meddelanden.Upplysande intonation</description>
+    </prompt>
+    <prompt id="NEW_PIN_CODE" file="new_pin_code.wav">
+      <description>ny PINkod</description>
+    </prompt>
+    <prompt id="NO_ANSWER" file="no_answer.wav">
+      <description>Inget svar.Underrättande intonation</description>
+    </prompt>
+    <prompt id="NOACTPERF" file="no_action_performed.wav">
+      <description>Ingen handling utförd.Underrättande intonation</description>
+    </prompt>
+    <prompt id="NOMSGSLCT" file="no_message_selected.wav">
+      <description>Inga meddelanden valda.Nekande intonation</description>
+    </prompt>
+    <prompt id="NOMSGSTODEL" file="no_msgs_todelete.wav">
+      <description>Inga meddelanden att radera.Nekande intonation</description>
+    </prompt>
+    <prompt id="NOSVDMSGS" file="no_saved_msgs.wav">
+      <description>Inga sparade meddelanden.Upplysande intonation</description>
+    </prompt>
+    <prompt id="NOTALLMSGSDELETED" file="notall_msgs_deleted.wav">
+      <description>Några meddelanden kunde inte raderas.Upplysande intonation</description>
+    </prompt>
+    <prompt id="NUMBER_BUSY" file="number_is_busy.wav">
+      <description>Numret är upptaget.Underrättande intonation</description>
+    </prompt>
+    <prompt id="OLD" file="old.wav">
+      <description>gammalt.Upplysande intonation</description>
+    </prompt>
+    <prompt id="OPFAIL" file="operation_failed.wav">
+      <description>Utförandet misslyckades.Varnande intonation</description>
+    </prompt>
+    <prompt id="OPTIONS_MENU" file="OPTMNU.wav">
+      <description>För att spela upp meddelanden tryck stjärna. För att slå ett nummer tryck 3.För att radera alla lästa meddelanden tryck fyra. För att ändra meddelandet för självidentifikation tryck fem. För att spela upp information från brevlådan tryck sex. För att ändra pinnummer tryck sju. För att ändra ditt hälsningmeddelande tryck åtta. För att upprepa den här promptern tryck nio. För att gå ut tryck pundtecknet. .Upplysande intonation</description>
+    </prompt>
+    <prompt id="NUMBER_ENT" file="number.wav">
+      <description>nummer</description>
+    </prompt>
+    <prompt id="PIN" file="pin.wav">
+      <description>PIN kod</description>
+    </prompt>
+    <prompt id="PLAYBACK_MENU" file="PBACKMNU.wav">
+      <description>Tryck noll för nästa meddelande, tryck ett för föregående meddelande, tryck två för att upprepa det aktuella meddelandet, tryck tre för att radera det aktuella meddelandet, tryck fyra för att ringa tillbaka, tryck fem för att vidarebefordra till en annan röstbrevlåda, tryck nio för alternativ, tryck fyrkant för att avsluta</description>
+    </prompt>
+    <prompt id="PLSENTER" file="please_enter.wav">
+      <description>Var god ange</description>
+    </prompt>
+    <prompt id="PLSHOLD" file="please_hold.wav">
+      <description>Var god vänta medan jag kopplar ditt samtal.Vädjande intonation</description>
+    </prompt>
+    <prompt id="PLSHOLD_CALL" file="PleaseHold_Calling.wav">
+      <description>Var god vänta medan jag ringer till.Vädjande intonation</description>
+    </prompt>
+    <prompt id="PRESS" file="press.wav">
+      <description>tryck</description>
+    </prompt>
+    <prompt id="PRESSNINE_FOROPTIONS" file="press_nine_for_options.wav">
+      <description>Tryck nio för valmöjligheter.Upplysande intonation</description>
+    </prompt>
+    <prompt id="PRESSSTAR_TOPLAY" file="press_star_to_play.wav">
+      <description>Tryck stjärna för att spela upp.Upplysande intonation</description>
+    </prompt>
+    <prompt id="QUEID" file="queue_id.wav">
+      <description>Köidentifiering.Inbjudande intonation</description>
+    </prompt>
+    <prompt id="QUEUE_TOBE_CONNECTED" file="queue_tobe_connected.wav">
+      <description>i den här kön.  Var god vänta på anslutning</description>
+    </prompt>
+    <prompt id="RECYA" file="record_your.wav">
+      <description>Spela in ditt.Inbjudande intonation</description>
+    </prompt>
+    <prompt id="RECYAMSG" file="record_your_message.wav">
+      <description>Spela in ditt meddelande och tryck sedan fyrkan. Tryck stjärna för att kopplas till telefonist.</description>
+    </prompt>
+    <prompt id="SAVED" file="saved.wav">
+      <description>sparat.Upplysande intonation</description>
+    </prompt>
+    <prompt id="SAVMSGCNFRM" file="SaveMsgCnfrm.wav">
+      <description>För att spara meddelande tryck 0. För att upprepa inspelningen tryck 1. För att bekräfta din inspelning tryck 2. För att gå ut tryck pundtecken .Upplysande intonation</description>
+    </prompt>
+    <prompt id="STACK_OVRFLW" file="stack_overflow.wav">
+      <description>Dokument orsakar stackspill. Ursäkta.Upplysande intonation</description>
+    </prompt>
+    <prompt id="STDMSGRST" file="standard_message_restored.wav">
+      <description>Standardmeddelande återställt.Upplysande intonation</description>
+    </prompt>
+    <prompt id="BYE" file="thankyou_goodbye.wav">
+      <description>Tack. Hej då</description>
+    </prompt>
+    <prompt id="THENPRESPND" file="then_press_pound.wav">
+      <description>Tryck sedan pundtecken</description>
+    </prompt>
+    <prompt id="TIME_IS" file="msg_received.wav">
+      <description>Meddelandet togs emot</description>
+    </prompt>
+    <prompt id="TOCALL_TO" file="ToCallTo.wav">
+      <description>För att ringa till</description>
+    </prompt>
+    <prompt id="TODAY" file="today.wav">
+      <description>idag</description>
+    </prompt>
+    <prompt id="TODLTMSG" file="to_delete_msg.wav">
+      <description>För att radera meddelande</description>
+    </prompt>
+    <prompt id="TODLTREADMSGS" file="todelete_read_messages.wav">
+      <description>För att radera alla meddelanden</description>
+    </prompt>
+    <prompt id="TOEXIT_PRESSPOUND" file="toexit_presspnd.wav">
+      <description>För att gå ut tryck pundtecken</description>
+    </prompt>
+    <prompt id="TORECNEW" file="to_record_new.wav">
+      <description>För att spela in nytt</description>
+    </prompt>
+    <prompt id="TO_SAVE" file="to_save.wav">
+      <description>för att spara .Inbjudande intonation</description>
+    </prompt>
+    <prompt id="USER_NAME" file="UserName.wav">
+      <description>användarnamn</description>
+    </prompt>
+    <prompt id="VMLDSBL" file="voicemail_disabled.wav">
+      <description>Röstbrevlåda är frånkopplat för denna anknytning</description>
+    </prompt>
+    <prompt id="YAHV" file="you_have.wav">
+      <description>Du har</description>
+    </prompt>
+    <prompt id="YAHVNO" file="you_have_no.wav">
+      <description>Du har inga</description>
+    </prompt>
+    <prompt id="YESTERDAY" file="yesterday.wav">
+      <description>igår</description>
+    </prompt>
+    <prompt id="YOUR" file="your.wav">
+      <description>Din</description>
+    </prompt>
+    <prompt id="YOUR_AT_POSITION" file="your_at_position.wav">
+      <description>Din plats är</description>
+    </prompt>
+    <prompt id="INV_INP" file="InvalidInput.wav">
+      <description>Ogiltig inmatning. Var god försök igen.Upplysande intonation</description>
+    </prompt>
+    <prompt id="INV_NUM" file="InvalidNumber.wav">
+      <description>Ogiltigt nummer.Nekande intonation</description>
+    </prompt>
+    <prompt id="UNKN_PRMT" file="unknown_prompt.wav">
+      <description>Okänd prompter.Nekande intonation</description>
+    </prompt>
+    <prompt id="NUM_0" file="numbers/0.wav">
+      <description>Noll</description>
+    </prompt>
+    <prompt id="NUM_0_B" file="numbers/0^b.wav">
+      <description>Noll</description>
+    </prompt>
+    <prompt id="NUM_1" file="numbers/1.wav">
+      <description>Ett</description>
+    </prompt>
+    <prompt id="NUM_1_B" file="numbers/1^b.wav">
+      <description>Ett</description>
+    </prompt>
+    <prompt id="NUM_1_O" file="numbers/1o.wav">
+      <description>Första</description>
+    </prompt>
+    <prompt id="NUM_10" file="numbers/10.wav">
+      <description>Tio</description>
+    </prompt>
+    <prompt id="NUM_10_O" file="numbers/10o.wav">
+      <description>Tionde</description>
+    </prompt>
+    <prompt id="NUM_11" file="numbers/11.wav">
+      <description>Elva</description>
+    </prompt>
+    <prompt id="NUM_11_O" file="numbers/11o.wav">
+      <description>Elfte</description>
+    </prompt>
+    <prompt id="NUM_12" file="numbers/12.wav">
+      <description>Tolv</description>
+    </prompt>
+    <prompt id="NUM_12_O" file="numbers/12o.wav">
+      <description>Tolfte</description>
+    </prompt>
+    <prompt id="NUM_13" file="numbers/13.wav">
+      <description>Tretton</description>
+    </prompt>
+    <prompt id="NUM_13_O" file="numbers/13o.wav">
+      <description>Trettonde</description>
+    </prompt>
+    <prompt id="NUM_14" file="numbers/14.wav">
+      <description>Fjorton</description>
+    </prompt>
+    <prompt id="NUM_14_O" file="numbers/14o.wav">
+      <description>Fjortonde</description>
+    </prompt>
+    <prompt id="NUM_15" file="numbers/15.wav">
+      <description>Femton</description>
+    </prompt>
+    <prompt id="NUM_15_O" file="numbers/15o.wav">
+      <description>Femtonde</description>
+    </prompt>
+    <prompt id="NUM_16" file="numbers/16.wav">
+      <description>Sexton</description>
+    </prompt>
+    <prompt id="NUM_16_O" file="numbers/16o.wav">
+      <description>Sextonde</description>
+    </prompt>
+    <prompt id="NUM_17" file="numbers/17.wav">
+      <description>Sjutton</description>
+    </prompt>
+    <prompt id="NUM_17_O" file="numbers/17o.wav">
+      <description>Sjuttonde</description>
+    </prompt>
+    <prompt id="NUM_18" file="numbers/18.wav">
+      <description>Arton</description>
+    </prompt>
+    <prompt id="NUM_18_O" file="numbers/18o.wav">
+      <description>Artonde</description>
+    </prompt>
+    <prompt id="NUM_19" file="numbers/19.wav">
+      <description>Nitton</description>
+    </prompt>
+    <prompt id="NUM_19_O" file="numbers/19o.wav">
+      <description>Nittonde</description>
+    </prompt>
+    <prompt id="NUM_2" file="numbers/2.wav">
+      <description>Två</description>
+    </prompt>
+    <prompt id="NUM_2_B" file="numbers/2^b.wav">
+      <description>Två.Sjunkande tonläge i slutet av uppräkningen</description>
+    </prompt>
+    <prompt id="NUM_2_O" file="numbers/2o.wav">
+      <description>Andra</description>
+    </prompt>
+    <prompt id="NUM_20+" file="numbers/20+.wav">
+      <description>Tjugo</description>
+    </prompt>
+    <prompt id="NUM_20" file="numbers/20.wav">
+      <description>Tjugo</description>
+    </prompt>
+    <prompt id="NUM_20_O" file="numbers/20o.wav">
+      <description>Tjogonde</description>
+    </prompt>
+    <prompt id="NUM_3" file="numbers/3.wav">
+      <description>Tre</description>
+    </prompt>
+    <prompt id="NUM_3_B" file="numbers/3^b.wav">
+      <description>Tre.Sjunkande tonläge i slutet av uppräkningen</description>
+    </prompt>
+    <prompt id="NUM_3_O" file="numbers/3o.wav">
+      <description>Tredje</description>
+    </prompt>
+    <prompt id="NUM_30+" file="numbers/30+.wav">
+      <description>Trettio</description>
+    </prompt>
+    <prompt id="NUM_30" file="numbers/30.wav">
+      <description>Trettio</description>
+    </prompt>
+    <prompt id="NUM_30_O" file="numbers/30o.wav">
+      <description>Trettionde</description>
+    </prompt>
+    <prompt id="NUM_4" file="numbers/4.wav">
+      <description>Fyra</description>
+    </prompt>
+    <prompt id="NUM_4_B" file="numbers/4^b.wav">
+      <description>Fyra.Sjunkande tonläge i slutet av uppräkningen</description>
+    </prompt>
+    <prompt id="NUM_4_O" file="numbers/4o.wav">
+      <description>Fjärde</description>
+    </prompt>
+    <prompt id="NUM_40+" file="numbers/40+.wav">
+      <description>Fyrtio</description>
+    </prompt>
+    <prompt id="NUM_40" file="numbers/40.wav">
+      <description>Fyrtio</description>
+    </prompt>
+    <prompt id="NUM_5" file="numbers/5.wav">
+      <description>Fem</description>
+    </prompt>
+    <prompt id="NUM_5_B" file="numbers/5^b.wav">
+      <description>Fem.Sjunkande tonläge i slutet av uppräkningen</description>
+    </prompt>
+    <prompt id="NUM_5_O" file="numbers/5o.wav">
+      <description>Femte</description>
+    </prompt>
+    <prompt id="NUM_50+" file="numbers/50+.wav">
+      <description>Femtio</description>
+    </prompt>
+    <prompt id="NUM_50" file="numbers/50.wav">
+      <description>Femtio</description>
+    </prompt>
+    <prompt id="NUM_6" file="numbers/6.wav">
+      <description>Sex</description>
+    </prompt>
+    <prompt id="NUM_6_B" file="numbers/6^b.wav">
+      <description>Sex.Sjunkande tonläge i slutet av uppräkningen</description>
+    </prompt>
+    <prompt id="NUM_6_O" file="numbers/6o.wav">
+      <description>Sjätte</description>
+    </prompt>
+    <prompt id="NUM_60+" file="numbers/60+.wav">
+      <description>Sextio</description>
+    </prompt>
+    <prompt id="NUM_60" file="numbers/60.wav">
+      <description>Sextio</description>
+    </prompt>
+    <prompt id="NUM_7" file="numbers/7.wav">
+      <description>Sju</description>
+    </prompt>
+    <prompt id="NUM_7_B" file="numbers/7^b.wav">
+      <description>Sju.Sjunkande tonläge i slutet av uppräkningen</description>
+    </prompt>
+    <prompt id="NUM_7_O" file="numbers/7o.wav">
+      <description>Sjunde</description>
+    </prompt>
+    <prompt id="NUM_70+" file="numbers/70+.wav">
+      <description>Sjuttio</description>
+    </prompt>
+    <prompt id="NUM_70" file="numbers/70.wav">
+      <description>Sjuttio</description>
+    </prompt>
+    <prompt id="NUM_8" file="numbers/8.wav">
+      <description>Åtta</description>
+    </prompt>
+    <prompt id="NUM_8_B" file="numbers/8^b.wav">
+      <description>Åtta.Sjunkande tonläge i slutet av uppräkningen</description>
+    </prompt>
+    <prompt id="NUM_8_O" file="numbers/8o.wav">
+      <description>Åttonde</description>
+    </prompt>
+    <prompt id="NUM_80+" file="numbers/80+.wav">
+      <description>Åttio</description>
+    </prompt>
+    <prompt id="NUM_80" file="numbers/80.wav">
+      <description>Åttio</description>
+    </prompt>
+    <prompt id="NUM_9" file="numbers/9.wav">
+      <description>Nio</description>
+    </prompt>
+    <prompt id="NUM_9_B" file="numbers/9^b.wav">
+      <description>Nio.Sjunkande tonläge i slutet av uppräkningen</description>
+    </prompt>
+    <prompt id="NUM_9_O" file="numbers/9o.wav">
+      <description>Nionde</description>
+    </prompt>
+    <prompt id="NUM_90+" file="numbers/90+.wav">
+      <description>Nittio</description>
+    </prompt>
+    <prompt id="NUM_90" file="numbers/90.wav">
+      <description>Nittio</description>
+    </prompt>
+    <prompt id="NUM_AND" file="numbers/and.wav">
+      <description>Och</description>
+    </prompt>
+    <prompt id="NUM_HNDR" file="numbers/hundred.wav">
+      <description>Hundra</description>
+    </prompt>
+    <prompt id="NUM_MLN" file="numbers/million.wav">
+      <description>Miljon</description>
+    </prompt>
+    <prompt id="NUM_STAR" file="numbers/star.wav">
+      <description>Stjärna</description>
+    </prompt>
+    <prompt id="NUM_STAR_B" file="numbers/star^b.wav">
+      <description>Stjärna.Sjunkande tonläge i slutet av uppräkningen</description>
+    </prompt>
+    <prompt id="NUM_THSND" file="numbers/thousand.wav">
+      <description>Tusen</description>
+    </prompt>
+    <prompt id="TM_AM" file="time/am.wav">
+      <description>Förmiddag</description>
+    </prompt>
+    <prompt id="TM_PM" file="time/pm.wav">
+      <description>Eftermiddag</description>
+    </prompt>
+    <prompt id="TM_OU" file="time/ou.wav">
+      <description>TM_OU</description>
+    </prompt>
+    <prompt id="TM_MON_01" file="time/january.wav">
+      <description>Januari</description>
+    </prompt>
+    <prompt id="TM_MON_02" file="time/february.wav">
+      <description>Februari</description>
+    </prompt>
+    <prompt id="TM_MON_03" file="time/march.wav">
+      <description>Mars</description>
+    </prompt>
+    <prompt id="TM_MON_04" file="time/april.wav">
+      <description>April</description>
+    </prompt>
+    <prompt id="TM_MON_05" file="time/may.wav">
+      <description>Maj</description>
+    </prompt>
+    <prompt id="TM_MON_06" file="time/june.wav">
+      <description>Juni</description>
+    </prompt>
+    <prompt id="TM_MON_07" file="time/july.wav">
+      <description>Juli</description>
+    </prompt>
+    <prompt id="TM_MON_08" file="time/august.wav">
+      <description>Augusti</description>
+    </prompt>
+    <prompt id="TM_MON_09" file="time/september.wav">
+      <description>September</description>
+    </prompt>
+    <prompt id="TM_MON_10" file="time/october.wav">
+      <description>Oktober</description>
+    </prompt>
+    <prompt id="TM_MON_11" file="time/november.wav">
+      <description>November</description>
+    </prompt>
+    <prompt id="TM_MON_12" file="time/december.wav">
+      <description>December</description>
+    </prompt>
+    <prompt id="TM_MIDNIGHT" file="time/midnight.wav">
+      <description>midnatt</description>
+    </prompt>
+    <prompt id="TM_MINUTE" file="time/minute.wav">
+      <description>minut</description>
+    </prompt>
+    <prompt id="TM_MINUTES" file="time/minutes.wav">
+      <description>minuter</description>
+    </prompt>
+    <prompt id="TM_OCLOCK" file="time/oclock.wav">
+      <description>klockan</description>
+    </prompt>
+    <prompt id="TM_PAST" file="time/past.wav">
+      <description>över</description>
+    </prompt>
+    <prompt id="CONF_NAME" file="SpeakYourName.wav">
+      <description>säg ditt namn efter signalen och tryck sedan på valfri knapp</description>
+    </prompt>
+    <prompt id="CONF_CONFPROMPT" file="ConfPrompt.wav">
+      <description>välkommen till konferensen</description>
+    </prompt>
+    <prompt id="CONF_NEWMEMBER" file="newMember.wav">
+      <description>har anslutit till konferensen</description>
+    </prompt>
+    <prompt id="CONF_PIN" file="PleaseEnterPIN.wav">
+      <description>var god ange konferens-ID och tryck sedan pundtecken</description>
+    </prompt>
+    <prompt id="CONF_LEFT" file="leftPrompt.wav">
+      <description>lämnade konferensen</description>
+    </prompt>
+    <prompt id="CONF_CREATING" file="creating.wav">
+      <description>Du skapar en ny konferens</description>
+    </prompt>
+    <prompt id="CONF_JOINING" file="joining.wav">
+      <description>du ansluter till konferensen med följade deltagare</description>
+    </prompt>
+    <prompt id="CONF_HASHORSTAR" file="hashorstar.wav">
+      <description>tryck pundtecken för att avbryta, eller tryck stjärna för att fortsätta</description>
+    </prompt>
+	<prompt id="REDIRVMAIL" file="redir_vmail.wav">
+      <description>Kopplar vidare till röstbrevlåda</description>
+    </prompt>
+
+    <prompt id="UHVCALL" file="uhavecall.wav">
+      <description>Du har ett samtal från</description>
+    </prompt>
+
+    <prompt id="PRESS1TOTAKECALL" file="totakecall.wav">
+      <description>Tryck 1 för att ta emot samtalet</description>
+    </prompt>
+
+    <prompt id="PRESSSENDTOVMAIL" file="tosend_tovmail.wav">
+      <description>Tryck fyrkant för att skicka till röstbrevlådan</description>
+    </prompt>
+
+    <prompt id="PLSWAITLOCATE" file="plswait_locate.wav">
+      <description>Var god vänta medan vi hittar</description>
+    </prompt>
+
+    <prompt id="USERUNAVAIL" file="user_unavail.wav">
+      <description>Användaren är inte tillgänglig</description>
+    </prompt>
+    
+    <prompt id="NOTFOUND" file="Destnot_found.wav">
+      <description>Det uppringda numret existerar inte</description>
+    </prompt>
+    
+    <prompt id="FORBIDDEN" file="forbidden_byadmin.wav">
+      <description>Samtalet förbjudet av administratören</description>
+    </prompt>
+    
+    <prompt id="DEST_NA" file="destnot_available.wav">
+      <description>Destinationen är inte tillgänglig, inte registrerad eller så finns det inga tillgängliga linjer</description>
+    </prompt>
+    
+    <prompt id="NOANSWER" file="terminated_noanswer.wav">
+      <description>Inget svar - Samtalet avslutas</description>
+    </prompt>
+    
+    <prompt id="BUSY" file="destination_isbusy.wav">
+      <description>Numret du försöker nå är upptaget - Var vänlig ring senare</description>
+    </prompt>
+    
+    <prompt id="SERVER_ERROR" file="internal_servererror.wav">
+      <description>Samtalet kunde inte kopplas fram. Kontakta administratören</description>
+    </prompt>
+    
+    <prompt id="DISABLED_FWD" file="calldisabled_fwrule.wav">
+      <description>Slutdestinationen kan inte nås - Kontakta administratören</description>
+    </prompt>
+    
+    <prompt id="DISABLED_INB" file="calldisabled_inrule.wav">
+      <description>Samtalet tillåts inte av systemet - Kontakta administratören</description>
+    </prompt>
+    
+    <prompt id="NO_OUTBOUND" file="fwexternalnumber_nooutbound.wav">
+      <description>Inga utgående linjer var tillgängliga för detta samtal</description>
+    </prompt>
+    
+    <prompt id="LL" file="license_limit.wav">
+      <description>Licensbegränsning - antalet tillåtna samtal har uppnåtts. Kontakta administratören</description>
+    </prompt>
+    
+    <prompt id="FEAT_NA" file="feature_notavailable.wav">
+      <description>Funktionen är inte tillgänglig i gratisversionen 3CX. Kontakta administratören</description>
+    </prompt>
+    
+    <prompt id="QUEUE_UNATT" file="noavailable_queueagents.wav">
+      <description>Just nu finns inga tillgängliga agenter i kön</description>
+    </prompt>
+    
+    <prompt id="AWAY_ON" file="away_on.wav">
+      <description>Stör-inte aktiverat</description>
+    </prompt>
+    
+    <prompt id="AWAY_OFF" file="away_off.wav">
+      <description>Stör-inte avaktiverat</description>
+    </prompt>
+    
+    <prompt id="LOGGED_IN" file="logged_inqueue.wav">
+      <description>Denna anknytning är inloggad i kön</description>
+    </prompt>
+    
+    <prompt id="LOGGED_OUT" file="logged_outqueue.wav">
+      <description>Denna anknytning har loggats ut ur kön</description>
+    </prompt>
+    
+    <prompt id="MSGFWDED" file="MsgForwarded.wav">
+      <description>Meddelandet har vidarebefordrats</description>
+    </prompt>
+    
+    <prompt id="NOMSGSTOFWD" file="NoMsgToForward.wav">
+      <description>Inga meddelanden att vidarebefordra</description>
+    </prompt>
+    
+    <prompt id="ENTEREXT_FWDVMAIL" file="PlsEnterExtFwdVM.wav">
+      <description>Vänligen knappa in anknytningsnumret för att vidarebefordra röstmeddelanden</description>
+    </prompt>
+    
+    <prompt id="ACCBLOCKED" file="AccountBlocked.wav">
+      <description>Kontot är tillfälligt blockerat</description>
+    </prompt>
+    
+    <prompt id="TRYLATER" file="PlsTryLater.wav">
+      <description>Vänligen försök senare</description>
+    </prompt>
+    
+    <prompt id="STATUS_MENU" file="profile_menu.wav">
+      <description>Press 1 for available, press 2 for away, press 3 for out of office, press 4 for custom prof 1, press 5 for custom prof 2</description>
+    </prompt>
+    
+    <prompt id="ST_AVAILABLE_SET" file="avaiable_status_set.wav">
+      <description>Available, status set</description>
+    </prompt>
+    
+    <prompt id="ST_AWAY_SET" file="away_status_set.wav">
+      <description>away, status set</description>
+    </prompt>
+    
+    <prompt id="ST_OUTOFFICE_SET" file="outofoffice_status_set.wav">
+      <description>Out of office, status set</description>
+    </prompt>
+    
+    <prompt id="ST_CUSTOM1_SET" file="custom1_status_set.wav">
+      <description>Custom profile 1, status set</description>
+    </prompt>
+    
+    <prompt id="ST_CUSTOM2_SET" file="custom2_status_set.wav">
+      <description>Custom profile 2, status set</description>
+    </prompt>
+	
+	<prompt id="OHOVERRIDE_OFF" file="officehr_override_off.wav">
+	  <description>Phone System is now using the default Office hours. Informational intonation.</description>
+	</prompt>
+		
+	<prompt id="OHOVERRIDE_IN" file="officehr_override_in.wav">
+	  <description>Phone System is now set to IN Office Hours. Informational intonation.</description>
+	</prompt>
+		
+	<prompt id="OHOVERRIDE_OUT" file="officehr_override_out.wav">
+	  <description>Phone System is now set to OUT of Office Hours. Informational intonation.</description>
+	</prompt>
+	  
+	<prompt id="CB_EDIT_NUM" file="enter_callback_number.wav">
+      <description>Enter the number you wish to be called back on and press Pound</description>
+    </prompt>
+	
+	<prompt id="CB_REQ" file="callback_request_number.wav">
+      <description>You have requested a call back to the following number</description>
+    </prompt>
+	
+	<prompt id="CB_CONFIRM" file="callback_action_menu.wav">
+      <description>Press STAR to confirm, Press ZERO to change call back number or press pound to cancel</description>
+    </prompt>
+	
+	<prompt id="CB_BYE" file="thankyou_callback_confirmed.wav">
+      <description>Thank you. An Agent will contact you shortly</description>
+    </prompt>
+	
+	<prompt id="ACCESS_OK_PINPROTECT" file="AccessAllowedBySystem.wav">
+      <description>Access allowed by system</description>
+    </prompt>
+	
+	<prompt id="LOGGEDINHD" file="logged_in_hotdesking.wav">
+      <description>Lyckad inloggning. Telefonen återställs nu till ditt konto.</description>
+    </prompt>
+	
+	<prompt id="LOGGEDOUTHD" file="logged_out_hotdesking.wav">
+      <description>Du har loggat ut. Telefonen återställs nu.</description>
+    </prompt>
+	
+	<prompt id="FEAT_NA2" file="feature_not_available2.wav">
+      <description>Funktion inte tillgänglig. Professional- eller Enterprise-licensnyckel krävs. Kontakta administratören.</description>
+    </prompt>
+	
+	<prompt id="PLUS" file="numbers/plus.wav">
+      <description>Plus</description>
+    </prompt>
+	
+	<prompt id="PRESS_POUND_TO_CONFIRM" file="press_pound_to_confirm.wav">
+      <description>Tryck FYRKANT för att bekräfta eller tryck stjärna för att ändra numret.</description>
+    </prompt>
+	
+	<prompt id="YOU_HAVE_ENTERED" file="you_have_entered.wav">
+      <description>Du har angett följande nummer</description>
+    </prompt>
+	
+	<prompt id="SELECT_CALL_BY" file="select_call_by.wav">
+      <description>Tryck ett för att ringa med förnamn, Tryck två för att ringa med efternamn</description>
+    </prompt>
+    
+    <prompt id="USER_FIRST_NAME" file="UserFirstName.wav">			
+        <description>&quot;&lt;I&gt;de tre första bokstäverna i namnet på personen som du vill bli kopplad till&lt;/I&gt;&quot; i frasen &quot;
+        Vänligen ange &lt;B&gt;de tre första bokstäverna i namnet på personen som du vill bli kopplad till&lt;/B&gt;&quot;.</description>
+    </prompt>
+	
+  </prompts>
+</set>

@@ -1,0 +1,705 @@
+﻿<?xml version="1.0"?>
+<set>
+  <info language="BG" system="1" id="BULGARIAN-4a4f-4160-b143-488a18be8ba8" name="Bulgarian Prompts Set" version="4.0.4">
+    <langopts num_style="0" />
+    <description>Bulgarian prompt set
+		</description>
+  </info>
+  <prompts>
+    <prompt id="ACCDND" file="access_denied.wav">
+      <description>Достъпът отказан.</description>
+    </prompt>
+    <prompt id="AND" file="and.wav">
+      <description>и</description>
+    </prompt>
+    <prompt id="BEEP" file="beep.wav">
+      <description>Beep signal to be emitted before a voice recording or playing.</description>
+    </prompt>
+    <prompt id="BEGOFMSGS" file="begin_of_messages.wav">
+      <description>Начало на съобщенията.</description>
+    </prompt>
+    <prompt id="CALLTRAN_FAILED" file="call_transfer_failed.wav">
+      <description>Прехвърлянето на разговора неуспешно.</description>
+    </prompt>
+    <prompt id="CANCELLED" file="cancelled.wav">
+      <description>Отменено.</description>
+    </prompt>
+    <prompt id="CONFIRM" file="confirm.wav">
+      <description>… натиснете звезда, за да отмените, натиснете диез.</description>
+    </prompt>
+    <prompt id="DELETED" file="deleted.wav">
+      <description>изтрити</description>
+    </prompt>
+    <prompt id="ENDOFMSGS" file="end_of_messages.wav">
+      <description>Край на съобщенията..</description>
+    </prompt>
+    <prompt id="ERROR" file="error.wav">
+      <description>Съжаляваме, възникна вътрешна грешка.</description>
+    </prompt>
+    <prompt id="EXTNUM" file="ext_num.wav">
+      <description>вътрешен номер.</description>
+    </prompt>
+    <prompt id="EXTNOTENAB" file="extension_not_enabled.wav">
+      <description>Вътрешната линия не е активирана.</description>
+    </prompt>
+    <prompt id="EXTNOTFOUND" file="extension_not_found.wav">
+      <description>Вътрешният номер не е намерен.</description>
+    </prompt>
+    <prompt id="FILNOTFOUND" file="file_not_found.wav">
+      <description>Файлът не е намерен.</description>
+    </prompt>
+    <prompt id="GROUPID" file="group_id.wav">
+      <description>идентификатор на група,</description>
+    </prompt>
+    <prompt id="INVPIN" file="invalid_pin.wav">
+      <description>Грешен ПИН код.</description>
+    </prompt>
+    <prompt id="IS" file="is.wav">
+      <description>е</description>
+    </prompt>
+    <prompt id="IVRNUM" file="ivr_num.wav">
+      <description>номер на Системата за гласово меню.</description>
+    </prompt>
+    <prompt id="MSG" file="message.wav">
+      <description>съобщение.</description>
+    </prompt>
+    <prompt id="MSG_FROM" file="message_from.wav">
+      <description>Съобщение от</description>
+    </prompt>
+    <prompt id="MSG_GRT" file="greeting_message.wav">
+      <description>поздравително съобщение</description>
+    </prompt>
+    <prompt id="MSG_SELFID" file="SelfIDMsg.wav">
+      <description>персонален идентификатор.</description>
+    </prompt>
+    <prompt id="MSGALRDDLTD" file="message_already_deleted.wav">
+      <description>Съобщението е вече изтрито, моля изберете друго.</description>
+    </prompt>
+    <prompt id="MSGDLTD" file="message_deleted.wav">
+      <description>"Съобщението е изтрито.</description>
+    </prompt>
+    <prompt id="MSGREC_MNU" file="MsgRecMnu.wav">
+      <description>"натиснете нула. За да заредите стандартно съобщение, натиснете едно. За да преслушате настоящото поздравително събщение, натиснете две. За да излезете, натиснете диез."
+	  </description>
+    </prompt>
+    <prompt id="MSGREC_MNU2" file="MsgRecMnu2.wav">
+      <description>"натиснете нула. За да изтриете съобщение, натиснете едно. За да проверите настоящото идентификационно съобщение, натиснете две. За да излезете,
+	  натиснете диез." във фразата "За да запишете съобщението си, натиснете нула. За да изтриете съобщение, натиснете едно. За да проверите настоящото идентификационно съобщение, натиснете две. За да излезете, натиснете диез."</description>
+    </prompt>
+    <prompt id="MSGS" file="messages.wav">
+      <description>"Съобщения" във фразата "Имате три пропуснати съобщения."</description>
+    </prompt>
+    <prompt id="MSGSAVFAIL" file="msg_save_failed.wav">
+      <description>"Записването на съобщението неуспешно."</description>
+    </prompt>
+    <prompt id="MSGSVD" file="msg_saved.wav">
+      <description>Съобщението записано.</description>
+    </prompt>
+    <prompt id="NEW" file="new.wav">
+      <description>нови</description>
+    </prompt>
+    <prompt id="NEW_MSG" file="new_message.wav">
+      <description>ново съобщение.</description>
+    </prompt>
+    <prompt id="NEW_MSGS" file="new_messages.wav">
+      <description>нови съобщения.</description>
+    </prompt>
+    <prompt id="NEW_PIN_CODE" file="new_pin_code.wav">
+      <description>нов ПИН код</description>
+    </prompt>
+    <prompt id="NO_ANSWER" file="no_answer.wav">
+      <description>Няма отговор.</description>
+    </prompt>
+    <prompt id="NOACTPERF" file="no_action_performed.wav">
+      <description>Не беше изпълнено действие.</description>
+    </prompt>
+    <prompt id="NOMSGSLCT" file="no_message_selected.wav">
+      <description>Не беше избрано съобщение.</description>
+    </prompt>
+    <prompt id="NOMSGSTODEL" file="no_msgs_todelete.wav">
+      <description>Няма съобщения за изтриване.</description>
+    </prompt>
+    <prompt id="NOSVDMSGS" file="no_saved_msgs.wav">
+      <description>Няма записани съобщения.</description>
+    </prompt>
+    <prompt id="NOTALLMSGSDELETED" file="notall_msgs_deleted.wav">
+      <description>Някои от съобщенията не бяха изтрити.</description>
+    </prompt>
+    <prompt id="NUMBER_BUSY" file="number_is_busy.wav">
+      <description>Номерът е зает.</description>
+    </prompt>
+    <prompt id="OLD" file="old.wav">
+      <description>стари</description>
+    </prompt>
+    <prompt id="OPFAIL" file="operation_failed.wav">
+      <description>Възникна грешка при изпълнение на действието.</description>
+    </prompt>
+    <prompt id="OPTIONS_MENU" file="OPTMNU.wav">
+      <description>За прослушване на съобщенията натиснете звезда. За смяна на профила – 1. За набиране на номер – 3. За изтриване на всички прочетени съобщения – 4. За промяна на персоналния идентификатор – 5. За информация за гласовата Ви поща – 6. За смяна на ПИН код – 7. За смяна на поздравително Ви съобщение – 8. За повтаряне на това съобщение – 9. За изход натиснете диез.</description>
+    </prompt>
+    <prompt id="NUMBER_ENT" file="number.wav">
+      <description>номер</description>
+    </prompt>
+    <prompt id="PIN" file="pin.wav">
+      <description>персонален идентификационен номер</description>
+    </prompt>
+    <prompt id="PLAYBACK_MENU" file="PBACKMNU.wav">
+      <description>За следващо съобщение натиснете 0. За предишно съобщение – 1. За повтаряне на текущото съобщение – 2. За изтриване на текущото съобщение – 3. За обратно позвъняване – 4. За препращане към друга гласова поща – 5. За допълнителни опции – 9. За изход натиснете диез.</description>
+    </prompt>
+    <prompt id="PLSENTER" file="please_enter.wav">
+      <description>Моля, въведете</description>
+    </prompt>
+    <prompt id="PLSHOLD" file="please_hold.wav">
+      <description>Моля, изчакайте обаждането Ви да бъде прехвърлено.</description>
+    </prompt>
+    <prompt id="PLSHOLD_CALL" file="PleaseHold_Calling.wav">
+      <description>Моля, изчакайте за връзка с</description>
+    </prompt>
+    <prompt id="PRESS" file="press.wav">
+      <description>натиснете</description>
+    </prompt>
+    <prompt id="PRESSNINE_FOROPTIONS" file="press_nine_for_options.wav">
+      <description>За опции натиснете девет.</description>
+    </prompt>
+    <prompt id="PRESSSTAR_TOPLAY" file="press_star_to_play.wav">
+      <description>За прослушване натиснете звезда.</description>
+    </prompt>
+    <prompt id="QUEID" file="queue_id.wav">
+      <description>Идентификатор на опашката</description>
+    </prompt>
+    <prompt id="QUEUE_TOBE_CONNECTED" file="queue_tobe_connected.wav">
+      <description>на тази опашка. Моля, изчакайте, за да бъдете свързани.</description>
+    </prompt>
+    <prompt id="RECYA" file="record_your.wav">
+      <description>Запишете Вашето</description>
+    </prompt>
+    <prompt id="RECYAMSG" file="record_your_message.wav">
+      <description>Запишете Вашето съобщение и натиснете диез. За да се свържете с оператор, натиснете звезда.</description>
+    </prompt>
+    <prompt id="SAVED" file="saved.wav">
+      <description>записан.</description>
+    </prompt>
+    <prompt id="SAVMSGCNFRM" file="SaveMsgCnfrm.wav">
+      <description>За съхраняване на съобщението натиснете 0. За повтаряне на записа – 1. За проверка на записа – 2. за изход натиснете диез.</description>
+    </prompt>
+    <prompt id="STACK_OVRFLW" file="stack_overflow.wav">
+      <description>Препълване на стека. Съжаляваме за грешката.</description>
+    </prompt>
+    <prompt id="STDMSGRST" file="standard_message_restored.wav">
+      <description>Стандартното съобщение беше възстановено.</description>
+    </prompt>
+    <prompt id="BYE" file="thankyou_goodbye.wav">
+      <description>Благодаря ви. Дочуване.</description>
+    </prompt>
+    <prompt id="THENPRESPND" file="then_press_pound.wav">
+      <description>и натиснете диез.</description>
+    </prompt>
+    <prompt id="TIME_IS" file="msg_received.wav">
+      <description>Съобщението е получено</description>
+    </prompt>
+    <prompt id="TOCALL_TO" file="ToCallTo.wav">
+      <description>За да позвъните на</description>
+    </prompt>
+    <prompt id="TODAY" file="today.wav">
+      <description>днес</description>
+    </prompt>
+    <prompt id="TODLTMSG" file="to_delete_msg.wav">
+      <description>За изтриване на съобщението</description>
+    </prompt>
+    <prompt id="TODLTREADMSGS" file="todelete_read_messages.wav">
+      <description>За изтриване на всички прочетени съобщения</description>
+    </prompt>
+    <prompt id="TOEXIT_PRESSPOUND" file="toexit_presspnd.wav">
+      <description>За изход натиснете диез.</description>
+    </prompt>
+    <prompt id="TORECNEW" file="to_record_new.wav">
+      <description>За запис на ново</description>
+    </prompt>
+    <prompt id="TO_SAVE" file="to_save.wav">
+      <description>За запис</description>
+    </prompt>
+    <prompt id="USER_NAME" file="UserName.wav">
+      <description>първите три букви от името на човека, с когото искате да се свържете.</description>
+    </prompt>
+    <prompt id="VMLDSBL" file="voicemail_disabled.wav">
+      <description>За тази вътрешна линия гласовата поща е изключена.</description>
+    </prompt>
+    <prompt id="YAHV" file="you_have.wav">
+      <description>Имате</description>
+    </prompt>
+    <prompt id="YAHVNO" file="you_have_no.wav">
+      <description>Нямате</description>
+    </prompt>
+    <prompt id="YESTERDAY" file="yesterday.wav">
+      <description>вчера,</description>
+    </prompt>
+    <prompt id="YOUR" file="your.wav">
+      <description>Вашият</description>
+    </prompt>
+    <prompt id="YOUR_AT_POSITION" file="your_at_position.wav">
+      <description>Вие сте на позиция</description>
+    </prompt>
+    <prompt id="INV_INP" file="InvalidInput.wav">
+      <description>Грешно въвеждане. Моля, опитайте отново.</description>
+    </prompt>
+    <prompt id="INV_NUM" file="InvalidNumber.wav">
+      <description>Грешен номер.</description>
+    </prompt>
+    <prompt id="UNKN_PRMT" file="unknown_prompt.wav">
+      <description>Непознато повикване.</description>
+    </prompt>
+    <prompt id="OHOVERRIDE_OFF" file="officehr_override_off.wav">
+      <description>Телефонната централа е настроена да ползва работно време по подразбиране."</description>
+    </prompt>
+    <prompt id="OHOVERRIDE_IN" file="officehr_override_in.wav">
+      <description>Телефонната централа е включена в режим "Работно време".</description>
+    </prompt>
+    <prompt id="OHOVERRIDE_OUT" file="officehr_override_out.wav">
+      <description>Телефонната централа е включена в режим "Извънработно време".</description>
+    </prompt>
+    <prompt id="NUM_0" file="numbers/0.wav">
+      <description>нула</description>
+    </prompt>
+    <prompt id="NUM_0_B" file="numbers/0^b.wav">
+      <description>нула.</description>
+    </prompt>
+    <prompt id="NUM_1" file="numbers/1.wav">
+      <description>едно</description>
+    </prompt>
+    <prompt id="NUM_1_B" file="numbers/1^b.wav">
+      <description>едно.</description>
+    </prompt>
+    <prompt id="NUM_1_O" file="numbers/1o.wav">
+      <description>първи</description>
+    </prompt>
+    <prompt id="NUM_10" file="numbers/10.wav">
+      <description>десет</description>
+    </prompt>
+    <prompt id="NUM_10_O" file="numbers/10o.wav">
+      <description>десети</description>
+    </prompt>
+    <prompt id="NUM_11" file="numbers/11.wav">
+      <description>единадесет </description>
+    </prompt>
+    <prompt id="NUM_11_O" file="numbers/11o.wav">
+      <description>единадесети</description>
+    </prompt>
+    <prompt id="NUM_12" file="numbers/12.wav">
+      <description>дванадесет</description>
+    </prompt>
+    <prompt id="NUM_12_O" file="numbers/12o.wav">
+      <description>дванадесети</description>
+    </prompt>
+    <prompt id="NUM_13" file="numbers/13.wav">
+      <description>тринадесет</description>
+    </prompt>
+    <prompt id="NUM_13_O" file="numbers/13o.wav">
+      <description>тринадесети</description>
+    </prompt>
+    <prompt id="NUM_14" file="numbers/14.wav">
+      <description>четиринадесет</description>
+    </prompt>
+    <prompt id="NUM_14_O" file="numbers/14o.wav">
+      <description>четиринадесети</description>
+    </prompt>
+    <prompt id="NUM_15" file="numbers/15.wav">
+      <description>петнадесет</description>
+    </prompt>
+    <prompt id="NUM_15_O" file="numbers/15o.wav">
+      <description>петнадесети</description>
+    </prompt>
+    <prompt id="NUM_16" file="numbers/16.wav">
+      <description>шестнадесет</description>
+    </prompt>
+    <prompt id="NUM_16_O" file="numbers/16o.wav">
+      <description>шестнадесети</description>
+    </prompt>
+    <prompt id="NUM_17" file="numbers/17.wav">
+      <description>седемнадесет</description>
+    </prompt>
+    <prompt id="NUM_17_O" file="numbers/17o.wav">
+      <description>седемнадесети</description>
+    </prompt>
+    <prompt id="NUM_18" file="numbers/18.wav">
+      <description>осемнадесет</description>
+    </prompt>
+    <prompt id="NUM_18_O" file="numbers/18o.wav">
+      <description>осемнадесети</description>
+    </prompt>
+    <prompt id="NUM_19" file="numbers/19.wav">
+      <description>деветнадесет</description>
+    </prompt>
+    <prompt id="NUM_19_O" file="numbers/19o.wav">
+      <description>деветнадесети</description>
+    </prompt>
+    <prompt id="NUM_2" file="numbers/2.wav">
+      <description>две</description>
+    </prompt>
+    <prompt id="NUM_2_B" file="numbers/2^b.wav">
+      <description>две.</description>
+    </prompt>
+    <prompt id="NUM_2_O" file="numbers/2o.wav">
+      <description>втори</description>
+    </prompt>
+    <prompt id="NUM_20+" file="numbers/20+.wav">
+      <description>двадесет</description>
+    </prompt>
+    <prompt id="NUM_20" file="numbers/20.wav">
+      <description>двадесет</description>
+    </prompt>
+    <prompt id="NUM_20_O" file="numbers/20o.wav">
+      <description>двадесети</description>
+    </prompt>
+    <prompt id="NUM_3" file="numbers/3.wav">
+      <description>три</description>
+    </prompt>
+    <prompt id="NUM_3_B" file="numbers/3^b.wav">
+      <description>три.</description>
+    </prompt>
+    <prompt id="NUM_3_O" file="numbers/3o.wav">
+      <description>трети</description>
+    </prompt>
+    <prompt id="NUM_30+" file="numbers/30+.wav">
+      <description>тридесет</description>
+    </prompt>
+    <prompt id="NUM_30" file="numbers/30.wav">
+      <description>тридесет</description>
+    </prompt>
+    <prompt id="NUM_30_O" file="numbers/30o.wav">
+      <description>"тридесети/а/о".</description>
+    </prompt>
+    <prompt id="NUM_4" file="numbers/4.wav">
+      <description>четири</description>
+    </prompt>
+    <prompt id="NUM_4_B" file="numbers/4^b.wav">
+      <description>четири.</description>
+    </prompt>
+    <prompt id="NUM_4_O" file="numbers/4o.wav">
+      <description>четвърти</description>
+    </prompt>
+    <prompt id="NUM_40+" file="numbers/40+.wav">
+      <description>четиридесет</description>
+    </prompt>
+    <prompt id="NUM_40" file="numbers/40.wav">
+      <description>четиридесет</description>
+    </prompt>
+    <prompt id="NUM_5" file="numbers/5.wav">
+      <description>пет</description>
+    </prompt>
+    <prompt id="NUM_5_B" file="numbers/5^b.wav">
+      <description>пет.</description>
+    </prompt>
+    <prompt id="NUM_5_O" file="numbers/5o.wav">
+      <description>пети</description>
+    </prompt>
+    <prompt id="NUM_50+" file="numbers/50+.wav">
+      <description>петдесет</description>
+    </prompt>
+    <prompt id="NUM_50" file="numbers/50.wav">
+      <description>петдесет</description>
+    </prompt>
+    <prompt id="NUM_6" file="numbers/6.wav">
+      <description>шест</description>
+    </prompt>
+    <prompt id="NUM_6_B" file="numbers/6^b.wav">
+      <description>шест .</description>
+    </prompt>
+    <prompt id="NUM_6_O" file="numbers/6o.wav">
+      <description>шести</description>
+    </prompt>
+    <prompt id="NUM_60+" file="numbers/60+.wav">
+      <description>шестдесет</description>
+    </prompt>
+    <prompt id="NUM_60" file="numbers/60.wav">
+      <description>шестдесет</description>
+    </prompt>
+    <prompt id="NUM_7" file="numbers/7.wav">
+      <description>седем</description>
+    </prompt>
+    <prompt id="NUM_7_B" file="numbers/7^b.wav">
+      <description>седем.</description>
+    </prompt>
+    <prompt id="NUM_7_O" file="numbers/7o.wav">
+      <description>седми</description>
+    </prompt>
+    <prompt id="NUM_70+" file="numbers/70+.wav">
+      <description>седемдесет</description>
+    </prompt>
+    <prompt id="NUM_70" file="numbers/70.wav">
+      <description>седемдесет</description>
+    </prompt>
+    <prompt id="NUM_8" file="numbers/8.wav">
+      <description>осем</description>
+    </prompt>
+    <prompt id="NUM_8_B" file="numbers/8^b.wav">
+      <description>осем.</description>
+    </prompt>
+    <prompt id="NUM_8_O" file="numbers/8o.wav">
+      <description>осми</description>
+    </prompt>
+    <prompt id="NUM_80+" file="numbers/80+.wav">
+      <description>осемдесет</description>
+    </prompt>
+    <prompt id="NUM_80" file="numbers/80.wav">
+      <description>осемдесет</description>
+    </prompt>
+    <prompt id="NUM_9" file="numbers/9.wav">
+      <description>девет</description>
+    </prompt>
+    <prompt id="NUM_9_B" file="numbers/9^b.wav">
+      <description>девет.</description>
+    </prompt>
+    <prompt id="NUM_9_O" file="numbers/9o.wav">
+      <description>девети</description>
+    </prompt>
+    <prompt id="NUM_90+" file="numbers/90+.wav">
+      <description>деветдесет</description>
+    </prompt>
+    <prompt id="NUM_90" file="numbers/90.wav">
+      <description>деветдесет</description>
+    </prompt>
+    <prompt id="NUM_AND" file="numbers/and.wav">
+      <description>и</description>
+    </prompt>
+    <prompt id="NUM_HNDR" file="numbers/hundred.wav">
+      <description>сто</description>
+    </prompt>
+    <prompt id="NUM_MLN" file="numbers/million.wav">
+      <description>милион</description>
+    </prompt>
+    <prompt id="NUM_STAR" file="numbers/star.wav">
+      <description>звезда</description>
+    </prompt>
+    <prompt id="NUM_STAR_B" file="numbers/star^b.wav">
+      <description>звезда.</description>
+    </prompt>
+    <prompt id="NUM_THSND" file="numbers/thousand.wav">
+      <description>хиляди</description>
+    </prompt>
+    <prompt id="TM_AM" file="time/am.wav">
+      <description>преди обяд</description>
+    </prompt>
+    <prompt id="TM_PM" file="time/pm.wav">
+      <description>след обяд</description>
+    </prompt>
+    <prompt id="TM_OU" file="time/ou.wav">
+      <description>часà</description>
+    </prompt>
+    <prompt id="TM_MON_01" file="time/january.wav">
+      <description>януари</description>
+    </prompt>
+    <prompt id="TM_MON_02" file="time/february.wav">
+      <description>февруари</description>
+    </prompt>
+    <prompt id="TM_MON_03" file="time/march.wav">
+      <description>март</description>
+    </prompt>
+    <prompt id="TM_MON_04" file="time/april.wav">
+      <description>април</description>
+    </prompt>
+    <prompt id="TM_MON_05" file="time/may.wav">
+      <description>май</description>
+    </prompt>
+    <prompt id="TM_MON_06" file="time/june.wav">
+      <description>юни</description>
+    </prompt>
+    <prompt id="TM_MON_07" file="time/july.wav">
+      <description>юли</description>
+    </prompt>
+    <prompt id="TM_MON_08" file="time/august.wav">
+      <description>"август".</description>
+    </prompt>
+    <prompt id="TM_MON_09" file="time/september.wav">
+      <description>септември</description>
+    </prompt>
+    <prompt id="TM_MON_10" file="time/october.wav">
+      <description>октомври</description>
+    </prompt>
+    <prompt id="TM_MON_11" file="time/november.wav">
+      <description>ноември</description>
+    </prompt>
+    <prompt id="TM_MON_12" file="time/december.wav">
+      <description>декември</description>
+    </prompt>
+    <prompt id="TM_MIDNIGHT" file="time/midnight.wav">
+      <description>Полунощ</description>
+    </prompt>
+    <prompt id="TM_MINUTE" file="time/minute.wav">
+      <description>минута</description>
+    </prompt>
+    <prompt id="TM_MINUTES" file="time/minutes.wav">
+      <description>
+        <description>минути</description>
+      </description>
+    </prompt>
+    <prompt id="TM_OCLOCK" file="time/oclock.wav">
+      <description>"часà".</description>
+    </prompt>
+    <prompt id="TM_PAST" file="time/past.wav">
+      <description>след</description>
+    </prompt>
+    <prompt id="CONF_NAME" file="SpeakYourName.wav">
+      <description>След сигнала кажете името си и натиснете произволен бутон.</description>
+    </prompt>
+    <prompt id="CONF_CONFPROMPT" file="ConfPrompt.wav">
+      <description>Добре дошли в конферентния разговор.</description>
+    </prompt>
+    <prompt id="CONF_NEWMEMBER" file="newMember.wav">
+      <description>се присъедини към разговора.</description>
+    </prompt>
+    <prompt id="CONF_PIN" file="PleaseEnterPIN.wav">
+      <description>Моля, въведете идентификатор на конферентен разговор и натиснете диез.</description>
+    </prompt>
+    <prompt id="CONF_LEFT" file="leftPrompt.wav">
+      <description>напусна конферентния разговор.</description>
+    </prompt>
+    <prompt id="CONF_CREATING" file="creating.wav">
+      <description>Създавате нов конферентен разговор.</description>
+    </prompt>
+    <prompt id="CONF_JOINING" file="joining.wav">
+      <description>Присъединявате се към конферентен разговор със следните участници:</description>
+    </prompt>
+    <prompt id="CONF_HASHORSTAR" file="hashorstar.wav">
+      <description>За отменяне натиснете диез; за продължаване натиснете звезда.</description>
+    </prompt>
+    <prompt id="REDIRVMAIL" file="redir_vmail.wav">
+      <description>Пренасочване на гласовата поща.</description>
+    </prompt>
+    <prompt id="UHVCALL" file="uhavecall.wav">
+      <description>Имате обаждане от ....</description>
+    </prompt>
+    <prompt id="PRESS1TOTAKECALL" file="totakecall.wav">
+      <description>За да приемете разговора, натиснете едно.</description>
+    </prompt>
+    <prompt id="PRESSSENDTOVMAIL" file="tosend_tovmail.wav">
+      <description>За да изпратите към гласова поща, натиснете диез.</description>
+    </prompt>
+    <prompt id="PLSWAITLOCATE" file="plswait_locate.wav">
+      <description>Моля, изчакайте, докато бъде открит ...</description>
+    </prompt>
+    <prompt id="USERUNAVAIL" file="user_unavail.wav">
+      <description>Потребителят е недостъпен.</description>
+    </prompt>
+    <prompt id="NOTFOUND" file="destnot_found.wav">
+      <description>Избраният номер не съществува.</description>
+    </prompt>
+    <prompt id="FORBIDDEN" file="forbidden_byadmin.wav">
+      <description>Разговорът е забранен от администратора.</description>
+    </prompt>
+    <prompt id="DEST_NA" file="destnot_available.wav">
+      <description>Дестинацията не е достъпна, не е регистрирана, или няма валидни маршрути.</description>
+    </prompt>
+    <prompt id="NOANSWER" file="terminated_noanswer.wav">
+      <description>Номерът не отговаря. Позвъняването се прекъсва.</description>
+    </prompt>
+    <prompt id="BUSY" file="destination_isbusy.wav">
+      <description>Номерът, с който се опитвате да се свържете, е зает. Моля, опитайте по-късно.</description>
+    </prompt>
+    <prompt id="SERVER_ERROR" file="internal_servererror.wav">
+      <description>Позвъняването не може да бъде осъществено. Свържете се с администратора.</description>
+    </prompt>
+    <prompt id="DISABLED_FWD" file="calldisabled_fwrule.wav">
+      <description>Дестинацията не е достъпна. Моля, свържете се с администратора.</description>
+    </prompt>
+    <prompt id="DISABLED_INB" file="calldisabled_inrule.wav">
+      <description>Непозволено позвъняване. Моля, свържете се с администратора.</description>
+    </prompt>
+    <prompt id="NO_OUTBOUND" file="fwexternalnumber_nooutbound.wav">
+      <description>Няма свободни външни линии за този разговор.</description>
+    </prompt>
+    <prompt id="LL" file="license_limit.wav">
+      <description>Лимит на лиценза – достигнат е крайният брой на позволените разговори. Свържете с администратора.</description>
+    </prompt>
+    <prompt id="FEAT_NA" file="feature_notavailable.wav">
+      <description>Функцията не е достъпна в безплатната версия на 3CX. Свържете се с администратора.</description>
+    </prompt>
+    <prompt id="QUEUE_UNATT" file="noavailable_queueagents.wav">
+      <description>В момента няма свободни агенти на опашката.</description>
+    </prompt>
+    <prompt id="AWAY_ON" file="away_on.wav">
+      <description>Състояние "Моля, не безпокойте" включено</description>
+    </prompt>
+    <prompt id="AWAY_OFF" file="away_off.wav">
+      <description>Състояние "Моля, не безпокойте" изключено</description>
+    </prompt>
+    <prompt id="LOGGED_IN" file="logged_inqueue.wav">
+      <description>Вътрешната линия е поставена на опашката.</description>
+    </prompt>
+    <prompt id="LOGGED_OUT" file="logged_outqueue.wav">
+      <description>Вътрешната линия е изключена от опашката.</description>
+    </prompt>
+    <prompt id="MSGFWDED" file="MsgForwarded.wav">
+      <description>Съобщението е препратено.</description>
+    </prompt>
+    <prompt id="NOMSGSTOFWD" file="NoMsgToForward.wav">
+      <description>Няма съобщения за препращане.</description>
+    </prompt>
+    <prompt id="ENTEREXT_FWDVMAIL" file="PlsEnterExtFwdVM.wav">
+      <description>Моля, въведете вътрешен номер, за да препратите гласова поща.</description>
+    </prompt>
+    <prompt id="ACCBLOCKED" file="AccountBlocked.wav">
+      <description>Акаунтът е временно блокиран.</description>
+    </prompt>
+    <prompt id="TRYLATER" file="PLSTRYLATER.wav">
+      <description>Моля, опитайте по-късно.</description>
+    </prompt>
+    <prompt id="STATUS_MENU" file="profile_menu.wav">
+      <description>За състояние "На разположение" натиснете 1, за "Недостъпен" – 2, за "Извън офиса" – 3, за "Потребителски профил 1" натиснете 4, за "Потребителски профил 2" – 5.</description>
+    </prompt>
+    <prompt id="ST_AVAILABLE_SET" file="avaiable_status_set.wav">
+      <description>Активирано е състояние "На разположение".</description>
+    </prompt>
+    <prompt id="ST_AWAY_SET" file="away_status_set.wav">
+      <description>Активирано е състояние "Недостъпен".</description>
+    </prompt>
+    <prompt id="ST_OUTOFFICE_SET" file="outofoffice_status_set.wav">
+      <description>Активирано е състояние "Извън офиса".</description>
+    </prompt>
+    <prompt id="ST_CUSTOM1_SET" file="custom1_status_set.wav">
+      <description>Активирано е състояние "Потребителски профил 1"</description>
+    </prompt>
+    <prompt id="ST_CUSTOM2_SET" file="custom2_status_set.wav">
+      <description>Активирано е състояние "Потребителски профил 2"</description>
+    </prompt>
+    <prompt id="CB_EDIT_NUM" file="enter_callback_number.wav">
+      <description>Въведете номер за обратно позвъняване и натиснете диез.</description>
+    </prompt>
+    <prompt id="CB_REQ" file="callback_request_number.wav">
+      <description>Заявихте обратно позвъняване до следния номер ...</description>
+    </prompt>
+    <prompt id="CB_CONFIRM" file="callback_action_menu.wav">
+      <description>За потвърждение натиснете звезда, за промяна на обратното позвъняване натиснете НУЛА, за изход натиснете диез.</description>
+    </prompt>
+    <prompt id="CB_BYE" file="thankyou_callback_confirmed.wav">
+      <description>Благодаря. Скоро ще получите позвъняване.</description>
+    </prompt>
+	<prompt id="ACCESS_OK_PINPROTECT" file="AccessAllowedBySystem.wav">
+      <description>Access allowed by system</description>
+    </prompt>
+	<prompt id="LOGGEDINHD" file="logged_in_hotdesking.wav">
+      <description>Успешна регистрация. Телефонът ще бъде инициализиран за Вашия акаунт.</description>
+    </prompt>
+	<prompt id="LOGGEDOUTHD" file="logged_out_hotdesking.wav">
+      <description>Отрегистрирахте се. Телефонът ще бъде реинициализиран.</description>
+    </prompt>
+	<prompt id="FEAT_NA2" file="feature_not_available2.wav">
+      <description>Функционалността не е достъпна. Нужен е професионален или корпоративен лиценз. Моля, свържете се с администратора.</description>
+    </prompt>
+	<prompt id="PLUS" file="numbers/plus.wav">
+      <description>Плюс.</description>
+    </prompt>
+	<prompt id="PRESS_POUND_TO_CONFIRM" file="press_pound_to_confirm.wav">
+      <description>Натиснете диез да потвърдите или звезда да промените номера.</description>
+    </prompt>
+	<prompt id="YOU_HAVE_ENTERED" file="you_have_entered.wav">
+      <description>Въвели сте следния номер</description>
+    </prompt>
+	<prompt id="SELECT_CALL_BY" file="select_call_by.wav">
+      <description>Изберете 1 за да се свържете чрез име, Изберете 2 за да се свържете чрез фамилия.</description>
+    </prompt>
+    <prompt id="USER_FIRST_NAME" file="UserFirstName.wav">			
+        <description>&quot;&lt;I&gt;Първите три букви от личното име на абоната с когото искате да се свържете&lt;/I&gt;&quot; във фразата &quot;
+        Моля въведете &lt;B&gt;първите три букви от личното име на абоната с когото искате да се свържете&lt;/B&gt;&quot;.</description>
+    </prompt>
+  </prompts>
+</set>

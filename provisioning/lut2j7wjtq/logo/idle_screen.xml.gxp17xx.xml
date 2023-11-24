@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Screen>
+    <IdleScreen>
+        <ShowStatusLine>true</ShowStatusLine>
+        <DisplayElement>
+			<!-- Display Month-week-date -->
+			<DisplayString halign="center" width="60" height="13" color="Black" bgcolor="White">
+				<DisplayStr>$f</DisplayStr>
+				<X>14</X>
+				<Y>2</Y>
+			</DisplayString>
+			<!-- Display time -->
+			<DisplayString halign="center" width="50" height="12">
+				<DisplayStr>$T</DisplayStr>
+				<X>20</X>
+				<Y>14</Y>
+			</DisplayString>
+			<DisplayString halign="center" width="90" height="13" color="Black" bgcolor="White">
+				<DisplayStr>$0s</DisplayStr>
+				<X>0</X>
+				<Y>14</Y>
+				<displayCondition>
+					<conditionType>bsCallCenter</conditionType>
+				</displayCondition>
+			</DisplayString>
+        </DisplayElement>
+        <!-- LOGO -->
+        <!-- Display Logo or Vendor Name (middle center) -->
+        <DisplayBitmap isfile="false">
+                <Bitmap>Qk2uAgAAAAAAAD4AAAAoAAAAWgAAADQAAAABAAEAAAAAAHACAAASCwAAEgsAAAAAAAAAAAAAAAAAAP///wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB/4AA//H8AAfwAAAH/+AD//z+AA/wAAAP//AH//7/AB/gAAAf//gf//5/gD/AAAA///w/4D4/wH+AAAA/w/x/gA4f4P8AAAA/gfx+AAYP8P4AAAA/APz8AALH8f4AAAA/APz4AADH+/wAAAA/AP34AADj//gAAAAAAf3wAADx//AAAAAAB/3wAAD4/+AAAAAAP/nwAAD8f8AAAAAAP/HwAAD8P4AAAAAAP+HwAAD8f8AAAAAAP/HwAAD4/+AAAAAAD/nwAADx//AAAAAAA/j4AADj//gAAAA/Afj4AADH+/wAAAA/gfj8AAKH8f4AAAA/gfh+AAYP8P4AAAAfw/g/gA4f4P8AAAAf//g/4D4/wH+AAAAP//Af//5/gD/AAAAP//AH//7/AB/gAAAH/+AD//z+AA/wAAAB/4AA//H+AAfwAAAAAAAAAAAAAAAAAA=
+                </Bitmap>
+		<X>1</X>
+		<Y>27</Y>
+        </DisplayBitmap>
+        <!-- STATUS -->
+        <DisplayElement>
+            <DisplayBitmap isfile="true">
+                <Bitmap>/app/resource/gui/icnLock.bmp</Bitmap>
+                <X>19</X>
+                <Y>55</Y>
+                <displayCondition>
+                    <conditionType>keypadLock</conditionType>
+                </displayCondition>
+            </DisplayBitmap>
+            <DisplayBitmap isfile="true">
+                <Bitmap>/app/resource/gui/icnMissCall.bmp</Bitmap>
+                <X>1</X>
+                <Y>55</Y>
+                <displayCondition>
+                    <conditionType>missCall</conditionType>
+                </displayCondition>
+            </DisplayBitmap>
+            <DisplayBitmap isfile="true">
+                <Bitmap>/app/resource/gui/icnIM.bmp</Bitmap>
+                <X>43</X>
+                <Y>2</Y>
+                <displayCondition>
+                    <conditionType>hasIM</conditionType>
+                </displayCondition>
+            </DisplayBitmap>
+            <DisplayBitmap isfile="true">
+                <Bitmap>/app/resource/gui/icnPower.bmp</Bitmap>
+                <X>31</X>
+                <Y>2</Y>
+                <displayCondition>
+                    <conditionType>wrongPower</conditionType>
+                </displayCondition>
+            </DisplayBitmap>
+            <DisplayBitmap isfile="true">
+                <Bitmap>/app/resource/gui/icnCoreDump.bmp</Bitmap>
+                <X>19</X>
+                <Y>2</Y>
+                <displayCondition>
+                    <conditionType>crash</conditionType>
+                </displayCondition>
+            </DisplayBitmap>
+            <DisplayBitmap isfile="true" bgcolor="None" renew-rate="minute">
+                <Bitmap>/app/resource/gui/icn_signal_0.bmp</Bitmap>
+                <X>1</X>
+                <Y>2</Y>
+                <displayCondition>
+                    <conditionType>WiFiSigPoor</conditionType>
+                </displayCondition>
+            </DisplayBitmap>
+            <DisplayBitmap isfile="true" bgcolor="None" renew-rate="minute">
+                <Bitmap>/app/resource/gui/icn_signal_1.bmp</Bitmap>
+                <X>1</X>
+                <Y>2</Y>
+                <displayCondition>
+                    <conditionType>WiFiSigPoor</conditionType>
+                </displayCondition>
+            </DisplayBitmap>
+            <DisplayBitmap isfile="true" bgcolor="None" renew-rate="minute">
+                <Bitmap>/app/resource/gui/icn_signal_2.bmp</Bitmap>
+                <X>1</X>
+                <Y>2</Y>
+                <displayCondition>
+                    <conditionType>WiFiSigFair</conditionType>
+                </displayCondition>
+            </DisplayBitmap>
+            <DisplayBitmap isfile="true" bgcolor="None" renew-rate="minute">
+                <Bitmap>/app/resource/gui/icn_signal_3.bmp</Bitmap>
+                <X>1</X>
+                <Y>2</Y>
+                <displayCondition>
+                    <conditionType>WiFiSigGood</conditionType>
+                </displayCondition>
+            </DisplayBitmap>
+            <DisplayBitmap isfile="true" bgcolor="None" renew-rate="minute">
+                <Bitmap>/app/resource/gui/icn_signal_4.bmp</Bitmap>
+                <X>1</X>
+                <Y>2</Y>
+                <displayCondition>
+                    <conditionType>WiFiSigXlnt</conditionType>
+                </displayCondition>
+            </DisplayBitmap>
+            <DisplayBitmap isfile="true" bgcolor="None" renew-rate="minute">
+                <Bitmap>/app/resource/gui/icn_signal_0.bmp</Bitmap>
+                <X>1</X>
+                <Y>2</Y>
+                <displayCondition>
+                    <conditionType>WiFiSigNone</conditionType>
+                </displayCondition>
+            </DisplayBitmap>
+            <!-- Network Loading -->
+            <DisplayBitmap isfile="true" bgcolor="White" renew-rate="minute">
+                <Bitmap>/app/resource/gui/icnNetworkDwn_2.bmp</Bitmap>
+                <X>1</X>
+                <Y>2</Y>
+                <displayCondition negate="true">
+                    <conditionType>networkStart</conditionType>
+                </displayCondition>
+            </DisplayBitmap>
+            <DisplayBitmap isfile="true" isflash="true" bgcolor="None" renew-rate="minute">
+                <Bitmap>/app/resource/gui/icnNetworkDwn_1.bmp</Bitmap>
+                <X>1</X>
+                <Y>2</Y>
+                <displayCondition negate="true">
+                    <conditionType>networkStart</conditionType>
+                </displayCondition>
+            </DisplayBitmap>
+        </DisplayElement>
+        <SoftKeys>
+            <SoftKey>
+                <Action>
+                    <Softkey1MPK/>
+                </Action>
+                <displayCondition>
+                    <conditionType>softkey1MPK</conditionType>
+                </displayCondition>
+            </SoftKey>
+            <SoftKey>
+                <Action>
+                    <Softkey2MPK/>
+                </Action>
+                <displayCondition>
+                    <conditionType>softkey2MPK</conditionType>
+                </displayCondition>
+            </SoftKey>
+            <SoftKey>
+                <Action>
+                    <Softkey3MPK/>
+                </Action>
+                <displayCondition>
+                    <conditionType>softkey3MPK</conditionType>
+                </displayCondition>
+            </SoftKey>
+            <SoftKey>
+                <Action>
+                    <BSCallCenter/>
+                </Action>
+                <displayCondition>
+                    <conditionType>bsCallCenter</conditionType>
+                </displayCondition>
+            </SoftKey>
+            <SoftKey>
+                <Action>
+                    <CallCenter/>
+                </Action>
+                <displayCondition>
+                    <conditionType>publishCallCenter</conditionType>
+                </displayCondition>
+            </SoftKey>
+            <SoftKey>
+                <Action>
+                    <XmlService/>
+                </Action>
+                <displayCondition>
+                    <conditionType>XmlApp</conditionType>
+                </displayCondition>
+            </SoftKey>
+            <SoftKey>
+                <Action>
+                    <SignIn/>
+                </Action>
+                <displayCondition>
+                    <conditionType>signIn</conditionType>
+                </displayCondition>
+            </SoftKey>
+            <SoftKey>
+                <Action>
+                    <SignOut/>
+                </Action>
+                <displayCondition>
+                    <conditionType>signOut</conditionType>
+                </displayCondition>
+            </SoftKey>
+            <SoftKey>
+                <Action>
+                    <BackSpace/>
+                </Action>
+                <displayCondition>
+                    <conditionType>backSpace</conditionType>
+                </displayCondition>
+            </SoftKey>
+            <SoftKey>
+                <Action>
+                    <CANCEL/>
+                </Action>
+                <displayCondition>
+                    <conditionType>backSpace</conditionType>
+                </displayCondition>
+            </SoftKey>
+            <SoftKey>
+                <Action>
+                    <MissedCalls/>
+                </Action>
+                <displayCondition>
+                    <conditionType>missCall</conditionType>
+                </displayCondition>
+            </SoftKey>
+            <SoftKey>
+                <Action>
+                    <FwdedCalls/>
+                </Action>
+                <displayCondition>
+                    <conditionType>hasFowardedCallLog</conditionType>
+                </displayCondition>
+            </SoftKey>
+            <SoftKey>
+                <Action>
+                    <FwdAll/>
+                </Action>
+                <displayCondition>
+                    <conditionType>callFwdCancelled</conditionType>
+                </displayCondition>
+            </SoftKey>
+            <SoftKey>
+                <Action>
+                    <CancelFwd/>
+                </Action>
+                <displayCondition>
+                    <conditionType>callFwded</conditionType>
+                </displayCondition>
+            </SoftKey>
+            <SoftKey>
+                <Action>
+                    <CallParked/>
+                </Action>
+                <displayCondition>
+                    <conditionType>hasBWCallParks</conditionType>
+                </displayCondition>
+            </SoftKey>
+            <SoftKey>
+                <Action>
+                    <LDAP/>
+                </Action>
+                <displayCondition>
+                    <conditionType>LDAPConfigured</conditionType>
+                </displayCondition>
+            </SoftKey>
+            <SoftKey>
+                <Action>
+                    <Redial/>
+                </Action>
+                <displayCondition>
+                    <conditionType>hasDialedCalllog</conditionType>
+                </displayCondition>
+            </SoftKey>
+        </SoftKeys>
+    </IdleScreen>
+</Screen>
