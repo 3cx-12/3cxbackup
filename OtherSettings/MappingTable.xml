@@ -36,6 +36,7 @@
         <DN No="GRP0002" ID="34" />
         <DN No="800" ID="35" />
         <DN No="101" ID="36" />
+        <DN No="102" ID="37" />
     </DNMappings>
     <GroupMappings>
         <Group Name="__DEFAULT__" ID="21" />
